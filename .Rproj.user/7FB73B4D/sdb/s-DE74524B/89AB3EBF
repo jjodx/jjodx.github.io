@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Le Neurone moteur\"\n---\n\nHello, World!",
+    "created" : 1532189222734.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3896301965",
+    "id" : "89AB3EBF",
+    "lastKnownWriteTime" : 1532189227,
+    "last_content_update" : 1532189227531,
+    "path" : "C:/Users/dropbox/Documents/Dropbox (Personal)/website/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

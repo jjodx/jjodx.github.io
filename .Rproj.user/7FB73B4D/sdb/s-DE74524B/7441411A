@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"How I built this website\"\n---\nReferences:\n\nhttp://nickstrayer.me/RMarkdown_Sites_tutorial/\n\nhttp://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html\n\nhttps://bookdown.org/yihui/rmarkdown/rmarkdown-site.html",
+    "created" : 1532189653709.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1240838812",
+    "id" : "7441411A",
+    "lastKnownWriteTime" : 1532189668,
+    "last_content_update" : 1532189668749,
+    "path" : "C:/Users/dropbox/Documents/Dropbox (Personal)/website/web.Rmd",
+    "project_path" : "web.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
