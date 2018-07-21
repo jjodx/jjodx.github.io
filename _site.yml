@@ -1,0 +1,9 @@
+name: "jj-website"
+output_dir: "."
+navbar:
+  title: "Le Neurone Moteur"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
