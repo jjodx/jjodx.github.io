@@ -4,6 +4,8 @@ navbar:
   title: "Le Neurone Moteur"
   left:
     - text: "Home"
-      href: index.html
+      href: index.html  
+    - text: "Web"
+      href: web.html
     - text: "About Me"
       href: about.html

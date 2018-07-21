@@ -1,0 +1,7 @@
+---
+title: "How I built this website"
+---
+References:
+http://nickstrayer.me/RMarkdown_Sites_tutorial/
+
+http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
