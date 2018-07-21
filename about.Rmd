@@ -3,3 +3,8 @@ title: "JJ"
 ---
 
 Here you find some information about Jean-Jacques
+
+<a class="twitter-timeline"
+  href="https://twitter.com/jjodx">
+Tweets by @jjodx
+</a>
