@@ -3,5 +3,3 @@ title: "JJ"
 ---
 
 Here you find some information about Jean-Jacques
-
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
