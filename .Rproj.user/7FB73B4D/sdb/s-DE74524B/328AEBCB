@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#Set our working directory. \n#This helps avoid confusion if our working directory is \n#not our site because of other projects we were \n#working on at the time. \nsetwd(\"C:/Users/dropbox/Documents/Dropbox (Personal)/website\")\n\n#render your sweet site. \nrmarkdown::render_site()",
+    "created" : 1532189764235.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2683858521",
+    "id" : "328AEBCB",
+    "lastKnownWriteTime" : 1532188717,
+    "last_content_update" : 1532188717,
+    "path" : "C:/Users/dropbox/Documents/Dropbox (Personal)/website/build_site.R",
+    "project_path" : "build_site.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
