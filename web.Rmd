@@ -8,3 +8,9 @@ http://nickstrayer.me/RMarkdown_Sites_tutorial/
 http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
 
 https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html
+
+You can use icons on the navigation bar. Icons from three different icon sets are available.
+Font Awesome
+Ionicons
+Bootstrap Glyphicons
+When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
