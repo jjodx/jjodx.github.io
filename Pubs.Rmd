@@ -1,0 +1,55 @@
+---
+title: "Publications"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+```{r, results='asis', echo=T, message=F, warning=FALSE}
+library(bib2df)
+bib_df<-bib2df(file="MyPub.bib")
+
+library(stringi)
+
+bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
+bib_df$JOURNAL<-stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
+
+# sort bib_df by year
+bib_df<-bib_df[order(bib_df$YEAR, decreasing=T),]
+
+dims<-dim(bib_df)
+
+for(i in 1:dims[1]){
+  a<-bib_df$FILE[i]
+  split_a<-unlist(strsplit(a,":"))
+  file_path<-paste0("https://github.com/jjodx/jjodx.github.io/raw/master/",split_a[2])
+  cat(c("####",bib_df[i,]$TITLE)) #title
+  cat(c("\n"))
+  cat(c(cat(bib_df[i,]$AUTHOR[[1]],sep=", "), " (",
+        bib_df[i,]$YEAR, "). ",
+        bib_df[i,]$TITLE, ". *",
+        bib_df[i,]$JOURNAL, ", ",
+        bib_df[i,]$VOLUME, "*, ",
+        bib_df[i,]$PAGES, "."), sep="")
+  if(is.na(a)==FALSE){
+    cat(c(" ", "[pdf](",file_path,")"), sep="")
+    get_data <- bib_df[i,]$NOTE
+    if(is.na(get_data)==FALSE){
+      cat(c(" | ", get_data), sep="")
+    }
+  }
+  
+  
+  cat(c("\n"))
+  cat(c("\n"))
+}
+````
+
+
+# References
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>

@@ -1,5 +1,10 @@
 ---
 title: "How I built this website"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate 
+
 ---
 References:
 

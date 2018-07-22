@@ -9,7 +9,18 @@ navbar:
     - text: "Web"
       icon: fa-newspaper-o
       href: web.html
+    - text: "Blog"
+      href: Blog.html
+      icon: ion-journal
+    - text: "Publications"
+      href: Pubs.html
+      icon: ion-social-twitter
+    - text: "Pubs2"
+      href: Pubs2.html
     - text: "About Me"
       href: about.html
       icon: ion-social-twitter
-      
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate 

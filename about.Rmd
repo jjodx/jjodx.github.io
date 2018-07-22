@@ -9,17 +9,8 @@ Here you find some information about Jean-Jacques
 Tweets by @jjodx
 </a>
 
-{::options parse_block_html="false" /}
-
-<div class="center">
-
-<blockquote class="twitter-timeline" data-partner="tweetdeck"> <a href="https://twitter.com/jjodx"> Tweets by @jjodx
-</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</div>
 
 
 
-<a href="http://twitter.com/kneath" class="twitter-follow-button" data-show-count="false">Follow @kneath</a>
+<a href="http://twitter.com/jjodx" class="twitter-follow-button" data-show-count="false">Follow @jjodx</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
