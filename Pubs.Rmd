@@ -30,13 +30,17 @@ for(i in 1:dims[1]){
   cat(c("####",bib_df[i,]$TITLE)) #title
   cat(c("\n"))
   cat(c(cat(bib_df[i,]$AUTHOR[[1]],sep=", "), " (",
-        bib_df[i,]$YEAR, "). ",
-        bib_df[i,]$TITLE, ". *",
+        bib_df[i,]$YEAR, "). [",
+        bib_df[i,]$TITLE, "](http://dx.doi.org/",
+        bib_df[i,]$DOI,
+        "). *",
         bib_df[i,]$JOURNAL, ", ",
         bib_df[i,]$VOLUME, "*, ",
-        bib_df[i,]$PAGES, "."), sep="")
+        bib_df[i,]$PAGES, ".",
+        "DOI: ",
+        bib_df[i,]$DOI), sep="")
   if(is.na(a)==FALSE){
-    cat(c(" ", "[pdf](",file_path,")"), sep="")
+    cat(c(" ", " [pdf](",file_path,")"), sep="")
     get_data <- bib_df[i,]$NOTE
     if(is.na(get_data)==FALSE){
       cat(c(" | ", get_data), sep="")
