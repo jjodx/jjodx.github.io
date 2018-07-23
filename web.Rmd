@@ -2,7 +2,7 @@
 title: "links to relevant sources used for making this website"
 output:
   html_document:
-    theme: cosmo
+    theme: spacelab
     highlight: textmate 
 
 ---

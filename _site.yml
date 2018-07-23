@@ -6,22 +6,21 @@ navbar:
     - text: "Home"
       icon: fa-home  # handy way to use FontAwesome icons in nav!
       href: index.html  
-
     - text: "CV"
       href: about.html
-      icon: ion-social-twitter    
+      icon: fa-address-card
     - text: "Blog"
       href: Blog.html
-      icon: ion-journal
+      icon: fa-rss-square
     - text: "Publications"
       href: Pubs.html
-      icon: ion-social-twitter
+      icon: fa-newspaper-o
     - text: "Positions"
       href: Jobs.html
-      icon: ion-social-twitter
+      icon: fa-user
     - text: "This website"
       href: web.html
-      icon: fa-newspaper-o
+      icon: fa-github-square
       
 output:
   html_document:

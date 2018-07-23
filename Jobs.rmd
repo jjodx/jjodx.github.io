@@ -2,19 +2,19 @@
 title: "Applying to the lab"
 ---
 
-##Qualified applicants
+### <i class="fa fa-arrow-circle-right" ></i> Qualified applicants
 In our lab, we study humans actions from a multidisciplinary perspective involving psychophysics, mathematical modelling, brain stimulation and neuroimaging. We aim at assembling a team of multidisciplinary scientists to enrich the lab's thinking.
 <br>
 Therefore, members of the lab can have the following backgrounds: kinesiology, movement science, neuroscience, psychology or a more computational background (engineering, physics, mathematics).
 <br>
 
-##The lab
+### <i class="fa fa-arrow-circle-right" ></i> The lab
 The lab is part of the [Movement Control and Neurosplasticity Research group](https://gbiomed.kuleuven.be/english/research/50000737/groups/50487173) at [KU leuven](www.kuleuven.be). Our group has a strong expertise in many aspects of motor control and motor learning and in many neuroscience techniques (fMRI, EEG, TMS, tDCS, tACS, psychophysics), which are centralized in the Brains-Hub (center devoted to the study of Brain Activity, Imaging & NeuroStimulation for Human Behaviour).
 <br>
 
-##Potential PhD students
-The lab is seeking one or two additional PhD students. If you are interested, email [JJ Orban de Xivry](mailto:jj.orban@kuleuven.be) for further information about funding opportunities. International applicants are encouraged to apply.
+### <i class="fa fa-arrow-circle-right" ></i> Potential PhD students
+The lab is seeking one or two additional PhD students. If you are interested, email <i class="fa fa-at"></i>  [JJ Orban de Xivry](mailto:jj.orban@kuleuven.be) for further information about funding opportunities. __International applicants are encouraged to apply__.
 <br>
 
-##Post-doctoral fellow
-The lab is currently looking for a post-doc for a new project involving motor adaptation experiments with elderly people and multivariate techniques for fMRI. If you are interested by such a project, contact JJ Orban de Xivry for further information. There are several funding opportunities within KU Leuven, FWO or Marie Curie. __International applicants are encouraged to apply__.
+### <i class="fa fa-arrow-circle-right" ></i> Post-doctoral fellow
+The lab is currently looking for a post-doc for a new project involving motor adaptation experiments with elderly people and multivariate techniques for fMRI. If you are interested by such a project, contact <i class="fa fa-at"></i> [JJ Orban de Xivry]((mailto:jj.orban@kuleuven.be)) for further information. There are several funding opportunities within KU Leuven, FWO or Marie Curie. __International applicants are encouraged to apply__.
