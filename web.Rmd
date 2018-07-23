@@ -6,21 +6,28 @@ output:
     highlight: textmate 
 
 ---
-References:
+__links to relevant sources used for making this website__
 
-http://nickstrayer.me/RMarkdown_Sites_tutorial/
+### specific tutorials / example
+[tutorial for making websites with Rmarkdown including git and github](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
 
-http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html
+[tutorial 2](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
 
-https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html
+[website of MattCrump](https://crumplab.github.io/)
+
+[his ghithub repository used for his website](https://github.com/CrumpLab/CrumpLab.github.io)
+
+
+### online ressources
+[book on Rmarkdown used for this website](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
 
 You can use icons on the navigation bar. Icons from three different icon sets are available.
-Font Awesome
-Ionicons
-Bootstrap Glyphicons
-When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
+Font Awesome \ Ionicons \ Bootstrap Glyphicons When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
 
-https://holtzy.github.io/Pimp-my-rmd/
+[formatting with Rmarkdown](https://holtzy.github.io/Pimp-my-rmd/)
 
-How to make a beautiful publication list
-https://lbusett.netlify.com/post/automatically-importing-publications-from-bibtex-to-a-hugo-academic-blog/
+[How to make a beautiful publication list](https://lbusett.netlify.com/post/automatically-importing-publications-from-bibtex-to-a-hugo-academic-blog/)
+
+[Use of Rmarkdown + blogdown for website: a Twitter thread](https://twitter.com/dsquintana/status/993410504570888192/photo/1)
+
+[A Quick Introduction to Version Control with Git an GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
