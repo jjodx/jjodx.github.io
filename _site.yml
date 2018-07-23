@@ -15,12 +15,15 @@ navbar:
       icon: ion-journal
     - text: "Publications"
       href: Pubs.html
-      icon: ion-social-twitter    
+      icon: ion-social-twitter
+    - text: "Positions"
+      href: Jobs.html
+      icon: ion-social-twitter
     - text: "This website"
       href: web.html
       icon: fa-newspaper-o
       
 output:
   html_document:
-    theme: cosmo
+    theme: spacelab
     highlight: textmate 

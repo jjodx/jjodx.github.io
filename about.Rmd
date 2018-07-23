@@ -33,11 +33,20 @@ __2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Bel
 __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm
 
 #Academic services
+<div class = "row">
 
-Elected board member of the Neural Control of Movement society (www.ncm-society.org) Term: 2014-2017; Renewed:2018-2020<br><br>
-Editorial board member of Frontiers in Human Neuroscience<br><br>
-Editorial board member of The Journal of Neuropshysiology<br><br>
-
+<div class = "col-md-5">
+- Active reviewer, see [Publons profile](https://publons.com/author/420532/jean-jacques-orban-de-xivry#profile) for more details (Journals, amount, etc.)
+- Elected board member of the [Neural Control of Movement society](www.ncm-society.org) Term: 2014-2017; Renewed:2018-2020<br>
+- Editorial board member of Frontiers in Human Neuroscience<br>
+- Editorial board member of The Journal of Neuropshysiology<br>
+</div>
+<div class = "col-md-3">
+<!-- start Publons.com widget -->
+<iframe src="https://publons.com/author/420532/widget/embed/?width=350&height=300" width="350" height="300" style="border: solid 1px #ddd;"></iframe>
+<!-- end Publons.com widget -->
+</div>
+</div>
 #Grants and Awards
 
 1. Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
