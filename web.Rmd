@@ -21,3 +21,6 @@ Bootstrap Glyphicons
 When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
 
 https://holtzy.github.io/Pimp-my-rmd/
+
+How to make a beautiful publication list
+https://lbusett.netlify.com/post/automatically-importing-publications-from-bibtex-to-a-hugo-academic-blog/
