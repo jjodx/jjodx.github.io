@@ -1,12 +1,12 @@
 ---
-title: "How I built this website"
+title: "links to relevant sources used for making this website"
 output:
   html_document:
     theme: cosmo
     highlight: textmate 
 
 ---
-__links to relevant sources used for making this website__
+
 
 ### specific tutorials / example
 [tutorial for making websites with Rmarkdown including git and github](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
@@ -21,9 +21,6 @@ __links to relevant sources used for making this website__
 ### online ressources
 [book on Rmarkdown used for this website](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
 
-You can use icons on the navigation bar. Icons from three different icon sets are available.
-Font Awesome \ Ionicons \ Bootstrap Glyphicons When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
-
 [formatting with Rmarkdown](https://holtzy.github.io/Pimp-my-rmd/)
 
 [How to make a beautiful publication list](https://lbusett.netlify.com/post/automatically-importing-publications-from-bibtex-to-a-hugo-academic-blog/)
@@ -31,3 +28,10 @@ Font Awesome \ Ionicons \ Bootstrap Glyphicons When referring to an icon, you sh
 [Use of Rmarkdown + blogdown for website: a Twitter thread](https://twitter.com/dsquintana/status/993410504570888192/photo/1)
 
 [A Quick Introduction to Version Control with Git an GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+
+### tip and tricks
+
+You can use icons on the navigation bar. Icons from three different icon sets are available.
+Font Awesome \ Ionicons \ Bootstrap Glyphicons When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
+
+Name your folder on github with the name username.github.io in order to have this as website address. If your folder has another name, then, your address will be username.github.io/that_other_name 

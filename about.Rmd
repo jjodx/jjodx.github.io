@@ -2,15 +2,68 @@
 title: "JJ"
 ---
 
-Here you find some information about Jean-Jacques
-
-<a class="twitter-timeline"
-  href="https://twitter.com/jjodx">
-Tweets by @jjodx
-</a>
 
 
+<div class = "row">
+
+<div class = "col-md-8">
+#Contact information
+<br>
+__Twitter__: @jjodx
+<br>
+__Email__: jj.orban AT kuleuven DOT be
+<br>
+__Address__:
+Gebouw De Nayer, room 01.55<br>
+Tervuursevest 101 - box 1501<br>
+3001 Leuven<br>
+Belgium<br>
 
 
+#Education/Training
+
+__2014 - current__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium.
+<br>
+__2011-2014__: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels).
+<br>
+__2007-2010__: Post-Doc in the [Laboratory of Computational Motor Control (Johns Hopkins University, USA)](www.shadmehrlab.org) under the supervision of Prof. Reza Shadmehr.
+<br>
+__2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre.
+<br>
+__1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm
+
+#Academic services
+
+Elected board member of the Neural Control of Movement society (www.ncm-society.org) Term: 2014-2017; Renewed:2018-2020<br><br>
+Editorial board member of Frontiers in Human Neuroscience<br><br>
+Editorial board member of The Journal of Neuropshysiology<br><br>
+
+#Grants and Awards
+
+1. Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
+2. Hercules Grant (large equipment) from the [FWO](www.fwo.be): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN)
+3. Small equipment grant from the KU Leuven: Translational upper limb platform (TULiP)
+4. Krediet aan Navorser from the [FWO](www.fwo.be)
+5. Starting grant from the KU Leuven
+6. Collaborative Grant with Daichi Nozaki (University of Tokyo, Japan) funded by FNRS (Belgium) and JPSP (Japan)
+7. Travel Award to NCM meeting 2011
+8. Grant Brains Back to Brussels from the Brussels region (2010-2013, renewed for 2014 and 2015).
+9. Award from "Fondation pour la vocation" Belgium
+10. Travel Award for the Computational principles of sensorimotor learning (Irsee, Germany, 13-15 Sept 09)
+11. Grant from the [Belgian American Educational Foundation](www.baef.be)
+12. Grant "Fonds spéciaux de recherche" from the Université catholique de Louvain
+13. Grant "Bourse de séjour scientifique" from the "Fonds National pour la Recherche Scientifique", Belgium
+    
+</div>
+  
+<div class = "col-md-4">
 <a href="http://twitter.com/jjodx" class="twitter-follow-button" data-show-count="false">Follow @jjodx</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+
+
+<a class="twitter-timeline" data-lang="en" data-width="220" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/jjodx?ref_src=twsrc%5Etfw">Tweets by jjodx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+</div>
+
+
