@@ -24,9 +24,12 @@ bib_df<-bib_df[order(bib_df$YEAR, decreasing=T),]
 dims<-dim(bib_df)
 
 for(i in 1:dims[1]){
+  b<-bib_df[i,]$DOI
+  b<-gsub("\\.", "_", b)
+  b<-gsub("/", "-", b)
   a<-bib_df$FILE[i]
   split_a<-unlist(strsplit(a,":"))
-  file_path<-paste0("https://github.com/jjodx/jjodx.github.io/raw/master/",split_a[2])
+  file_path<-paste0("https://github.com/jjodx/jjodx.github.io/raw/master/Pubfile/",split_a[2])
   cat(c("####",bib_df[i,]$TITLE)) #title
   cat(c("\n"))
   cat(c(cat(bib_df[i,]$AUTHOR[[1]],sep=", "), " (",

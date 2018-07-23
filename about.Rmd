@@ -41,10 +41,12 @@ __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelli
 </div>
 <div class = "col-md-3">
 <!-- start Publons.com widget -->
-<iframe src="https://publons.com/author/420532/widget/embed/?width=600&height=460" width="600" height="460" style="border: solid 1px #ddd;"></iframe>
+<iframe src="https://publons.com/author/420532/widget/embed/?width=640&height=300" width="640" height="300" style="border: solid 1px #ddd;"></iframe>
 <!-- end Publons.com widget -->
 </div>
 </div>
+
+
 #Grants and Awards
 
 1. Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
