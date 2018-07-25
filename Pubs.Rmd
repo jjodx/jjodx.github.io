@@ -43,7 +43,7 @@ for(i in 1:dims[1]){
     Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\'\\{e\\}\\}", "é")## replacing latex character by UTF character
     Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\"\\{u\\}\\}", "ü")## replacing latex character by UTF character
     Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\\^\\{i\\}\\}", "î")## replacing latex character by UTF character
-    Auteurs<-stri_replace_all_regex(Auteurs,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry,Jean-Jacques\\_\\_")## set name of owner in bold
+    Auteurs<-stri_replace_all_regex(Auteurs,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry, Jean-Jacques\\_\\_")## set name of owner in bold
     Auteurs<-stri_replace_all_regex(Auteurs, "[\\{\\}]", "")
     Aut[j]<-Auteurs
   }
