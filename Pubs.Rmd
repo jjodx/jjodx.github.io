@@ -3,10 +3,15 @@ title: "Publications"
 output: 
   html_document:
     code_folding: hide
+    toc: true
+    toc_float: true
+    toc_depth: 2
 ---
-See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en\)
+See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en)
 
 [Link to my publication list on the KULeuven website:](https://lirias.kuleuven.be/cv?u=U0099946&allItems=true&layout=APA-style&link=true)
+
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
@@ -20,29 +25,42 @@ library(stringi)
 
 bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
 bib_df$JOURNAL<-stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
-bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\`\\{e\\}\\}", "è")## replacing latex character by UTF character
-bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\'\\{e\\}\\}", "é")## replacing latex character by UTF character
-bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\"\\{u\\}\\}", "ü")## replacing latex character by UTF character
-bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\\^\\{i\\}\\}", "î")## replacing latex character by UTF character
-bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry, Jean-Jacques\\_\\_")## set name of owner in bold
-
+bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE,"â€\\“", "-")## replacing latex character by UTF character
 
 # sort bib_df by year
 bib_df<-bib_df[order(bib_df$YEAR, decreasing=T),]
 
 dims<-dim(bib_df)
-pg = c("https://github.com/jjodx/jjodx.github.io/raw/master/PubFile")
-
+pg = c("https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/")
+Y0 <- bib_df[1,]$YEAR
+cat(c("##",Y0 ))
 for(i in 1:dims[1]){
+  if (bib_df[i,]$YEAR!=Y0){Y0<-bib_df[i,]$YEAR;cat(c("##",Y0));cat(c("\n"))}
+  Aut = bib_df[i,]$AUTHOR[[1]];
+  for (j in 1:length(Aut)){
+    Auteurs <- Aut[j]
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\`\\{e\\}\\}", "è")## replacing latex character by UTF character
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\'\\{e\\}\\}", "é")## replacing latex character by UTF character
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\"\\{u\\}\\}", "ü")## replacing latex character by UTF character
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\\^\\{i\\}\\}", "î")## replacing latex character by UTF character
+    Auteurs<-stri_replace_all_regex(Auteurs,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry,Jean-Jacques\\_\\_")## set name of owner in bold
+    Auteurs<-stri_replace_all_regex(Auteurs, "[\\{\\}]", "")
+    Aut[j]<-Auteurs
+  }
+  
   b<-bib_df[i,]$DOI
   b<-gsub("\\.", "_", b)
   b<-gsub("/", "-", b)
+  b <- paste0(b,".pdf",collapse="")
   a<-bib_df$FILE[i]
   split_a<-unlist(strsplit(a,":"))
-  file_path<-paste0(pg,split_a[2])
+  file_path<-paste0(pg,b,collapse="")
   cat(c("####",bib_df[i,]$TITLE)) #title
+  if (is.na(bib_df[i,]$VOLUME)){bib_df[i,]$VOLUME=""}
+  if (is.na(bib_df[i,]$PAGES)){bib_df[i,]$PAGES=""}
+  
   cat(c("\n"))
-  cat(c(cat(bib_df[i,]$AUTHOR[[1]],sep=", "), " (",
+  cat(c(cat(Aut,sep=", "), " (",
         bib_df[i,]$YEAR, "). [",
         bib_df[i,]$TITLE, "](http://dx.doi.org/",
         bib_df[i,]$DOI,
@@ -67,6 +85,5 @@ for(i in 1:dims[1]){
 ````
 
 
-# References
+ 
 
-<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>
