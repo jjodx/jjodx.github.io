@@ -7,6 +7,28 @@ output:
     toc_float: true
     toc_depth: 2
 ---
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+<a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
+<i style="color:  #4c9fec;" class="ai ai-google-scholar ai-5x" ></i>
+</a>
+
+<a href="https://publons.com/author/420532">
+<i style="color: #4c9fec;" class="ai ai-publons ai-5x" ></i>
+</a>
+<a href="https://orcid.org/0000-0002-4603-7939">
+<i style="color: #4c9fec;" class="ai ai-orcid ai-5x" ></i>
+</a>
+<a href="https://www.researchgate.net/profile/Jj_Orban">
+<i style="color: #4c9fec;" class="ai ai-researchgate ai-5x" ></i>
+</a>
+<a href="https://osf.io/2pgq5/">
+<i style="color: #4c9fec;" class="ai ai-osf ai-5x" ></i>
+</a>
+<a href="https://github.com/jjodx">
+<i style="color: #4c9fec;" class="fa fa-github fa-5x" ></i>
+</a>
+
 See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en)
 
 [Link to my publication list on the KULeuven website:](https://lirias.kuleuven.be/cv?u=U0099946&allItems=true&layout=APA-style&link=true)
