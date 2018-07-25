@@ -33,3 +33,5 @@ You can use icons on the navigation bar. Icons from three different icon sets ar
 Font Awesome \ Ionicons \ Bootstrap Glyphicons When referring to an icon, you should use its full name including the icon set prefix (e.g., fa-github, ion-social-twitter, and glyphicon-time).
 
 Name your folder on github with the name username.github.io in order to have this as website address. If your folder has another name, then, your address will be username.github.io/that_other_name 
+
+[Handling and Processing strings in r](http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf)

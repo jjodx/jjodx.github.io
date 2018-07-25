@@ -20,11 +20,18 @@ library(stringi)
 
 bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
 bib_df$JOURNAL<-stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
+bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\`\\{e\\}\\}", "è")## replacing latex character by UTF character
+bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\'\\{e\\}\\}", "é")## replacing latex character by UTF character
+bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\"\\{u\\}\\}", "ü")## replacing latex character by UTF character
+bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"\\{\\\\\\^\\{i\\}\\}", "î")## replacing latex character by UTF character
+bib_df$AUTHOR<-stri_replace_all_regex(bib_df$AUTHOR,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry, Jean-Jacques\\_\\_")## set name of owner in bold
+
 
 # sort bib_df by year
 bib_df<-bib_df[order(bib_df$YEAR, decreasing=T),]
 
 dims<-dim(bib_df)
+pg = c("https://github.com/jjodx/jjodx.github.io/raw/master/PubFile")
 
 for(i in 1:dims[1]){
   b<-bib_df[i,]$DOI
@@ -32,7 +39,7 @@ for(i in 1:dims[1]){
   b<-gsub("/", "-", b)
   a<-bib_df$FILE[i]
   split_a<-unlist(strsplit(a,":"))
-  file_path<-paste0("https://github.com/jjodx/jjodx.github.io/raw/master/Pubfile/",split_a[2])
+  file_path<-paste0(pg,split_a[2])
   cat(c("####",bib_df[i,]$TITLE)) #title
   cat(c("\n"))
   cat(c(cat(bib_df[i,]$AUTHOR[[1]],sep=", "), " (",
