@@ -13,9 +13,7 @@ output:
 
 [tutorial 2](http://www.emilyzabor.com/tutorials/rmarkdown_websites_tutorial.html)
 
-[website of MattCrump](https://crumplab.github.io/)
-
-[his ghithub repository used for his website](https://github.com/CrumpLab/CrumpLab.github.io)
+[website of MattCrump](https://crumplab.github.io/) and [his ghithub repository used for his website](https://github.com/CrumpLab/CrumpLab.github.io)
 
 
 ### online ressources

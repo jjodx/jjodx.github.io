@@ -4,6 +4,9 @@ output:
   html_document:
     code_folding: hide
 ---
+See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en\)
+
+[Link to my publication list on the KULeuven website:](https://lirias.kuleuven.be/cv?u=U0099946&allItems=true&layout=APA-style&link=true)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
