@@ -14,7 +14,7 @@ navbar:
       icon: fa-rss-square
     - text: "Statistics"
       href: Stat.html
-      icon: <ion-icon name="stats"></ion-icon>
+      icon: fa-rocket
     - text: "Publications"
       href: Pubs.html
       icon: fa-newspaper-o
