@@ -1,11 +1,10 @@
 ---
-title: "JJ"
+title: "Jean-Jacques Orban de Xivry"
 ---
 
 
-
-
 #Contact information
+__Surname__: JJ
 <br>
 __Twitter__: @jjodx
 <br>
