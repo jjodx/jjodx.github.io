@@ -1,42 +1,77 @@
 ---
 title: "Le Neurone moteur"
 ---
+</br>
+</br>
+</br>
 
+<style>
+p.ex1{
+    padding-left: 20%;
+}
+</style>
 <div class = "row">
+<div class = "col-md-2">
 
-<div class = "col-md-8">
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
 <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-5x" ></i>
+</br>Scholar
 </a>
+</br>
+
 <a href="www.twitter.com/jjodx">
 <i style="color:  #4c9fec;" class="fa fa-twitter fa-5x" ></i>
+</br>Twitter
 </a>
+</br>
+
 <a href="https://publons.com/author/420532">
 <i style="color: #4c9fec;" class="ai ai-publons ai-5x" ></i>
+</br>Publons
 </a>
+</br>
+
 <a href="https://orcid.org/0000-0002-4603-7939">
 <i style="color: #4c9fec;" class="ai ai-orcid ai-5x" ></i>
+</br>ORCID
 </a>
+</br>
+
 <a href="https://www.researchgate.net/profile/Jj_Orban">
 <i style="color: #4c9fec;" class="ai ai-researchgate ai-5x" ></i>
+</br>ResearchGate
 </a>
+</br>
+
 <a href="https://osf.io/2pgq5/">
 <i style="color: #4c9fec;" class="ai ai-osf ai-5x" ></i>
+</br>OSF
 </a>
+</br>
+
 <a href="https://github.com/jjodx">
 <i style="color: #4c9fec;" class="fa fa-github fa-5x" ></i>
+</br>GitHub
 </a>
+</br>
+
+</div>
+
+
+<div class = "col-md-7"; style>
+
+
 
 ### latest updates
-
+<p class="ex1">
 We have a new website
 
 
-
+</p>
 </div>
   
-<div class = "col-md-4">
+<div class = "col-md-3">
 <a href="http://twitter.com/jjodx" class="twitter-follow-button" data-show-count="false">Follow @jjodx</a>
 <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 

@@ -12,6 +12,9 @@ navbar:
     - text: "Blog"
       href: Blog.html
       icon: fa-rss-square
+    - text: "Statistics"
+      href: Stat.html
+      icon: <ion-icon name="stats"></ion-icon>
     - text: "Publications"
       href: Pubs.html
       icon: fa-newspaper-o
