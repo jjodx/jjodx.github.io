@@ -13,7 +13,6 @@ output:
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
 <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-5x" ></i>
 </a>
-
 <a href="https://publons.com/author/420532">
 <i style="color: #4c9fec;" class="ai ai-publons ai-5x" ></i>
 </a>

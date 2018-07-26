@@ -1,7 +1,16 @@
 ---
 title: "Le Neurone moteur"
 ---
+<i class="fas fa-brain"></i>
 </br>
+<i style="color:  #4c9fec;" class="fas fa-brain fa-2x"></i> 
+__Neurone__ doesn't need any translation from French... It shows my interest for neuroscience-related topics.
+
+<i style="color:  #4c9fec;" class="fa fa-motorcycle fa-2x" ></i>
+A __moteur__ (aka an Engine)is what powers the movement of a vehicle. Here, it refer to the neurons that make the upper limb move.
+
+Together, the "Neurone moteur" would be a very bad french translation of "motor neuron"but I chose it because I am interested how neurons of the brain drive movements, espcially of the upper limb. 
+
 </br>
 </br>
 
