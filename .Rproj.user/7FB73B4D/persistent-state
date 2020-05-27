@@ -1,6 +1,6 @@
 build-last-errors="[]"
 build-last-errors-base-dir=""
-build-last-outputs="[{\"output\":\"==> rmarkdown::render_site(encoding = 'UTF-8')\\n\\n\",\"type\":0},{\"output\":\"Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : \\r\\n  aucun package nommé 'stringi' n'est trouvé\\r\\nCalls: :: ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>\\r\\nExécution arrêtée\\r\\n\",\"type\":2},{\"output\":\"\\nExited with status 1.\\n\\n\",\"type\":2}]"
+build-last-outputs="[]"
 compile_pdf_state="{\"errors\":[],\"output\":\"\",\"running\":false,\"tab_visible\":false,\"target_file\":\"\"}"
 console_procs="[]"
 files.monitored-path=""

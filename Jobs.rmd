@@ -5,7 +5,7 @@ title: "Applying to the lab"
 ### <i class="fa fa-arrow-circle-right" ></i> Qualified applicants
 In our lab, we study humans actions from a multidisciplinary perspective involving psychophysics, mathematical modelling, brain stimulation and neuroimaging. We aim at assembling a team of multidisciplinary scientists to enrich the lab's thinking.
 <br>
-Therefore, members of the lab can have the following backgrounds: kinesiology, movement science, neuroscience, psychology or a more computational background (engineering, physics, mathematics).
+Therefore, members of the lab can have the following backgrounds: rehabilitation sciences, movement sciences, neuroscience, psychology or a more computational background (engineering, physics, mathematics).
 <br>
 
 ### <i class="fa fa-arrow-circle-right" ></i> The lab
@@ -13,8 +13,11 @@ The lab is part of the [Movement Control and Neurosplasticity Research group](ht
 <br>
 
 ### <i class="fa fa-arrow-circle-right" ></i> Potential PhD students
-The lab is seeking one or two additional PhD students. If you are interested, email <i class="fa fa-at"></i>  [JJ Orban de Xivry](mailto:jj.orban@kuleuven.be) for further information about funding opportunities. __International applicants are encouraged to apply__.
+The lab is seeking one additional PhD student to work on the role of somatosensation in motor control (collaboation with Prof. Dante Mantini). If you are interested, email <i class="fa fa-at"></i>  [JJ Orban de Xivry](mailto:jj.orban@kuleuven.be): 
 <br>
 
 ### <i class="fa fa-arrow-circle-right" ></i> Post-doctoral fellow
-The lab is currently looking for a post-doc for a new project involving motor adaptation experiments with elderly people and multivariate techniques for fMRI. If you are interested by such a project, contact <i class="fa fa-at"></i> [JJ Orban de Xivry]((mailto:jj.orban@kuleuven.be)) for further information. There are several funding opportunities within KU Leuven, FWO or Marie Curie. __International applicants are encouraged to apply__.
+
+__vacancy__ : [https://www.kuleuven.be/personeel/jobsite/jobs/55671214](https://www.kuleuven.be/personeel/jobsite/jobs/55671214)
+
+The lab is currently looking for a post-doc for a new project involving EEG and motor adaptation experiments with elderly people. This project is in collaboration with Prof. Dante Mantini. If you are interested by such a project, contact <i class="fa fa-at"></i> [JJ Orban de Xivry]((mailto:jj.orban@kuleuven.be)) for further information. There are several funding opportunities within KU Leuven, FWO or Marie Curie. __International applicants are encouraged to apply__.

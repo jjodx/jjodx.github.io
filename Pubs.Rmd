@@ -39,7 +39,7 @@ See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xf
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-```{r, results='asis', echo=T, message=F, warning=FALSE}
+```{r, results='asis', echo=T, message=T, warning=T}
 library(bib2df)
 bib_df<-bib2df(file="MyPub.bib")
 

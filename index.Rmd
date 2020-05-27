@@ -74,7 +74,20 @@ p.ex1{
 
 ### latest updates
 <p class="ex1">
-We have a new website
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+<font size="2"> __Date: May 27, 2020__ </font><br>
+Together with Prof. Dante Mantini, we are recruiting a post-doc to work on EEG and motor adaptation. Vacancy is available [here](https://www.kuleuven.be/personeel/jobsite/jobs/55671214?hl=en&lang=en)
+
+</div>
+<br>
+<div class = "blue">
+ <font size="2"> __Date: May 9, 2020__ </font><br>
+Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
+
+</div>
 
 
 </p>

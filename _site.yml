@@ -9,22 +9,21 @@ navbar:
     - text: "CV"
       href: about.html
       icon: fa-address-card
-    - text: "Blog"
-      href: Blog.html
-      icon: fa-rss-square
-    - text: "Statistics"
-      href: Stat.html
-      icon: fa-rocket
     - text: "Publications"
       href: Pubs.html
       icon: fa-newspaper-o
+    - text: "Team"
+      href: Team.html
+      icon: fa-rocket
     - text: "Positions"
       href: Jobs.html
       icon: fa-user
     - text: "This website"
       href: web.html
       icon: fa-github-square
-      
+    - text: "Blog"
+      href: Blog.html
+      icon: fa-rss-square
 output:
   html_document:
     theme: spacelab

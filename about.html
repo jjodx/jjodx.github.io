@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -99,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -113,7 +113,6 @@ body {
   padding-top: 57px;
   margin-top: -57px;
 }
-
 .section h2 {
   padding-top: 57px;
   margin-top: -57px;
@@ -133,6 +132,43 @@ body {
 .section h6 {
   padding-top: 57px;
   margin-top: -57px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,19 +190,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -198,24 +300,17 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="Blog.html">
-    <span class="fa fa-rss-square"></span>
-     
-    Blog
-  </a>
-</li>
-<li>
-  <a href="Stat.html">
-    <span class="fa fa-rocket"></span>
-     
-    Statistics
-  </a>
-</li>
-<li>
   <a href="Pubs.html">
     <span class="fa fa-newspaper-o"></span>
      
     Publications
+  </a>
+</li>
+<li>
+  <a href="Team.html">
+    <span class="fa fa-rocket"></span>
+     
+    Team
   </a>
 </li>
 <li>
@@ -230,6 +325,13 @@ $(document).ready(function () {
     <span class="fa fa-github-square"></span>
      
     This website
+  </a>
+</li>
+<li>
+  <a href="Blog.html">
+    <span class="fa fa-rss-square"></span>
+     
+    Blog
   </a>
 </li>
       </ul>
@@ -252,13 +354,20 @@ $(document).ready(function () {
 <div id="contact-information" class="section level1">
 <h1>Contact information</h1>
 <p><strong>Surname</strong>: JJ <br> <strong>Twitter</strong>: <span class="citation">@jjodx</span> <br> <strong>Email</strong>: jj.orban AT kuleuven DOT be <br> <strong>Address</strong>: Gebouw De Nayer, room 01.55<br> Tervuursevest 101 - box 1501<br> 3001 Leuven<br> Belgium<br></p>
+<div id="who-am-i" class="section level3">
+<h3>who am I</h3>
+<p>I am an engineer in applied mathematics who did his PhD (2002-2007) on computational neuroscience at the Université catholique de Louvain (Belgium). During my PhD, I focused on eye movements with applications to clinical populations. I went on to pursue my post-doctoral work (2008-2010) with Reza Shadmehr at Johns Hopkins University (Baltimore, MD, USA) where I used transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS) to investigate the role of the motor cortex in motor adaptation. My post-doctoral stay at Hopkins was partially supported by a Fellowship from the Belgian American Educational Foundation. Then, I secured independent funding from the Brussels region (2011-2014: 610 000€) in order to pursue my research as an independent investigator at UCLouvain on how theories of motor control can be successfully applied to understand brain functions in health and disease.</p>
+<p>Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation and EEG). So far these projects have been funded by an internal starting grant from KU Leuven (100 000€), a small research grant from the FWO (40 000€) and a large internal grant from KU Leuven (498500€) on the effect of transcranial direct current stimulation on retention of motor learning in healthy old participants and in Parkinson’s Disease patients.</p>
+<p>In addition, I am one of the founding member of the BRain Activity, Imaging &amp; NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven (main PI, 87 000€) and, as co-PI, a large Hercules grant (878000€).</p>
+<p>Finally, I decided to use state-of-the-art research methodologies for the research in my laboratory. All papers are first published as prepritnts (e.g. <a href="https://www.biorxiv.org/content/10.1101/292250v2" class="uri">https://www.biorxiv.org/content/10.1101/292250v2</a>). All data and code are made available on the Open Science Framework (e.g. <a href="https://osf.io/vncce/" class="uri">https://osf.io/vncce/</a>) and studies are pre-registered when possible (<a href="https://osf.io/n8bwf/" class="uri">https://osf.io/n8bwf/</a>). In addition, I try to provide several lines of evidence to backup the claims in my papers by replicating my own results and using larger group of participants (N=20 or 30 per group). One of our latest paper (Vandevoorde and Orban de Xivry 2019) is a good example of what we wants to achieve in the laboratory.</p>
 </div>
-<div id="educationtraining" class="section level1">
-<h1>Education/Training</h1>
-<p><strong>2014 - current</strong>: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium. <br> <strong>2011-2014</strong>: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels). <br> <strong>2007-2010</strong>: Post-Doc in the <a href="www.shadmehrlab.org">Laboratory of Computational Motor Control (Johns Hopkins University, USA)</a> under the supervision of Prof. Reza Shadmehr. <br> <strong>2002-2007</strong>: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre. <br> <strong>1997-2002</strong>: Study of engineer in applied mathematics. Master thesis: “Modelling of anticipatory responses build-up in repetitive oculomotor tasks” with P. Lefèvre and G. Blohm</p>
+<div id="educationtraining" class="section level3">
+<h3>Education/Training</h3>
+<p><strong>2019 - current</strong>: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium.</p>
+<p><strong>2014 - 2019</strong>: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium. <br> <strong>2011-2014</strong>: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels). <br> <strong>2007-2010</strong>: Post-Doc in the <a href="www.shadmehrlab.org">Laboratory of Computational Motor Control (Johns Hopkins University, USA)</a> under the supervision of Prof. Reza Shadmehr. <br> <strong>2002-2007</strong>: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre. <br> <strong>1997-2002</strong>: Study of engineer in applied mathematics. Master thesis: “Modelling of anticipatory responses build-up in repetitive oculomotor tasks” with P. Lefèvre and G. Blohm</p>
 </div>
-<div id="academic-services" class="section level1">
-<h1>Academic services</h1>
+<div id="academic-services" class="section level3">
+<h3>Academic services</h3>
 <div class="row">
 <div class="col-md-5">
 <ul>
@@ -276,8 +385,8 @@ $(document).ready(function () {
 </div>
 </div>
 </div>
-<div id="grants-and-awards" class="section level1">
-<h1>Grants and Awards</h1>
+<div id="grants-and-awards" class="section level3">
+<h3>Grants and Awards</h3>
 <ol style="list-style-type: decimal">
 <li>Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease</li>
 <li>Hercules Grant (large equipment) from the <a href="www.fwo.be">FWO</a>: Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN)</li>
@@ -293,6 +402,7 @@ $(document).ready(function () {
 <li>Grant “Fonds spéciaux de recherche” from the Université catholique de Louvain</li>
 <li>Grant “Bourse de séjour scientifique” from the “Fonds National pour la Recherche Scientifique”, Belgium</li>
 </ol>
+</div>
 </div>
 
 
