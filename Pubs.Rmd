@@ -36,10 +36,10 @@ See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xf
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=FALSE)
 ```
 
-```{r, results='asis', echo=T, message=T, warning=T}
+```{r, results='asis', echo=T, message=T, warning=FALSE}
 library(bib2df)
 bib_df<-bib2df(file="MyPub.bib")
 

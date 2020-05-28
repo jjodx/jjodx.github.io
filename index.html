@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Lab website of JJ Orban de Xivry</title>
+<title>Laboratory of JJ Orban de Xivry</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -85,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +245,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -346,7 +334,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Lab website of JJ Orban de Xivry</h1>
+<h1 class="title toc-ignore">Laboratory of JJ Orban de Xivry</h1>
 
 </div>
 
@@ -356,7 +344,6 @@ p.ex1{
     padding-left: 20%;
 }
 </style>
-<div class="row">
 <div class="col-md-2">
 <p><link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en"> <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i> </br>Scholar </a> </br></p>
 <p><a href="www.twitter.com/jjodx"> <i style="color:  #4c9fec;" class="fa fa-twitter fa-3x" ></i> </br>Twitter </a> </br></p>
@@ -366,8 +353,10 @@ p.ex1{
 <p><a href="https://osf.io/2pgq5/"> <i style="color: #4c9fec;" class="ai ai-osf ai-3x" ></i> </br>OSF </a> </br></p>
 <p><a href="https://github.com/jjodx"> <i style="color: #4c9fec;" class="fa fa-github fa-3x" ></i> </br>GitHub </a> </br></p>
 </div>
-<div class="col-md-7" ;="" style="">
-<h3 id="latest-updates">latest updates</h3>
+<div class = "col-md-7">
+
+<div id="latest-updates" class="section level3">
+<h3>latest updates</h3>
 <p class="ex1">
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
@@ -391,7 +380,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div class="blue">
 <p><font size="2"> <strong>October, 2019</strong> </font><br> Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical mistakes in eLife <a href="https://elifesciences.org/articles/48175">here</a>. Interview about the paper: <a href="https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them">here</a></p>
 </div>
-</p>
+</div>
 </div>
 <div class="col-md-3">
 <a href="http://twitter.com/jjodx" class="twitter-follow-button" data-show-count="false">Follow <span class="citation">@jjodx</span></a>
@@ -403,6 +392,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div class = "row">
 
 <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></p>
+</div>
 
 
 
@@ -421,6 +411,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

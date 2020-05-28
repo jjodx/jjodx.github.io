@@ -19,7 +19,7 @@ output:
 
 ### Alumni
 
-* Guy Rens worked on action observation in the context of object prehension
+* Guy Rens worked on action observation in the context of object prehension.
 * Koen Vandevoorde was the first PhD student of the Lab. He worked on the impact of aging on motor adaptation.
 
 
