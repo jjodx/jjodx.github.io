@@ -1,18 +1,6 @@
 ---
-title: "Le Neurone moteur"
+title: "Welcome to the lab website of JJ Orban de Xivry"
 ---
-<i class="fas fa-brain"></i>
-</br>
-<i style="color:  #4c9fec;" class="fas fa-brain fa-2x"></i> 
-__Neurone__ doesn't need any translation from French... It shows my interest for neuroscience-related topics.
-
-<i style="color:  #4c9fec;" class="fa fa-motorcycle fa-2x" ></i>
-A __moteur__ (aka an Engine)is what powers the movement of a vehicle. Here, it refer to the neurons that make the upper limb move.
-
-Together, the "Neurone moteur" would be a very bad french translation of "motor neuron"but I chose it because I am interested how neurons of the brain drive movements, espcially of the upper limb. 
-
-</br>
-</br>
 
 <style>
 p.ex1{
@@ -24,43 +12,43 @@ p.ex1{
 
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
-<i style="color:  #4c9fec;" class="ai ai-google-scholar ai-5x" ></i>
+<i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i>
 </br>Scholar
 </a>
 </br>
 
 <a href="www.twitter.com/jjodx">
-<i style="color:  #4c9fec;" class="fa fa-twitter fa-5x" ></i>
+<i style="color:  #4c9fec;" class="fa fa-twitter fa-3x" ></i>
 </br>Twitter
 </a>
 </br>
 
 <a href="https://publons.com/author/420532">
-<i style="color: #4c9fec;" class="ai ai-publons ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-publons ai-3x" ></i>
 </br>Publons
 </a>
 </br>
 
 <a href="https://orcid.org/0000-0002-4603-7939">
-<i style="color: #4c9fec;" class="ai ai-orcid ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-orcid ai-3x" ></i>
 </br>ORCID
 </a>
 </br>
 
 <a href="https://www.researchgate.net/profile/Jj_Orban">
-<i style="color: #4c9fec;" class="ai ai-researchgate ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-researchgate ai-3x" ></i>
 </br>ResearchGate
 </a>
 </br>
 
 <a href="https://osf.io/2pgq5/">
-<i style="color: #4c9fec;" class="ai ai-osf ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-osf ai-3x" ></i>
 </br>OSF
 </a>
 </br>
 
 <a href="https://github.com/jjodx">
-<i style="color: #4c9fec;" class="fa fa-github fa-5x" ></i>
+<i style="color: #4c9fec;" class="fa fa-github fa-3x" ></i>
 </br>GitHub
 </a>
 </br>
@@ -102,7 +90,8 @@ Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint 
 <a class="twitter-timeline" data-lang="en" data-width="220" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/jjodx?ref_src=twsrc%5Etfw">Tweets by jjodx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 </div>
-
+</div>
+<div class = "row">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
