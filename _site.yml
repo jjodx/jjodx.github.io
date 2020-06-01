@@ -15,6 +15,9 @@ navbar:
     - text: "Team"
       href: Team.html
       icon: fa-rocket
+    - text: "Motor Control"
+      href: MoCo.html
+      icon: fa-child
     - text: "Positions"
       href: Jobs.html
       icon: fa-user
