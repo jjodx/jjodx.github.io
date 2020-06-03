@@ -69,6 +69,14 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 <div class = "blue">
 
+<font size="2"> **June 3, 2020** </font><br>
+Together with Prof. Dante Mantini, we are recruiting a PhD student to work on the influence of a decline in somatosensory function on motor control and learning. Vacancy is available [here](https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&lang=en)
+Note, the candidate has to be fluent in Dutch as s/he has to act as teaching assistant in that language
+</div>
+<br>
+
+<div class = "blue">
+
 <font size="2"> **June 1st, 2020** </font><br>
 Never forget to submit your paper as preprint first! We did forget to do it for this one but after being **4 months under review at Gait&Posture**, we decided that it was enough. Preprint entitled "Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults" is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1)
 
