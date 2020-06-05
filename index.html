@@ -350,7 +350,25 @@ $(document).ready(function () {
 p.ex1{
     padding-left: 20%;
 }
+#more {display: none;}
 </style>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 <div class="col-md-2">
 <p><link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"> <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en"> <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i> </br>Scholar </a> </br></p>
 <p><a href="http://www.twitter.com/jjodx"> <i style="color:  #4c9fec;" class="fa fa-twitter fa-3x" ></i> </br>Twitter </a> </br></p>
@@ -368,6 +386,7 @@ p.ex1{
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+<p>
 <div class="blue">
 <p><font size="2"> <strong>June 3, 2020</strong> </font><br> Together with Prof. Dante Mantini, we are recruiting a PhD student to work on the influence of a decline in somatosensory function on motor control and learning. Vacancy is available <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en">here</a> Note, the candidate has to be fluent in Dutch as s/he has to act as teaching assistant in that language</p>
 </div>
@@ -391,10 +410,15 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <div class="blue">
 <p><font size="2"> <strong>Januari 20, 2020</strong> </font><br> With Prof. Friedl De Groote, we submitted a paper entitled “<em>Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults</em>” to Gait&amp;Posture.</p>
 </div>
-<br>
+<br> <span id="dots">…</span> <span id="more">
 <div class="blue">
 <p><font size="2"> <strong>October, 2019</strong> </font><br> Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical mistakes in eLife <a href="https://elifesciences.org/articles/48175">here</a>. Interview about the paper: <a href="https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them">here</a></p>
 </div>
+</span>
+</p>
+<button onclick="myFunction()" id="myBtn">
+Read more
+</button>
 </div>
 </div>
 <div class="col-md-3">
