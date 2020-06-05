@@ -80,14 +80,14 @@ function myFunction() {
 
 <div class = "col-md-7">
 
-### latest updates
+### latest news
 <p class="ex1">
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
-<div class = "blue">
 
+<div class = "blue">
 <font size="2"> **June 3, 2020** </font><br>
 Together with Prof. Dante Mantini, we are recruiting a PhD student to work on the influence of a decline in somatosensory function on motor control and learning. Vacancy is available [here](https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&lang=en)
 Note, the candidate has to be fluent in Dutch as s/he has to act as teaching assistant in that language
@@ -95,44 +95,45 @@ Note, the candidate has to be fluent in Dutch as s/he has to act as teaching ass
 <br>
 
 <div class = "blue">
-
 <font size="2"> **June 1st, 2020** </font><br>
 Never forget to submit your paper as preprint first! We did forget to do it for this one but after being **4 months under review at Gait&Posture**, we decided that it was enough. Preprint entitled "Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults" is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1)
-
 </div>
 <br>
 
 <div class = "blue">
-
 <font size="2"> **May 27, 2020** </font><br>
 Together with Prof. Dante Mantini, we are recruiting a post-doc to work on EEG and motor adaptation. Vacancy is available [here](https://www.kuleuven.be/personeel/jobsite/jobs/55671214?hl=en&lang=en)
-
 </div>
 <br>
+
 <div class = "blue">
  <font size="2"> __May 9, 2020__ </font><br>
 Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
 </div>
 <br>
+
 <div class = "blue">
 <font size="2"> __March 31, 2020__ </font><br>
 Congrats to Guy Rens who got his paper entitled [Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS]( https://doi.org/10.1523/JNEUROSCI.2672-19.2020) accepted in Journal of Neuroscience.
 </div>
 <br>
+
 <div class = "blue">
 <font size="2"> __Januari 20, 2020__ </font><br>
 With Prof. Friedl De Groote, we submitted a paper entitled "_Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults_" to Gait&Posture.
 </div>
-<br>
-<span id="dots">...</span>
+
+<span id="dots"> </span>
 <span id="more">
+<br>
 <div class = "blue">
  <font size="2"> __October, 2019__ </font><br>
 Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical mistakes in eLife [here](https://elifesciences.org/articles/48175). Interview about the paper: [here](https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them)
 </div>
+
 </span></p>
 
-<button onclick="myFunction()" id="myBtn">Read more</button>
+<button onclick="myFunction()" id="myBtn">not latest anymore</button>
 
 
 
