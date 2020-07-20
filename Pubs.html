@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -89,6 +89,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,7 +238,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,12 +250,56 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 <style type="text/css">
 .code-folding-btn { margin-bottom: 4px; }
 </style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -269,12 +313,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -510,18 +548,18 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
 }</code></pre>
 <div id="validation-of-a-smartphone-embedded-inertial-measurement-unit-for-measuring-postural-stability-in-older-adults" class="section level4">
 <h4>Validation of a Smartphone Embedded Inertial Measurement Unit for Measuring Postural Stability in Older Adults</h4>
-<p>Groote, Friedl De, Vandevyvere, Stephanie, Vanhevel, Florian, de Xivry, Jean-Jacques Orban (2020). <a href="http://dx.doi.org/10.1101/2020.05.29.123620">Validation of a Smartphone Embedded Inertial Measurement Unit for Measuring Postural Stability in Older Adults</a>. <em>bioRxiv, </em>, 2020.05.29.123620.DOI: 10.1101/2020.05.29.123620 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2020_05_29_123620.pdf">pdf</a></p>
+<p>Groote, Friedl De, Vandevyvere, Stephanie, Vanhevel, Florian, <strong>Orban de Xivry, Jean-Jacques</strong> (2020). <a href="http://dx.doi.org/10.1101/2020.05.29.123620">Validation of a Smartphone Embedded Inertial Measurement Unit for Measuring Postural Stability in Older Adults</a>. <em>bioRxiv, </em>, 2020.05.29.123620.DOI: 10.1101/2020.05.29.123620 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2020_05_29_123620.pdf">pdf</a></p>
 </div>
 <div id="sensorimotor-expectations-bias-motor-resonance-during-observation-of-object-lifting-the-causal-role-of-psts" class="section level4">
 <h4>Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS</h4>
-<p>Rens, Guy, van Polanen, Vonne, Botta, Alessandro, Gann, Mareike A., de Xivry, Jean-Jacques Orban, Davare, Marco (2020). <a href="http://dx.doi.org/10.1523/JNEUROSCI.2672-19.2020">Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS</a>. <em>Journal of Neuroscience, 40</em>, 3995–4009.DOI: 10.1523/JNEUROSCI.2672-19.2020 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1523-JNEUROSCI_2672-19_2020.pdf">pdf</a></p>
+<p>Rens, Guy, van Polanen, Vonne, Botta, Alessandro, Gann, Mareike A., <strong>Orban de Xivry, Jean-Jacques</strong>, Davare, Marco (2020). <a href="http://dx.doi.org/10.1523/JNEUROSCI.2672-19.2020">Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS</a>. <em>Journal of Neuroscience, 40</em>, 3995–4009.DOI: 10.1523/JNEUROSCI.2672-19.2020 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1523-JNEUROSCI_2672-19_2020.pdf">pdf</a></p>
 </div>
 </div>
 <div id="section-1" class="section level2">
 <h2>2019</h2>
 <div id="chapter-4---integration-of-past-and-current-visual-information-during-eye-movements-in-amblyopia" class="section level4">
 <h4>Chapter 4 - Integration of Past and Current Visual Information during Eye Movements in Amblyopia</h4>
-<p>Deravet, Nicolas, Y"uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2019). <a href="http://dx.doi.org/10.1016/bs.pbr.2019.04.034">Chapter 4 - Integration of Past and Current Visual Information during Eye Movements in Amblyopia</a>. <em>NA, 248</em>, 45–63.DOI: 10.1016/bs.pbr.2019.04.034 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1016-bs_pbr_2019_04_034.pdf">pdf</a></p>
+<p>Deravet, Nicolas, Y&quot;uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2019). <a href="http://dx.doi.org/10.1016/bs.pbr.2019.04.034">Chapter 4 - Integration of Past and Current Visual Information during Eye Movements in Amblyopia</a>. <em>NA, 248</em>, 45–63.DOI: 10.1016/bs.pbr.2019.04.034 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1016-bs_pbr_2019_04_034.pdf">pdf</a></p>
 </div>
 <div id="learning-a-bimanual-cooperative-skill-in-chronic-stroke-under-noninvasive-brain-stimulation-a-randomized-controlled-trial" class="section level4">
 <h4>Learning a Bimanual Cooperative Skill in Chronic Stroke Under Noninvasive Brain Stimulation: A Randomized Controlled Trial</h4>
@@ -582,11 +620,11 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
 </div>
 <div id="development-of-internal-models-and-predictive-abilities-for-visual-tracking-during-childhood" class="section level4">
 <h4>Development of Internal Models and Predictive Abilities for Visual Tracking during Childhood</h4>
-<p>Ego, Caroline, Y"uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2016). <a href="http://dx.doi.org/10.1152/jn.00534.2015">Development of Internal Models and Predictive Abilities for Visual Tracking during Childhood</a>. <em>Journal of Neurophysiology, 115</em>, 301–309.DOI: 10.1152/jn.00534.2015 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00534_2015.pdf">pdf</a></p>
+<p>Ego, Caroline, Y&quot;uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2016). <a href="http://dx.doi.org/10.1152/jn.00534.2015">Development of Internal Models and Predictive Abilities for Visual Tracking during Childhood</a>. <em>Journal of Neurophysiology, 115</em>, 301–309.DOI: 10.1152/jn.00534.2015 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00534_2015.pdf">pdf</a></p>
 </div>
 <div id="rhythmic-arm-movements-are-less-affected-than-discrete-ones-after-a-stroke" class="section level4">
 <h4>Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</h4>
-<p>Leconte, Patricia, <strong>Orban de Xivry, Jean-Jacques</strong>, Stoquart, Ga"etan, Lejeune, Thierry, Ronsse, Renaud (2016). <a href="http://dx.doi.org/10.1007/s00221-015-4543-y">Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</a>. <em>Experimental Brain Research, 234</em>, 1403–1417.DOI: 10.1007/s00221-015-4543-y <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1007-s00221-015-4543-y.pdf">pdf</a></p>
+<p>Leconte, Patricia, <strong>Orban de Xivry, Jean-Jacques</strong>, Stoquart, Ga&quot;etan, Lejeune, Thierry, Ronsse, Renaud (2016). <a href="http://dx.doi.org/10.1007/s00221-015-4543-y">Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</a>. <em>Experimental Brain Research, 234</em>, 1403–1417.DOI: 10.1007/s00221-015-4543-y <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1007-s00221-015-4543-y.pdf">pdf</a></p>
 </div>
 <div id="tagging-motor-memories-with-transcranial-direct-current-stimulation-allows-later-artificially-controlled-retrieval" class="section level4">
 <h4>Tagging Motor Memories with Transcranial Direct Current Stimulation Allows Later Artificially-Controlled Retrieval</h4>
@@ -627,7 +665,7 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
 <h2>2013</h2>
 <div id="the-saccadic-system-does-not-compensate-for-the-immaturity-of-the-smooth-pursuit-system-during-visual-tracking-in-children." class="section level4">
 <h4>The Saccadic System Does Not Compensate for the Immaturity of the Smooth Pursuit System during Visual Tracking in Children.</h4>
-<p>Ego, Caroline, <strong>Orban de Xivry, Jean-Jacques</strong>, Nassogne, Marie-C'ecile, Y"uksel, Demet, Lef`evre, Philippe (2013). <a href="http://dx.doi.org/10.1152/jn.00981.2012">The Saccadic System Does Not Compensate for the Immaturity of the Smooth Pursuit System during Visual Tracking in Children.</a>. <em>Journal of neurophysiology, 110</em>, 358–67.DOI: 10.1152/jn.00981.2012 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00981_2012.pdf">pdf</a></p>
+<p>Ego, Caroline, <strong>Orban de Xivry, Jean-Jacques</strong>, Nassogne, Marie-C'ecile, Y&quot;uksel, Demet, Lef`evre, Philippe (2013). <a href="http://dx.doi.org/10.1152/jn.00981.2012">The Saccadic System Does Not Compensate for the Immaturity of the Smooth Pursuit System during Visual Tracking in Children.</a>. <em>Journal of neurophysiology, 110</em>, 358–67.DOI: 10.1152/jn.00981.2012 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00981_2012.pdf">pdf</a></p>
 </div>
 <div id="changes-in-corticospinal-excitability-during-reach-adaptation-in-force-fields." class="section level4">
 <h4>Changes in Corticospinal Excitability during Reach Adaptation in Force Fields.</h4>
@@ -646,7 +684,7 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
 <h2>2012</h2>
 <div id="dramatic-impairment-of-prediction-due-to-frontal-lobe-degeneration." class="section level4">
 <h4>Dramatic Impairment of Prediction Due to Frontal Lobe Degeneration.</h4>
-<p>Coppe, S'ebastien, <strong>Orban de Xivry, Jean-Jacques</strong>, Y"uksel, Demet, Ivanoiu, Adrian, Lef`evre, Philippe (2012). <a href="http://dx.doi.org/10.1152/jn.00582.2012">Dramatic Impairment of Prediction Due to Frontal Lobe Degeneration.</a>. <em>Journal of neurophysiology, 108</em>, 2957–66.DOI: 10.1152/jn.00582.2012 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00582_2012.pdf">pdf</a></p>
+<p>Coppe, S'ebastien, <strong>Orban de Xivry, Jean-Jacques</strong>, Y&quot;uksel, Demet, Ivanoiu, Adrian, Lef`evre, Philippe (2012). <a href="http://dx.doi.org/10.1152/jn.00582.2012">Dramatic Impairment of Prediction Due to Frontal Lobe Degeneration.</a>. <em>Journal of neurophysiology, 108</em>, 2957–66.DOI: 10.1152/jn.00582.2012 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00582_2012.pdf">pdf</a></p>
 </div>
 </div>
 <div id="section-9" class="section level2">
@@ -710,7 +748,7 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
 </div>
 <div id="binocular-coordination-of-saccades-in-duane-retraction-syndrome." class="section level4">
 <h4>Binocular Coordination of Saccades in Duane Retraction Syndrome.</h4>
-<p>Y"uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2008). <a href="http://dx.doi.org/10.1016/j.visres.2008.06.007">Binocular Coordination of Saccades in Duane Retraction Syndrome.</a>. <em>Vision research, 48</em>, 1972–9.DOI: 10.1016/j.visres.2008.06.007 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1016-j_visres_2008_06_007.pdf">pdf</a></p>
+<p>Y&quot;uksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Lef`evre, Philippe (2008). <a href="http://dx.doi.org/10.1016/j.visres.2008.06.007">Binocular Coordination of Saccades in Duane Retraction Syndrome.</a>. <em>Vision research, 48</em>, 1972–9.DOI: 10.1016/j.visres.2008.06.007 <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1016-j_visres_2008_06_007.pdf">pdf</a></p>
 </div>
 </div>
 <div id="section-13" class="section level2">
@@ -750,54 +788,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
