@@ -41,7 +41,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=FALSE)
 
 ```{r, results='asis', echo=T, message=T, warning=FALSE}
 library(bib2df)
-bib_df<-bib2df(file="MyPub.bib")
+bib_df<-bib2df(file="MyPubBetterBibTex.bib")
 
 library(stringi)
 
