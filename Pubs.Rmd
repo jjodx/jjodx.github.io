@@ -35,6 +35,13 @@ See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xf
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>
 
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<style>
+div.white { background-color:#f5f2f2; border-radius: 5px; padding: 20px;}
+</style>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=FALSE)
 ```
@@ -82,6 +89,9 @@ for(i in 1:dims[1]){
   a<-bib_df$FILE[i]
   split_a<-unlist(strsplit(a,":"))
   file_path<-paste0(pg,b,collapse="")
+  if (i%%2){cat(c("\n",paste("<div class = 'blue'> "),"\n"))}
+  if (i%%2==0){cat(c("\n",paste("<div class = 'white'> "),"\n"))}
+  
   cat(c("####",bib_df[i,]$TITLE)) #title
   if (is.na(bib_df[i,]$VOLUME)){bib_df[i,]$VOLUME=""}
   if (is.na(bib_df[i,]$PAGES)){bib_df[i,]$PAGES=""}
@@ -99,12 +109,12 @@ for(i in 1:dims[1]){
         bib_df[i,]$DOI), sep="")
   if(is.na(a)==FALSE){
     cat(c(" ", " [pdf](",file_path,")"), sep="")
-    get_data <- bib_df[i,]$NOTE
-    if(is.na(get_data)==FALSE){
-      cat(c(" | ", get_data), sep="")
-    }
+    # get_data <- bib_df[i,]$NOTE
+    # if(is.na(get_data)==FALSE){
+    #   cat(c(" | ", get_data), sep="")
+    # }
   }
-  
+  cat(c("\n",paste("</div>"),"\n"))
   
   cat(c("\n"))
   cat(c("\n"))
