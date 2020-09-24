@@ -61,10 +61,15 @@ for(i in 1:dims[1]){
   Aut = bib_df[i,]$AUTHOR[[1]];
   for (j in 1:length(Aut)){
     Auteurs <- Aut[j]
-    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\`\\{e\\}\\}", "è")## replacing latex character by UTF character
-    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\'\\{e\\}\\}", "é")## replacing latex character by UTF character
-    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\"\\{u\\}\\}", "ü")## replacing latex character by UTF character
-    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\\^\\{i\\}\\}", "î")## replacing latex character by UTF character
+    ## replacing latex character by UTF character
+    # Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\`\\{e\\}\\}", "è")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\\\\`e", "è") 
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\'\\{e\\}\\}", "é")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\\\\'e", "é")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\"\\{u\\}\\}", "ü")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\\\\"u", "ü")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\{\\\\\\^\\{i\\}\\}", "î")
+    Auteurs<-stri_replace_all_regex(Auteurs,"\\\\\\^i", "î")
     Auteurs<-stri_replace_all_regex(Auteurs,"Orban de Xivry\\}, Jean-Jacques", "\\_\\_Orban de Xivry, Jean-Jacques\\_\\_")## set name of owner in bold
     Auteurs<-stri_replace_all_regex(Auteurs, "[\\{\\}]", "")
     Aut[j]<-Auteurs

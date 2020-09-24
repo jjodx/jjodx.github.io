@@ -465,10 +465,15 @@ cat(c(&quot;##&quot;,Y0 ))</code></pre>
   Aut = bib_df[i,]$AUTHOR[[1]];
   for (j in 1:length(Aut)){
     Auteurs &lt;- Aut[j]
-    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\`\\{e\\}\\}&quot;, &quot;è&quot;)## replacing latex character by UTF character
-    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\&#39;\\{e\\}\\}&quot;, &quot;é&quot;)## replacing latex character by UTF character
-    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\&quot;\\{u\\}\\}&quot;, &quot;ü&quot;)## replacing latex character by UTF character
-    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\\^\\{i\\}\\}&quot;, &quot;î&quot;)## replacing latex character by UTF character
+    ## replacing latex character by UTF character
+    # Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\`\\{e\\}\\}&quot;, &quot;è&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\\\\`e&quot;, &quot;è&quot;) 
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\&#39;\\{e\\}\\}&quot;, &quot;é&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\\\\&#39;e&quot;, &quot;é&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\&quot;\\{u\\}\\}&quot;, &quot;ü&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\\\\&quot;u&quot;, &quot;ü&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\{\\\\\\^\\{i\\}\\}&quot;, &quot;î&quot;)
+    Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;\\\\\\^i&quot;, &quot;î&quot;)
     Auteurs&lt;-stri_replace_all_regex(Auteurs,&quot;Orban de Xivry\\}, Jean-Jacques&quot;, &quot;\\_\\_Orban de Xivry, Jean-Jacques\\_\\_&quot;)## set name of owner in bold
     Auteurs&lt;-stri_replace_all_regex(Auteurs, &quot;[\\{\\}]&quot;, &quot;&quot;)
     Aut[j]&lt;-Auteurs
