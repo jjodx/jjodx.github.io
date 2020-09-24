@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,6 +85,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -233,7 +234,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,6 +245,18 @@ $(document).ready(function () {
   display: none;
 }
 </style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
 
 <!-- code folding -->
 
@@ -388,6 +400,15 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
 <div class="blue">
+<p><font size="2"> <strong>June 15, 2020</strong> </font><br> The departement of Movement Sciences is recruiting two tenure-track professors:</p>
+<ol style="list-style-type: decimal">
+<li><p>motor control and neuroimaging: <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55675790?hl=en&amp;lang=en">link</a></p></li>
+<li><p>motor control and performance in competitive and elite sports: <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55676338">link</a></p></li>
+</ol>
+<p>Come and join us!!</p>
+</div>
+<p><br></p>
+<div class="blue">
 <p><font size="2"> <strong>June 3, 2020</strong> </font><br> Together with Prof. Dante Mantini, we are recruiting a PhD student to work on the influence of a decline in somatosensory function on motor control and learning. Vacancy is available <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en">here</a> Note, the candidate has to be fluent in Dutch as s/he has to act as teaching assistant in that language</p>
 </div>
 <p><br></p>
@@ -450,23 +471,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

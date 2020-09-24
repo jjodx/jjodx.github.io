@@ -41,9 +41,9 @@ Finally, I decided to use state-of-the-art research methodologies for the resear
 
 #### Education/Training
 
-__2019 - current__: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium.
+__2019 - current__: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.
 
-__2014 - 2019__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Kinesiology and Rehabilitation Sciences, KU Leuven, Belgium.
+__2014 - 2019__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.
 <br>
 __2011-2014__: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels).
 <br>
@@ -54,21 +54,23 @@ __2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Bel
 __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm
 
 #### Academic services
-<div class = "row">
 
-<div class = "col-md-5">
 - Active reviewer, see [Publons profile](https://publons.com/author/420532/jean-jacques-orban-de-xivry#profile) for more details (Journals, amount, etc.)
 - Elected board member of the [Neural Control of Movement society](www.ncm-society.org) Term: 2014-2017; Renewed:2018-2020<br>
 - Editorial board member of Frontiers in Human Neuroscience<br>
 - Editorial board member of The Journal of Neuropshysiology<br>
-</div>
-<div class = "col-md-3">
-<!-- start Publons.com widget -->
-<iframe src="https://publons.com/author/420532/widget/embed/?width=640&height=300" width="640" height="300" style="border: solid 1px #ddd;"></iframe>
-<!-- end Publons.com widget -->
-</div>
-</div>
+- Member of the taskforce on TMS for the Belgian Health Council (2013) <br>
+- Grant reviewer for ANR (Agence National de la Recherche, France); CNC (National Science Centre, Poland) ; ISF (Israel Science Foundation)
 
+#### KU Leuven services
+
+- Founding member of the Young ZAP club of the biomedical sector at KU Leuven (2015-2020)
+- Member of the think-tank on Open Science at KU Leuven (2019)
+- Member of the review commission on teaching portfolio, sector of biomedical sciences (2019-)
+- Member of resonantieraad Metaforum (2019-)
+- Member of the sustainability council of KU Leuven (2020- )
+- Member of the think-tank of societal impact of academic research of KU Leuven (2020-)
+- Member of the departmental board of Movement Sciences (2020-) 
 
 #### Grants and Awards
 
