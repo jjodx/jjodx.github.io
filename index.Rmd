@@ -85,6 +85,19 @@ function myFunction() {
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+
+<div class = "blue">
+<font size="2"> **Octobre 1st, 2020** </font><br>
+Stien Van De Plas starts her PhD today. Welcome Stien! She will work on the role of somatosensation on motor control for the next four years. Co-promotor is Dante Mantini.
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **September 20, 2020** </font><br>
+Two new papers published in the Special Issue of the Journal of Computational Neuroscience dedicated to Lance Optican. See the publication page.
+</div>
+<br>
+
 <p>
 <div class = "blue">
 <font size="2"> **June 15, 2020** </font><br>
