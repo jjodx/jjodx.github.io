@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +245,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -368,12 +356,12 @@ $(document).ready(function () {
 </div>
 <div id="potential-phd-students" class="section level3">
 <h3><i class="fa fa-arrow-circle-right" ></i> Potential PhD students</h3>
-<p><strong>vacancy</strong> : <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en" class="uri">https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en</a></p>
+<p><strong>vacancy</strong> : <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en">https://www.kuleuven.be/personeel/jobsite/jobs/55671291?hl=en&amp;lang=en</a></p>
 <p>The lab is seeking one additional PhD student to work on the role of somatosensation in motor control (collaboation with Prof. Dante Mantini). If you are interested, email <i class="fa fa-at"></i> <a href="mailto:jj.orban@kuleuven.be">JJ Orban de Xivry</a>: <br></p>
 </div>
 <div id="post-doctoral-fellow" class="section level3">
 <h3><i class="fa fa-arrow-circle-right" ></i> Post-doctoral fellow</h3>
-<p><strong>vacancy</strong> : <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671214" class="uri">https://www.kuleuven.be/personeel/jobsite/jobs/55671214</a></p>
+<p><strong>vacancy</strong> : <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55671214">https://www.kuleuven.be/personeel/jobsite/jobs/55671214</a></p>
 <p>The lab is currently looking for a post-doc for a new project involving EEG and motor adaptation experiments with elderly people. This project is in collaboration with Prof. Dante Mantini. If you are interested by such a project, contact <i class="fa fa-at"></i> <a href="mailto:jj.orban@kuleuven.be">JJ Orban de Xivry</a> for further information. There are several funding opportunities within KU Leuven, FWO or Marie Curie. <strong>International applicants are encouraged to apply</strong>.</p>
 </div>
 
@@ -394,6 +382,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
