@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -88,6 +88,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -236,7 +237,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -249,9 +249,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -265,12 +304,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -425,14 +458,14 @@ div.tocify {
 <div id="q1-why-can-a-robot-balance-a-short-stick-and-we-are-unable-to-do-so-what-are-the-consequences-of-that-feature" class="section level4">
 <h4>Q1: Why can a robot balance a short stick and we are unable to do so ? What are the consequences of that feature?</h4>
 <p><strong>Learning goal:</strong> sensorimotor delays in the motor system.</p>
-<p><strong>Main reference:</strong> paragraph on “delays” in Computational Mechanisms of Sensorimotor Control - Franklin and Wolpert: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22078503">https://www.ncbi.nlm.nih.gov/pubmed/22078503</a></p>
-<p>Additional reference: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18479557">https://www.ncbi.nlm.nih.gov/pubmed/18479557</a></p>
+<p><strong>Main reference:</strong> paragraph on “delays” in Computational Mechanisms of Sensorimotor Control - Franklin and Wolpert: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22078503" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/22078503</a></p>
+<p>Additional reference: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18479557" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/18479557</a></p>
 <p><strong>Theoretical question:</strong> How can we demonstrate the presence of delays in the brain? What is the nature of these delays? What is the impact of delays on the control of our movements?</p>
 <p><strong>Experiment: </strong></p>
 <ul>
 <li><p>Take a long stick and choose a participant. You will hold the stick vertically in the air between the subject’s thumb and index finger without touching them. The top of the stick needs to be located between the thumb and finger. Without warning, let the stick drop - the subject must catch it as quickly as possible. Measure in meters the distance the stick fell by measuring the distance between the top of the stick and the location of the participant’s finger. Take the average of 3 consecutive drops. Transform this average distance into a reaction time with the following formula: Reaction time = √((2*d)/9.81) where d is the average distance.</p></li>
-<li><p>Balance a short (~30cm) and a long (&gt;1m) stick on your finger. Which one is easier? Why ? Compare then your performance to that of a robot: <a href="https://www.youtube.com/watch?v=vf5tdG74WhQ">https://www.youtube.com/watch?v=vf5tdG74WhQ</a></p></li>
-<li><p>On both websites below, you control the value of the displayed number (which starts at zero) by pressing the “-1”, “+0” , “+1” buttons. Each time you press a button, it has an effect on the value of that number. Your goal is to bring this number to five and to maintain it at that value for five consecutive button presses (in other words, you have reached the goal when you maintain that number to five while pressing the “+0” button five times).</p>
+<li><p>Balance a short (~30cm) and a long (&gt;1m) stick on your finger. Which one is easier? Why ? Compare then your performance to that of a robot: <a href="https://www.youtube.com/watch?v=vf5tdG74WhQ" class="uri">https://www.youtube.com/watch?v=vf5tdG74WhQ</a></p></li>
+<li>On both websites below, you control the value of the displayed number (which starts at zero) by pressing the “-1”, “+0” , “+1” buttons. Each time you press a button, it has an effect on the value of that number. Your goal is to bring this number to five and to maintain it at that value for five consecutive button presses (in other words, you have reached the goal when you maintain that number to five while pressing the “+0” button five times).
 <ul>
 <li>Easy condition: <a href="https://jjorban.shinyapps.io/appsystemd/" class="uri">https://jjorban.shinyapps.io/appsystemd/</a></li>
 <li>Difficult condition: <a href="https://jjorban.shinyapps.io/appdelay3/" class="uri">https://jjorban.shinyapps.io/appdelay3/</a></li>
@@ -448,8 +481,8 @@ div.tocify {
 <p><strong>Experiment:</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Put your two arms stretched away from your body (left arm to the left and right arm to the right). Then close your eyes and try to make your two index fingers touch while keeping your eyes closed. Observe someone performing the above experiment.</p></li>
-<li><p>Watch the following video <a href="https://www.youtube.com/watch?v=0LfJ3M3Kn80">https://www.youtube.com/watch?v=0LfJ3M3Kn80</a> Do you think that it would be able to do the exercise described in 1.</p></li>
-<li><p>Ask someone to grab a match from within a matchbox full of matches with their index and thumb fingers in the three following conditions (and in that order):</p>
+<li><p>Watch the following video <a href="https://www.youtube.com/watch?v=0LfJ3M3Kn80" class="uri">https://www.youtube.com/watch?v=0LfJ3M3Kn80</a> Do you think that it would be able to do the exercise described in 1.</p></li>
+<li>Ask someone to grab a match from within a matchbox full of matches with their index and thumb fingers in the three following conditions (and in that order):
 <ol style="list-style-type: lower-alpha">
 <li>With naked hand and fingers in the absence of vision (i.e. with eyes closed)</li>
 <li>With both fingers covered by a plaster in the absence of vision (i.e. with eyes closed). Alternatively, you could ask your participant to wear a thin glove such as a rubber glove</li>
@@ -467,7 +500,10 @@ div.tocify {
 <li><p>Ask a participant to stand with his dominant arm fully stretched horizontally in front of him with the palm of the hand upward (see picture). Place a heavy object (~ 2kg, e.g. a dictionary, the pink ball on the picture) on his palm and tell the participant that his/her goal is to maintain his/her arm as horizontal as he/she can. After 3s, pick up the object from the hand of the participant and observe the movement of the arm. Then, put the object back on the palm of the participant and ask him/her to pick the object him/herself from their own hand. Observe the movement of the arm.</p></li>
 <li><p>Build the following setup of two sticks with one articulation (like upper and lower arm). Join the two ends of the two sticks together with a nail (red dot) such that they can freely rotate around each other. Fix one end of one the two sticks (gray bars) with a nail on a wooden board (represented by the red dot). Alternatively, one can build this using Lego bricks (right panel). Experiment: make the free stick (#1) rotate fast around the articulation (red dot) by punching it fast in one direction or the other. Observe whether stick #2 stays in place or not?</p></li>
 </ul>
-<p><img src="images/APA.jpg" /></p>
+<div class="figure">
+<img src="images/APA.jpg" />
+
+</div>
 <p>Now, do it with your own lower arm: execute a pure rotation of your lower arm around the elbow. Does your upper arm move?</p>
 </div>
 <div id="q4-how-does-the-brain-merge-different-sources-of-information" class="section level4">
@@ -476,10 +512,13 @@ div.tocify {
 <p><strong>Main reference:</strong> <a href="https://doi.org/10.1016/j.tics.2006.05.003" class="uri">https://doi.org/10.1016/j.tics.2006.05.003</a></p>
 <p><strong>Experiment:</strong></p>
 <ul>
-<li><p>McGurk effect. Watch the following video and see whether what you hear can be influenced by what you see <a href="https://www.youtube.com/watch?v=2k8fHR9jKVM">https://www.youtube.com/watch?v=2k8fHR9jKVM</a></p></li>
+<li><p>McGurk effect. Watch the following video and see whether what you hear can be influenced by what you see <a href="https://www.youtube.com/watch?v=2k8fHR9jKVM" class="uri">https://www.youtube.com/watch?v=2k8fHR9jKVM</a></p></li>
 <li><p>Make two containers that look identical from the outside (e.g. the same material) but have two different sizes (see picture). Fill them with something such that actually have the exact same weight. Put them on a table in front of a participant. Ask the participant to lift them one after the other and to then report whether the two containers have the same weight or not. What are the two sources of information that the participant is using to come to that conclusion.</p></li>
 </ul>
-<p><img src="images/sizeweight.jpg" /></p>
+<div class="figure">
+<img src="images/sizeweight.jpg" />
+
+</div>
 </div>
 <div id="q5-why-are-movements-stereotyped-but-variable" class="section level4">
 <h4>Q5: Why are movements stereotyped but variable?</h4>
@@ -492,7 +531,10 @@ div.tocify {
 </ul>
 <p><strong>Experiment:</strong></p>
 <p>Draw two squares of 0.5cm (side) on a piece of paper 15cm apart, one green, one white (with a black outline). Ask a participant to make 20 reaching movement with a pen from the green to the white target. The participant does not need to stop on the target but needs to shoot through the target. He can stop further on the piece of paper. Ask the participant to have a single continuous movement and to not correct its movement while moving. In other words, the movement needs to be as straight as possible.</p>
-<p><img src="images/reach.jpg" /></p>
+<div class="figure">
+<img src="images/reach.jpg" />
+
+</div>
 <p>There are multiple conditions:</p>
 <ol style="list-style-type: decimal">
 <li><p>Reach 10 times at a comfortable speed (always from green to white)</p></li>
@@ -520,49 +562,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3,h4",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

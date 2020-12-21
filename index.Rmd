@@ -85,6 +85,43 @@ function myFunction() {
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+<p class="ex1">
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<p>
+<div class = "blue">
+<font size="2"> **February/March, 2021** </font><br>
+Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco (twitter: [Matheus](https://twitter.com/Piolho_eefe)) as a post-doc. Matheus will use EEG to unravel age-related changes in error processing.
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **December, 2020** </font><br>
+Jean-Jacques got a grant from the [FWO (Flemish Research Foundation)](https://www.fwo.be/) to work on a project entitled: "Is there a motor reserve in the cerebellum". This project focuses on measuring age-related changes in motor function based on a large task battery and included structural MRI as well.
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **November, 2020** </font><br>
+Paper with Friedl De Groote, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait & Posture (after a very long review process that did not really change the paper) ([paper](https://pubmed.ncbi.nlm.nih.gov/33260077/)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1). Data and code are on the Open Science Framework ([LINK](https://osf.io/vpd79/?view))
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **October, 2020** </font><br>
+We have several preprints out there:
+Manasa Parthasharathy: [Increased upper-limb sensory attenuation with age](https://www.biorxiv.org/content/10.1101/2020.09.17.301739v1)
+Koen Vandevoorde: [Does somatosensory acuity influence the extent of internal model recalibration in young and older adults?](https://www.biorxiv.org/content/10.1101/2020.10.16.342295v1)
+Guy Rens: [Motor resonance is modulated by an object’s weight distribution](https://doi.org/10.1101/2020.10.11.335000)
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **July 1, 2020** </font><br>
+Koen Vandevoorde's paper appeared at in Journal of Neurophysiology ([paper](https://doi.org/10.1152/jn.00659.2019)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
+</div>
+<br>
 
 <div class = "blue">
 <font size="2"> **Octobre 1st, 2020** </font><br>
@@ -126,6 +163,10 @@ Guy Rens: [Motor resonance is modulated by an object’s weight distribution](ht
 </div>
 <br>
 
+<span id="dots"> </span>
+<span id="more">
+<br>
+
 <div class = "blue">
  <font size="2"> **July 1, 2020** </font><br>
 Koen Vandevoorde's paper appeared at in Journal of Neurophysiology ([paper](https://doi.org/10.1152/jn.00659.2019)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
@@ -163,9 +204,7 @@ Together with Prof. Dante Mantini, we are recruiting a post-doc to work on EEG a
 </div>
 <br>
 
-<span id="dots"> </span>
-<span id="more">
-<br>
+
 <div class = "blue">
  <font size="2"> __May 9, 2020__ </font><br>
 Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -89,6 +89,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -237,7 +238,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,12 +250,56 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 <style type="text/css">
 .code-folding-btn { margin-bottom: 4px; }
 </style>
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -269,12 +313,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -608,7 +646,7 @@ Ego, Caroline, Yüksel, Demet, <strong>Orban de Xivry, Jean-Jacques</strong>, Le
 </div>
 <div class="blue">
 <h4 id="rhythmic-arm-movements-are-less-affected-than-discrete-ones-after-a-stroke">Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</h4>
-Leconte, Patricia, <strong>Orban de Xivry, Jean-Jacques</strong>, Stoquart, Ga"etan, Lejeune, Thierry, Ronsse, Renaud (2016). <a href="http://dx.doi.org/10.1007/s00221-015-4543-y">Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</a>. <em>Experimental Brain Research, 234</em>, 1403–1417.DOI: 10.1007/s00221-015-4543-y <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1007-s00221-015-4543-y.pdf">pdf</a>
+Leconte, Patricia, <strong>Orban de Xivry, Jean-Jacques</strong>, Stoquart, Ga&quot;etan, Lejeune, Thierry, Ronsse, Renaud (2016). <a href="http://dx.doi.org/10.1007/s00221-015-4543-y">Rhythmic Arm Movements Are Less Affected than Discrete Ones after a Stroke</a>. <em>Experimental Brain Research, 234</em>, 1403–1417.DOI: 10.1007/s00221-015-4543-y <a href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1007-s00221-015-4543-y.pdf">pdf</a>
 </div>
 <div class="white">
 <h4 id="tagging-motor-memories-with-transcranial-direct-current-stimulation-allows-later-artificially-controlled-retrieval">Tagging Motor Memories with Transcranial Direct Current Stimulation Allows Later Artificially-Controlled Retrieval</h4>
@@ -772,54 +810,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

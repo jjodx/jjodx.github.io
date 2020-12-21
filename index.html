@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,6 +85,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -233,7 +234,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,6 +245,18 @@ $(document).ready(function () {
   display: none;
 }
 </style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
 
 <!-- code folding -->
 
@@ -396,6 +408,26 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p><br></p>
 <p>
 <div class="blue">
+<p><font size="2"> <strong>February/March, 2021</strong> </font><br> Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco (twitter: <a href="https://twitter.com/Piolho_eefe">Matheus</a>) as a post-doc. Matheus will use EEG to unravel age-related changes in error processing.</p>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>December, 2020</strong> </font><br> Jean-Jacques got a grant from the <a href="https://www.fwo.be/">FWO (Flemish Research Foundation)</a> to work on a project entitled: “Is there a motor reserve in the cerebellum”. This project focuses on measuring age-related changes in motor function based on a large task battery and included structural MRI as well.</p>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>November, 2020</strong> </font><br> Paper with Friedl De Groote, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait &amp; Posture (after a very long review process that did not really change the paper) (<a href="https://pubmed.ncbi.nlm.nih.gov/33260077/">paper</a>). Preprint is available <a href="https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1">here</a>. Data and code are on the Open Science Framework (<a href="https://osf.io/vpd79/?view">LINK</a>)</p>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>October, 2020</strong> </font><br> We have several preprints out there: Manasa Parthasharathy: <a href="https://www.biorxiv.org/content/10.1101/2020.09.17.301739v1">Increased upper-limb sensory attenuation with age</a> Koen Vandevoorde: <a href="https://www.biorxiv.org/content/10.1101/2020.10.16.342295v1">Does somatosensory acuity influence the extent of internal model recalibration in young and older adults?</a> Guy Rens: <a href="https://doi.org/10.1101/2020.10.11.335000">Motor resonance is modulated by an object’s weight distribution</a></p>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>July 1, 2020</strong> </font><br> Koen Vandevoorde’s paper appeared at in Journal of Neurophysiology (<a href="https://doi.org/10.1152/jn.00659.2019">paper</a>). Preprint is available <a href="https://www.biorxiv.org/content/10.1101/753160v1">here</a></p>
+</div>
+<p><br></p>
+<div class="blue">
 <p><font size="2"> <strong>June 15, 2020</strong> </font><br> The departement of Movement Sciences is recruiting two tenure-track professors:</p>
 <ol style="list-style-type: decimal">
 <li><p>motor control and neuroimaging: <a href="https://www.kuleuven.be/personeel/jobsite/jobs/55675790?hl=en&amp;lang=en">link</a></p></li>
@@ -468,23 +500,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
