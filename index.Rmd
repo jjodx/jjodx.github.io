@@ -85,6 +85,19 @@ function myFunction() {
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+
+<div class = "blue">
+<font size="2"> **Octobre 1st, 2020** </font><br>
+Stien Van De Plas starts her PhD today. Welcome Stien! She will work on the role of somatosensation on motor control for the next four years. Co-promotor is Dante Mantini.
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **September 20, 2020** </font><br>
+Two new papers published in the Special Issue of the Journal of Computational Neuroscience dedicated to Lance Optican. See the publication page.
+</div>
+<br>
+
 <p>
 <div class = "blue">
 <font size="2"> **February/March, 2021** </font><br>
@@ -150,25 +163,23 @@ Together with Prof. Dante Mantini, we are recruiting a post-doc to work on EEG a
 </div>
 <br>
 
+<span id="dots"> </span>
+<span id="more">
+<br>
 <div class = "blue">
  <font size="2"> __May 9, 2020__ </font><br>
 Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
 </div>
 <br>
-
 <div class = "blue">
 <font size="2"> __March 31, 2020__ </font><br>
 Congrats to Guy Rens who got his paper entitled [Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS]( https://doi.org/10.1523/JNEUROSCI.2672-19.2020) accepted in Journal of Neuroscience.
 </div>
 <br>
-
 <div class = "blue">
 <font size="2"> __Januari 20, 2020__ </font><br>
 With Prof. Friedl De Groote, we submitted a paper entitled "_Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults_" to Gait&Posture.
 </div>
-
-<span id="dots"> </span>
-<span id="more">
 <br>
 <div class = "blue">
  <font size="2"> __October, 2019__ </font><br>
