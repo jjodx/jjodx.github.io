@@ -7,6 +7,16 @@ output:
     toc_float: true
     toc_depth: 2
 ---
+<!-- to add publications:
+1: select all items in Zotero/my publications
+2: click on export items and check the box export notes (format: better bibtex)
+3: save the bibtex files under C:\Users\u0099946\Dropbox (Personal)\website
+4: run the build website tool in R
+5: for each new paper, select the name of the PDF file by clicking on the PDF link.
+6: add the PDF of the paper in the PubFile folder with the name such as copy-pasted from #5
+
+Note: add a link to the data in the notes for each paper separately
+-->
 <script src="https://unpkg.com/ionicons@4.2.5/dist/ionicons.js"></script>
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
@@ -28,6 +38,7 @@ output:
 <a href="https://github.com/jjodx">
 <i style="color: #4c9fec;" class="fa fa-github fa-5x" ></i>
 </a>
+
 
 See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en)
 
@@ -109,10 +120,16 @@ for(i in 1:dims[1]){
         bib_df[i,]$DOI), sep="")
   if(is.na(a)==FALSE){
     cat(c(" ", " [pdf](",file_path,")"), sep="")
-    # get_data <- bib_df[i,]$NOTE
-    # if(is.na(get_data)==FALSE){
-    #   cat(c(" | ", get_data), sep="")
-    # }
+    get_data <- bib_df[i,]$NOTE
+    if(is.na(get_data)==FALSE){
+      get_data <- stri_replace_all_regex(get_data,"data", "<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data")## open data icon
+      get_data <- stri_replace_all_regex(get_data,"preregistration", "<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i> preregistration")## prereg icon
+      get_data <- stri_replace_all_regex(get_data,"preprint", "<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> __Preprint__")## bioRxiv icon
+      get_data <- stri_replace_all_regex(get_data,"code", "<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code")## open code icon
+      
+      
+      cat(c(" <br> ", get_data), sep="")
+    }
   }
   cat(c("\n",paste("</div>"),"\n"))
   

@@ -16,7 +16,7 @@ output:
 * [Veerle De Rond](https://www.kuleuven.be/wieiswie/nl/person/00117680) uses fNIRS to study weight shifting in young and elderly participants (main promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))
 * [Silke Kerstens](https://www.kuleuven.be/wieiswie/nl/person/00122770) focuses on the understanding of the mechanisms of tDCS (main promotor is [Myles Mc Laughlin](https://www.kuleuven.be/wieiswie/nl/person/00043883))
 * [Mareike Gann](https://www.kuleuven.be/wieiswie/nl/person/00114278) investigates motor memory consolidation with TMS and fMRI (main promotor is [Genevieve Albouy](https://www.kuleuven.be/wieiswie/nl/person/00096297))
-* Stien Van De Plas will investigate how somatosensory function influence motor control in different clinical and non-clinical populations. She will also use EEG to do so. (co-promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
+* [Stien Van De Plas](https://www.kuleuven.be/wieiswie/nl/person/00118791) will investigate how somatosensory function influence motor control in different clinical and non-clinical populations. She will also use EEG to do so. (co-promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
 
 ### Alumni
 
