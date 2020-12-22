@@ -30,28 +30,24 @@ Belgium<br>
 
 #### who am I
 
-I am an engineer in applied mathematics who did his PhD (2002-2007) on computational neuroscience at the Université catholique de Louvain (Belgium). During my PhD, I focused on eye movements with applications to clinical populations. I went on to pursue my post-doctoral work (2008-2010) with Reza Shadmehr at Johns Hopkins University (Baltimore, MD, USA) where I used transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS) to investigate the role of the motor cortex in motor adaptation. My post-doctoral stay at Hopkins was partially supported by a Fellowship from the Belgian American Educational Foundation. Then, I secured independent funding from the Brussels region (2011-2014: 610 000€) in order to pursue my research as an independent investigator at UCLouvain on how theories of motor control can be successfully applied to understand brain functions in health and disease.
+<p> I am an engineer in applied mathematics who did his PhD (2002-2007) on computational neuroscience at the Université catholique de Louvain (Belgium). During my PhD, I focused on eye movements with applications to clinical populations. I went on to pursue my post-doctoral work (2008-2010) with Reza Shadmehr at Johns Hopkins University (Baltimore, MD, USA) where I used transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS) to investigate the role of the motor cortex in motor adaptation. My post-doctoral stay at Hopkins was partially supported by a Fellowship from the Belgian American Educational Foundation. Then, I secured independent funding from the Brussels region (2011-2014: 610 000€) in order to pursue my research as an independent investigator at UCLouvain on how theories of motor control can be successfully applied to understand brain functions in health and disease.</p>
 
-Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation, EEG and structural MRI). 
+<p> Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation, EEG and structural MRI).</p> 
 
-In addition, I am one of the founding member of the BRain Activity, Imaging & NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven and, as co-PI, a large Hercules grant. 
+<p> In addition, I am one of the founding member of the BRain Activity, Imaging & NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven and, as co-PI, a large Hercules grant. </p>
 
-Finally, I decided to use state-of-the-art research methodologies for the research in my laboratory. All papers are first published as prepritnts (e.g. https://www.biorxiv.org/content/10.1101/292250v2). All data and code are made available on the Open Science Framework (e.g. https://osf.io/vncce/) and studies are pre-registered when possible (https://osf.io/n8bwf/). In addition, I try to provide several lines of evidence to backup the claims in my papers by replicating my own results and using larger group of participants (N=20 or 30 per group). One of our latest paper (Vandevoorde and Orban de Xivry 2019) is a good example of what we wants to achieve in the laboratory. 
+<p> Finally, I decided to use state-of-the-art research methodologies for the research in my laboratory. All papers are first published as preprints (e.g. https://www.biorxiv.org/content/10.1101/292250v2). All data and code are made available on the Open Science Framework (e.g. https://osf.io/vncce/) and studies are pre-registered when possible (https://osf.io/n8bwf/). In addition, I try to provide several lines of evidence to backup the claims in my papers by replicating my own results and using larger group of participants (N=20 or 30 per group). One of our latest paper (Vandevoorde and Orban de Xivry 2019) is a good example of what we wants to achieve in the laboratory. </p>
 
 
-#### Education/Training
+#### Academic career
 
-__2019 - current__: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.
+<p> __2019 - current__: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
 
-__2014 - 2019__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.
-<br>
-__2011-2014__: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels).
-<br>
-__2007-2010__: Post-Doc in the [Laboratory of Computational Motor Control (Johns Hopkins University, USA)](www.shadmehrlab.org) under the supervision of Prof. Reza Shadmehr.
-<br>
-__2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre.
-<br>
-__1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm
+<p> __2014 - 2019__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
+<p> __2011-2014__: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels).</p>
+<p> __2007-2010__: Post-Doc in the [Laboratory of Computational Motor Control (Johns Hopkins University, USA)](www.shadmehrlab.org) under the supervision of Prof. Reza Shadmehr.</p>
+<p> __2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre.</p>
+<p> __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modeling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm</p>
 
 #### Academic services
 
@@ -60,7 +56,7 @@ __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelli
 - Editorial board member of Frontiers in Human Neuroscience<br>
 - Editorial board member of The Journal of Neuropshysiology<br>
 - Member of the taskforce on TMS for the Belgian Health Council (2013) <br>
-- Grant reviewer for ANR (Agence National de la Recherche, France); CNC (National Science Centre, Poland) ; ISF (Israel Science Foundation)
+- Grant reviewer for ANR (Agence National de la Recherche, France); CNC (National Science Centre, Poland) ; ISF (Israel Science Foundation), AXA fellowships, NSERC (Canada), UC Davis (USA)<br>
 
 #### KU Leuven services
 
@@ -73,20 +69,20 @@ __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelli
 - Member of the departmental board of Movement Sciences (2020-) 
 
 #### Grants and Awards
-1. [FWO](www.fwo.be) senior research project 2021-2024: Is there a motor reserve in the cerebellum?
-1. Internal Grant from KU Leuven with Alice Nieuwboer (2017-2021): Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
-2. Hercules Grant (large equipment) from the [FWO](www.fwo.be) (2019): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN, co-PI, 878000€)
-3. Small equipment grant from the KU Leuven: Translational upper limb platform (TULiP) (2018, main PI, 87 000€)
-4. Krediet aan Navorser from the [FWO](www.fwo.be) (2016-2018)
-5. Starting grant from the KU Leuven (2015-2019)
-6. Collaborative Grant with Daichi Nozaki (University of Tokyo, Japan) funded by FNRS (Belgium) and JPSP (Japan) (2014-2016)
-7. Travel Award to NCM meeting 2011
-8. Grant Brains Back to Brussels from the Brussels region (2010-2013, renewed for 2014-2016).
-9. Award from "Fondation pour la vocation" Belgium
-10. Travel Award for the Computational principles of sensorimotor learning (Irsee, Germany, 13-15 Sept 09)
-11. Grant from the [Belgian American Educational Foundation](www.baef.be) (2007)
-12. Grant "Fonds spéciaux de recherche" from the Université catholique de Louvain (2007)
-13. Grant "Bourse de séjour scientifique" from the "Fonds National pour la Recherche Scientifique", Belgium (2007)
+<p> __2021-2024__: [FWO](www.fwo.be) senior research project: Is there a motor reserve in the cerebellum? </p>
+<p> __2017-2021__: Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease</p>
+<p> __2019__: Hercules Grant (large equipment) from the [FWO](www.fwo.be): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN, co-PI, 878000€)</p>
+<p> __2018__: Small equipment grant from the KU Leuven: Translational upper limb platform (TULiP) (main PI, 87 000€)</p>
+<p> __2016-2018__: Krediet aan Navorser from the [FWO](www.fwo.be)</p>
+<p> __2015-2019__: Starting grant from the KU Leuven</p>
+<p> __2014-2016__ Collaborative Grant with Daichi Nozaki (University of Tokyo, Japan) funded by FNRS (Belgium) and JPSP (Japan)</p>
+<p> __2011__ Travel Award to NCM meeting</p>
+<p> __2010-2016__: Grant Brains Back to Brussels from the Brussels region (2010-2013, renewed for 2014-2016).</p>
+<p> __2009__: Award from "Fondation pour la vocation" Belgium</p>
+<p> __2009__ Travel Award for the Computational principles of sensorimotor learning (Irsee, Germany)</p>
+<p> __2007__: Grant from the [Belgian American Educational Foundation](www.baef.be) </p>
+<p> __2007__: Grant "Fonds spéciaux de recherche" from the Université catholique de Louvain </p>
+<p> __2007__:Grant "Bourse de séjour scientifique" from the "Fonds National pour la Recherche Scientifique", Belgium</p>
     
 
 
