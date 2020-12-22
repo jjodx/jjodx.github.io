@@ -25,6 +25,15 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -69,6 +78,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -275,56 +285,56 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fa fa-address-card"></span>
+    <span class="fas fa-address-card"></span>
      
     CV
   </a>
 </li>
 <li>
   <a href="Pubs.html">
-    <span class="fa fa-newspaper-o"></span>
+    <span class="fas fa-newspaper-o"></span>
      
     Publications
   </a>
 </li>
 <li>
   <a href="Team.html">
-    <span class="fa fa-rocket"></span>
+    <span class="fas fa-rocket"></span>
      
     Team
   </a>
 </li>
 <li>
   <a href="MoCo.html">
-    <span class="fa fa-child"></span>
+    <span class="fas fa-child"></span>
      
     Motor Control
   </a>
 </li>
 <li>
   <a href="Jobs.html">
-    <span class="fa fa-user"></span>
+    <span class="fas fa-user"></span>
      
     Positions
   </a>
 </li>
 <li>
   <a href="web.html">
-    <span class="fa fa-github-square"></span>
+    <span class="fas fa-github-square"></span>
      
     This website
   </a>
 </li>
 <li>
   <a href="Blog.html">
-    <span class="fa fa-rss-square"></span>
+    <span class="fas fa-rss-square"></span>
      
     Blog
   </a>
@@ -374,7 +384,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

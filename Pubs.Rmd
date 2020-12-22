@@ -125,6 +125,7 @@ for(i in 1:dims[1]){
       get_data <- stri_replace_all_regex(get_data,"data", "<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data")## open data icon
       get_data <- stri_replace_all_regex(get_data,"preregistration", "<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i> preregistration")## prereg icon
       get_data <- stri_replace_all_regex(get_data,"preprint", "<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> __Preprint__")## bioRxiv icon
+      get_data <- stri_replace_all_regex(get_data,"psyarxiv", "<i style='color: #211f1f;' class='ai ai-psyarxiv ai-2x' ></i> __Preprint__")## psyarXiv icon
       get_data <- stri_replace_all_regex(get_data,"code", "<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code")## open code icon
       
       
