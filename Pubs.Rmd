@@ -120,6 +120,7 @@ for(i in 1:dims[1]){
         bib_df[i,]$DOI), sep="")
   if(is.na(a)==FALSE){
     cat(c(" ", " [pdf](",file_path,")"), sep="")
+  }
     get_data <- bib_df[i,]$NOTE
     if(is.na(get_data)==FALSE){
       get_data <- stri_replace_all_regex(get_data,"data", "<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data")## open data icon
@@ -130,7 +131,7 @@ for(i in 1:dims[1]){
       
       
       cat(c(" <br> ", get_data), sep="")
-    }
+
   }
   cat(c("\n",paste("</div>"),"\n"))
   
