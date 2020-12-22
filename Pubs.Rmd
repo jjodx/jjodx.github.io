@@ -21,24 +21,23 @@ Note: add a link to the data in the notes for each paper separately
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
-<i style="color:  #4c9fec;" class="ai ai-google-scholar ai-5x" ></i>
+<i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i>
 </a>
 <a href="https://publons.com/author/420532">
-<i style="color: #4c9fec;" class="ai ai-publons ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-publons ai-3x" ></i>
 </a>
 <a href="https://orcid.org/0000-0002-4603-7939">
-<i style="color: #4c9fec;" class="ai ai-orcid ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-orcid ai-3x" ></i>
 </a>
 <a href="https://www.researchgate.net/profile/Jj_Orban">
-<i style="color: #4c9fec;" class="ai ai-researchgate ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-researchgate ai-3x" ></i>
 </a>
 <a href="https://osf.io/2pgq5/">
-<i style="color: #4c9fec;" class="ai ai-osf ai-5x" ></i>
+<i style="color: #4c9fec;" class="ai ai-osf ai-3x" ></i>
 </a>
 <a href="https://github.com/jjodx">
-<i style="color: #4c9fec;" class="fa fa-github fa-5x" ></i>
+<i style="color: #4c9fec;" class="fa fa-github fa-3x" ></i>
 </a>
-
 
 See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en)
 
@@ -52,6 +51,20 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <style>
 div.white { background-color:#f5f2f2; border-radius: 5px; padding: 20px;}
 </style>
+<style>
+div.red {box-sizing: content-box;  
+  width: 300px;
+  padding: 30px;  
+  border: 10px;
+  border-color: coral;}
+</style>
+<div class = 'red'>
+### Open Science icons:<br>
+<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> : Open Data<br>
+<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> : Open Code<br>
+<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>: preregistered (sometimes partially)<br>
+<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> or <i style='color: #211f1f;' class='ai ai-psyarxiv ai-2x' ></i>: Preprint version<br>
+</div>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=FALSE)
