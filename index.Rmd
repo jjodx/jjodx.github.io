@@ -5,6 +5,8 @@ output:
     theme: spacelab
     highlight: textmate
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <style>
 p.ex1{
     padding-left: 20%;
@@ -12,78 +14,61 @@ p.ex1{
 #more {display: none;}
 </style>
 
-<script>
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
-
 <div class = "col-md-2">
 
-<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
 <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i>
 </br>Scholar
 </a>
-</br>
+<br>
 
 <a href="http://www.twitter.com/jjodx">
 <i style="color:  #4c9fec;" class="fa fa-twitter fa-3x" ></i>
 </br>Twitter
 </a>
-</br>
+<br>
 
 <a href="https://publons.com/author/420532">
 <i style="color: #4c9fec;" class="ai ai-publons ai-3x" ></i>
 </br>Publons
 </a>
-</br>
+<br>
 
 <a href="https://orcid.org/0000-0002-4603-7939">
 <i style="color: #4c9fec;" class="ai ai-orcid ai-3x" ></i>
 </br>ORCID
 </a>
-</br>
+<br>
 
 <a href="https://www.researchgate.net/profile/Jj_Orban">
 <i style="color: #4c9fec;" class="ai ai-researchgate ai-3x" ></i>
 </br>ResearchGate
 </a>
-</br>
+<br>
 
 <a href="https://osf.io/2pgq5/">
 <i style="color: #4c9fec;" class="ai ai-osf ai-3x" ></i>
 </br>OSF
 </a>
-</br>
+<br>
 
 <a href="https://github.com/jjodx">
 <i style="color: #4c9fec;" class="fa fa-github fa-3x" ></i>
 </br>GitHub
 </a>
-</br>
+<br>
 
 </div>
 
-
 <div class = "col-md-7">
 
-### latest news
+## latest news
 <p class="ex1">
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+
+
 </style>
 <p>
 
@@ -130,8 +115,7 @@ Two new papers published in the Special Issue of the Journal of Computational Ne
 </div>
 <br>
 
-<span id="dots"> </span>
-<span id="more">
+## older news
 
 <div class = "blue">
  <font size="2"> **July 1, 2020** </font><br>
@@ -170,32 +154,41 @@ Together with Prof. Dante Mantini, we are recruiting a post-doc to work on EEG a
 </div>
 <br>
 
-
 <div class = "blue">
  <font size="2"> __May 9, 2020__ </font><br>
 Koen Vandevoorde got his paper accepted in Journal of Neurophysiology. Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
 </div>
 <br>
+
 <div class = "blue">
 <font size="2"> __March 31, 2020__ </font><br>
 Congrats to Guy Rens who got his paper entitled [Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS]( https://doi.org/10.1523/JNEUROSCI.2672-19.2020) accepted in Journal of Neuroscience.
 </div>
 <br>
+
 <div class = "blue">
 <font size="2"> __Januari 20, 2020__ </font><br>
 With Prof. Friedl De Groote, we submitted a paper entitled "_Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults_" to Gait&Posture.
 </div>
 <br>
+
 <div class = "blue">
  <font size="2"> __October, 2019__ </font><br>
 Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical mistakes in eLife [here](https://elifesciences.org/articles/48175). Interview about the paper: [here](https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them)
 </div>
 
-</span></p>
-
-<button onclick="myFunction()" id="myBtn">not latest anymore</button>
-
-
+<style>
+.btn {
+    border-width: 0 0px 0px 0px;
+    font-weight: normal;
+    text-transform: ;
+}
+.btn-default {
+    color: #2ecc71;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+</style>
 
 </div>
 </div>
@@ -210,8 +203,8 @@ Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical 
 <a class="twitter-timeline" data-lang="en" data-width="220" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/jjodx?ref_src=twsrc%5Etfw">Tweets by jjodx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 </div>
-</div>
-<div class = "row">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 
