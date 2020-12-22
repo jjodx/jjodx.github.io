@@ -32,9 +32,9 @@ Belgium<br>
 
 I am an engineer in applied mathematics who did his PhD (2002-2007) on computational neuroscience at the Université catholique de Louvain (Belgium). During my PhD, I focused on eye movements with applications to clinical populations. I went on to pursue my post-doctoral work (2008-2010) with Reza Shadmehr at Johns Hopkins University (Baltimore, MD, USA) where I used transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS) to investigate the role of the motor cortex in motor adaptation. My post-doctoral stay at Hopkins was partially supported by a Fellowship from the Belgian American Educational Foundation. Then, I secured independent funding from the Brussels region (2011-2014: 610 000€) in order to pursue my research as an independent investigator at UCLouvain on how theories of motor control can be successfully applied to understand brain functions in health and disease.
 
-Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation and EEG). So far these projects have been funded by an internal starting grant from KU Leuven (100 000€), a small research grant from the FWO (40 000€) and a large internal grant from KU Leuven (498500€) on the effect of transcranial direct current stimulation on retention of motor learning in healthy old participants and in Parkinson’s Disease patients. 
+Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation, EEG and structural MRI). 
 
-In addition, I am one of the founding member of the BRain Activity, Imaging & NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven (main PI, 87 000€) and, as co-PI, a large Hercules grant (878000€). 
+In addition, I am one of the founding member of the BRain Activity, Imaging & NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven and, as co-PI, a large Hercules grant. 
 
 Finally, I decided to use state-of-the-art research methodologies for the research in my laboratory. All papers are first published as prepritnts (e.g. https://www.biorxiv.org/content/10.1101/292250v2). All data and code are made available on the Open Science Framework (e.g. https://osf.io/vncce/) and studies are pre-registered when possible (https://osf.io/n8bwf/). In addition, I try to provide several lines of evidence to backup the claims in my papers by replicating my own results and using larger group of participants (N=20 or 30 per group). One of our latest paper (Vandevoorde and Orban de Xivry 2019) is a good example of what we wants to achieve in the laboratory. 
 
@@ -73,20 +73,20 @@ __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modelli
 - Member of the departmental board of Movement Sciences (2020-) 
 
 #### Grants and Awards
-
-1. Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
-2. Hercules Grant (large equipment) from the [FWO](www.fwo.be): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN)
-3. Small equipment grant from the KU Leuven: Translational upper limb platform (TULiP)
-4. Krediet aan Navorser from the [FWO](www.fwo.be)
-5. Starting grant from the KU Leuven
-6. Collaborative Grant with Daichi Nozaki (University of Tokyo, Japan) funded by FNRS (Belgium) and JPSP (Japan)
+1. [FWO](www.fwo.be) senior research project 2021-2024: Is there a motor reserve in the cerebellum?
+1. Internal Grant from KU Leuven with Alice Nieuwboer (2017-2021): Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease
+2. Hercules Grant (large equipment) from the [FWO](www.fwo.be) (2019): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN, co-PI, 878000€)
+3. Small equipment grant from the KU Leuven: Translational upper limb platform (TULiP) (2018, main PI, 87 000€)
+4. Krediet aan Navorser from the [FWO](www.fwo.be) (2016-2018)
+5. Starting grant from the KU Leuven (2015-2019)
+6. Collaborative Grant with Daichi Nozaki (University of Tokyo, Japan) funded by FNRS (Belgium) and JPSP (Japan) (2014-2016)
 7. Travel Award to NCM meeting 2011
-8. Grant Brains Back to Brussels from the Brussels region (2010-2013, renewed for 2014 and 2015).
+8. Grant Brains Back to Brussels from the Brussels region (2010-2013, renewed for 2014-2016).
 9. Award from "Fondation pour la vocation" Belgium
 10. Travel Award for the Computational principles of sensorimotor learning (Irsee, Germany, 13-15 Sept 09)
-11. Grant from the [Belgian American Educational Foundation](www.baef.be)
-12. Grant "Fonds spéciaux de recherche" from the Université catholique de Louvain
-13. Grant "Bourse de séjour scientifique" from the "Fonds National pour la Recherche Scientifique", Belgium
+11. Grant from the [Belgian American Educational Foundation](www.baef.be) (2007)
+12. Grant "Fonds spéciaux de recherche" from the Université catholique de Louvain (2007)
+13. Grant "Bourse de séjour scientifique" from the "Fonds National pour la Recherche Scientifique", Belgium (2007)
     
 
 

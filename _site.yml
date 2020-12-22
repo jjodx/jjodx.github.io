@@ -23,7 +23,7 @@ navbar:
       icon: fa-user
     - text: "This website"
       href: web.html
-      icon: fa-github-square
+      icon: fa-laptop
     - text: "Blog"
       href: Blog.html
       icon: fa-rss-square
