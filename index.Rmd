@@ -85,14 +85,13 @@ function myFunction() {
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
-<p class="ex1">
-<style>
-div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-</style>
 <p>
+
 <div class = "blue">
 <font size="2"> **February/March, 2021** </font><br>
-Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco (twitter: [Matheus](https://twitter.com/Piolho_eefe)) as a post-doc. Matheus will use EEG to unravel age-related changes in error processing.
+Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco <a href="https://twitter.com/Piolho_eefe">
+<i style="color:  #4c9fec;" class="fa fa-twitter fa-1x" ></i>
+</a> as a post-doc. Matheus will use EEG to unravel age-related changes in error processing.
 </div>
 <br>
 
@@ -104,15 +103,17 @@ Jean-Jacques got a grant from the [FWO (Flemish Research Foundation)](https://ww
 
 <div class = "blue">
 <font size="2"> **November, 2020** </font><br>
-Paper with Friedl De Groote, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait & Posture (after a very long review process that did not really change the paper) ([paper](https://pubmed.ncbi.nlm.nih.gov/33260077/)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1). Data and code are on the Open Science Framework ([LINK](https://osf.io/vpd79/?view))
+Paper with Friedl De Groote <a href="https://twitter.com/friedldegroote">
+<i style="color:  #4c9fec;" class="fa fa-twitter fa-1x" ></i>
+</a>, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait & Posture (after a very long review process that did not really change the paper) ([paper](https://pubmed.ncbi.nlm.nih.gov/33260077/)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1). Data <i style='color: #0f6cd6;' class='ai ai-open-data ai-1x' ></i> and code <i style='color: #211f1f;' class='fa fa-github fa-1x' ></i> are on the Open Science Framework ([LINK](https://osf.io/vpd79/?view))
 </div>
 <br>
 
 <div class = "blue">
 <font size="2"> **October, 2020** </font><br>
-We have several preprints out there:
-Manasa Parthasharathy: [Increased upper-limb sensory attenuation with age](https://www.biorxiv.org/content/10.1101/2020.09.17.301739v1)
-Koen Vandevoorde: [Does somatosensory acuity influence the extent of internal model recalibration in young and older adults?](https://www.biorxiv.org/content/10.1101/2020.10.16.342295v1)
+We have several preprints <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> out there:<br>
+Manasa Parthasharathy: [Increased upper-limb sensory attenuation with age](https://www.biorxiv.org/content/10.1101/2020.09.17.301739v1)<br>
+Koen Vandevoorde: [Does somatosensory acuity influence the extent of internal model recalibration in young and older adults?](https://www.biorxiv.org/content/10.1101/2020.10.16.342295v1)<br>
 Guy Rens: [Motor resonance is modulated by an object’s weight distribution](https://doi.org/10.1101/2020.10.11.335000)
 </div>
 <br>
@@ -135,7 +136,7 @@ Two new papers published in the Special Issue of the Journal of Computational Ne
 </div>
 <br>
 
-<p>
+
 <div class = "blue">
 <font size="2"> **February/March, 2021** </font><br>
 Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco (twitter: [Matheus](https://twitter.com/Piolho_eefe)) as a post-doc. Matheus will use EEG to unravel age-related changes in error processing.
@@ -150,7 +151,7 @@ Jean-Jacques got a grant from the [FWO (Flemish Research Foundation)](https://ww
 
 <div class = "blue">
  <font size="2"> **November, 2020** </font><br>
-Paper with Friedl De Groote, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait & Posture (after a very long review process that did not really change the paper) ([paper](https://pubmed.ncbi.nlm.nih.gov/33260077/)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1). Data and code are on the Open Science Framework ([LINK](https://osf.io/vpd79/?view))
+Paper with Friedl De Groote, Stefanie Vandevyvere and Florian Vanhevel accepted by Gait & Posture (after a very long review process that did not really change the paper) ([paper](https://pubmed.ncbi.nlm.nih.gov/33260077/)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/2020.05.29.123620v1). Data <i style='color: #0f6cd6;' class='ai ai-open-data ai-1x' ></i> and code <i style='color: #211f1f;' class='fa fa-github fa-1x' ></i> are on the Open Science Framework ([LINK](https://osf.io/vpd79/?view))
 </div>
 <br>
 
@@ -165,7 +166,6 @@ Guy Rens: [Motor resonance is modulated by an object’s weight distribution](ht
 
 <span id="dots"> </span>
 <span id="more">
-<br>
 
 <div class = "blue">
  <font size="2"> **July 1, 2020** </font><br>
