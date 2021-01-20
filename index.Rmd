@@ -81,6 +81,12 @@ Dante Mantini and Jean-Jacques are thrilled to welcome Matheus Pacheco <a href="
 <br>
 
 <div class = "blue">
+<font size="2"> **January 20th 2021** </font><br>
+Congrats to Guy Rens who got his paper entitled "*Lift observation conveys object weight distribution but partly enhances predictive lift planning*" accepted for publication in the Journal of Neurophysiology.<br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> [Preprint](https://www.biorxiv.org/content/10.1101/2020.06.21.163352v3)
+</div>
+<br>
+
+<div class = "blue">
 <font size="2"> **December, 2020** </font><br>
 Jean-Jacques got a grant from the [FWO (Flemish Research Foundation)](https://www.fwo.be/) to work on a project entitled: "Is there a motor reserve in the cerebellum". This project focuses on measuring age-related changes in motor function based on a large task battery and included structural MRI as well.
 </div>
