@@ -1,0 +1,24 @@
+---
+title: "my involvment in Open Science"
+output:
+  html_document:
+    theme: spacelab
+    highlight: textmate 
+    toc: true
+    toc_float: true
+    toc_depth: 4
+---
+
+JJ is a firm believer of Open Science. Here are two interviews on this topic:
+
+* [On the Open Science website of the KU Leuven](https://www.kuleuven.be/open-science/news/2021/J-J_Orban)<br>
+* [About our ten statistical mistake paper](https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them)<br>
+
+I have also given presentations on Open Science for:
+
+* the PhD day of the Neuroscience Institute of UCLouvain<br>
+* the Moss Rehabilitation Institute<br>
+* the research group in Movement control and Neuroplasticity of the KU Leuven<br>
+* the research group in neuromotor rehabilitation of the KU Leuven<br>
+
+I have been involved in a working group on Open Science for the KU Leuven for the research policy council of the KU Leuven (head: Prof. Alice Nieuwboer)

@@ -18,6 +18,9 @@ navbar:
     - text: "Motor Control"
       href: MoCo.html
       icon: fa-child
+    - text: "Open Science"
+      href: OpSci.html
+      icon: fa-box-open
     - text: "Positions"
       href: Jobs.html
       icon: fa-user
