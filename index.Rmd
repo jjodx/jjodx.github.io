@@ -73,6 +73,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 
 <div class = "blue">
+<font size="2"> **22nd of March, 2021** </font><br>
+Last paper from the PhD thesis of Guy Rens has been accepted at Neuropsychologia: Motor resonance is modulated by an object’s weight distribution. Well done Guy! <i style='color: #211f1f;' class='ai ai-biorxiv ai-1x' ></i> [Preprint](https://www.biorxiv.org/content/10.1101/2020.10.11.335000v3)
+</div>
+<br>
+
+<div class = "blue">
 <font size="2"> **15th of March, 2021** </font><br>
 <i style='color: #211f1f;' class='ai ai-biorxiv ai-1x' ></i>
 New preprint with Ryan Morehead (Leeds University, UK): [A Synthesis of the Many Errors and Learning Processes of Visuomotor Adaptation](https://www.biorxiv.org/content/10.1101/2021.03.14.435278v1).<br>

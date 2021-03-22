@@ -25,15 +25,6 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -78,7 +69,6 @@ h6 {
   text-align: left;
 }
 </style>
-
 
 
 
@@ -285,63 +275,63 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-address-card"></span>
+    <span class="fa fa-address-card"></span>
      
     CV
   </a>
 </li>
 <li>
   <a href="Pubs.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     Publications
   </a>
 </li>
 <li>
   <a href="Team.html">
-    <span class="fas fa-rocket"></span>
+    <span class="fa fa-rocket"></span>
      
     Team
   </a>
 </li>
 <li>
   <a href="MoCo.html">
-    <span class="fas fa-child"></span>
+    <span class="fa fa-child"></span>
      
     Motor Control
   </a>
 </li>
 <li>
   <a href="OpSci.html">
-    <span class="fas fa-box-open"></span>
+    <span class="fa fa-box-open"></span>
      
     Open Science
   </a>
 </li>
 <li>
   <a href="Jobs.html">
-    <span class="fas fa-user"></span>
+    <span class="fa fa-user"></span>
      
     Positions
   </a>
 </li>
 <li>
   <a href="web.html">
-    <span class="fas fa-laptop"></span>
+    <span class="fa fa-laptop"></span>
      
     This website
   </a>
 </li>
 <li>
   <a href="Blog.html">
-    <span class="fas fa-rss-square"></span>
+    <span class="fa fa-rss-square"></span>
      
     Blog
   </a>
@@ -390,6 +380,10 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 </style>
 <p>
+<div class="blue">
+<p><font size="2"> <strong>22nd of March, 2021</strong> </font><br> Last paper from the PhD thesis of Guy Rens has been accepted at Neuropsychologia: Motor resonance is modulated by an object’s weight distribution. Well done Guy! <i style='color: #211f1f;' class='ai ai-biorxiv ai-1x' ></i> <a href="https://www.biorxiv.org/content/10.1101/2020.10.11.335000v3">Preprint</a></p>
+</div>
+<p><br></p>
 <div class="blue">
 <p><font size="2"> <strong>15th of March, 2021</strong> </font><br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-1x' ></i> New preprint with Ryan Morehead (Leeds University, UK): <a href="https://www.biorxiv.org/content/10.1101/2021.03.14.435278v1">A Synthesis of the Many Errors and Learning Processes of Visuomotor Adaptation</a>.<br> The tweeprint <i style="color:  #4c9fec;" class="fa fa-twitter fa-1x" ></i> made by Ryan is available here: <a href="https://twitter.com/rmhead/status/1371669385367195648">https://twitter.com/rmhead/status/1371669385367195648</a></p>
 </div>
@@ -504,7 +498,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
