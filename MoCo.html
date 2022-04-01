@@ -13,6 +13,7 @@
 
 <title>experiments to talk about motor control</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -424,89 +425,211 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">experiments to talk about motor control</h1>
+<h1 class="title toc-ignore">experiments to talk about motor
+control</h1>
 
 </div>
 
 
-<div id="q1-why-can-a-robot-balance-a-short-stick-and-we-are-unable-to-do-so-what-are-the-consequences-of-that-feature" class="section level4">
-<h4>Q1: Why can a robot balance a short stick and we are unable to do so ? What are the consequences of that feature?</h4>
-<p><strong>Learning goal:</strong> sensorimotor delays in the motor system.</p>
-<p><strong>Main reference:</strong> paragraph on “delays” in Computational Mechanisms of Sensorimotor Control - Franklin and Wolpert: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22078503">https://www.ncbi.nlm.nih.gov/pubmed/22078503</a></p>
-<p>Additional reference: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18479557">https://www.ncbi.nlm.nih.gov/pubmed/18479557</a></p>
-<p><strong>Theoretical question:</strong> How can we demonstrate the presence of delays in the brain? What is the nature of these delays? What is the impact of delays on the control of our movements?</p>
+<div
+id="q1-why-can-a-robot-balance-a-short-stick-and-we-are-unable-to-do-so-what-are-the-consequences-of-that-feature"
+class="section level4">
+<h4>Q1: Why can a robot balance a short stick and we are unable to do so
+? What are the consequences of that feature?</h4>
+<p><strong>Learning goal:</strong> sensorimotor delays in the motor
+system.</p>
+<p><strong>Main reference:</strong> paragraph on “delays” in
+Computational Mechanisms of Sensorimotor Control - Franklin and Wolpert:
+<a
+href="https://www.ncbi.nlm.nih.gov/pubmed/22078503">https://www.ncbi.nlm.nih.gov/pubmed/22078503</a></p>
+<p>Additional reference: <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/18479557">https://www.ncbi.nlm.nih.gov/pubmed/18479557</a></p>
+<p><strong>Theoretical question:</strong> How can we demonstrate the
+presence of delays in the brain? What is the nature of these delays?
+What is the impact of delays on the control of our movements?</p>
 <p><strong>Experiment: </strong></p>
 <ul>
-<li><p>Take a long stick and choose a participant. You will hold the stick vertically in the air between the subject’s thumb and index finger without touching them. The top of the stick needs to be located between the thumb and finger. Without warning, let the stick drop - the subject must catch it as quickly as possible. Measure in meters the distance the stick fell by measuring the distance between the top of the stick and the location of the participant’s finger. Take the average of 3 consecutive drops. Transform this average distance into a reaction time with the following formula: Reaction time = √((2*d)/9.81) where d is the average distance.</p></li>
-<li><p>Balance a short (~30cm) and a long (&gt;1m) stick on your finger. Which one is easier? Why ? Compare then your performance to that of a robot: <a href="https://www.youtube.com/watch?v=vf5tdG74WhQ">https://www.youtube.com/watch?v=vf5tdG74WhQ</a></p></li>
-<li><p>On both websites below, you control the value of the displayed number (which starts at zero) by pressing the “-1”, “+0” , “+1” buttons. Each time you press a button, it has an effect on the value of that number. Your goal is to bring this number to five and to maintain it at that value for five consecutive button presses (in other words, you have reached the goal when you maintain that number to five while pressing the “+0” button five times).</p>
+<li><p>Take a long stick and choose a participant. You will hold the
+stick vertically in the air between the subject’s thumb and index finger
+without touching them. The top of the stick needs to be located between
+the thumb and finger. Without warning, let the stick drop - the subject
+must catch it as quickly as possible. Measure in meters the distance the
+stick fell by measuring the distance between the top of the stick and
+the location of the participant’s finger. Take the average of 3
+consecutive drops. Transform this average distance into a reaction time
+with the following formula: Reaction time = √((2*d)/9.81) where d is the
+average distance.</p></li>
+<li><p>Balance a short (~30cm) and a long (&gt;1m) stick on your finger.
+Which one is easier? Why ? Compare then your performance to that of a
+robot: <a
+href="https://www.youtube.com/watch?v=vf5tdG74WhQ">https://www.youtube.com/watch?v=vf5tdG74WhQ</a></p></li>
+<li><p>On both websites below, you control the value of the displayed
+number (which starts at zero) by pressing the “-1”, “+0” , “+1” buttons.
+Each time you press a button, it has an effect on the value of that
+number. Your goal is to bring this number to five and to maintain it at
+that value for five consecutive button presses (in other words, you have
+reached the goal when you maintain that number to five while pressing
+the “+0” button five times).</p>
 <ul>
-<li>Easy condition: <a href="https://jjorban.shinyapps.io/appsystemd/" class="uri">https://jjorban.shinyapps.io/appsystemd/</a></li>
-<li>Difficult condition: <a href="https://jjorban.shinyapps.io/appdelay3/" class="uri">https://jjorban.shinyapps.io/appdelay3/</a></li>
+<li>Easy condition: <a href="https://jjorban.shinyapps.io/appsystemd/"
+class="uri">https://jjorban.shinyapps.io/appsystemd/</a></li>
+<li>Difficult condition: <a
+href="https://jjorban.shinyapps.io/appdelay3/"
+class="uri">https://jjorban.shinyapps.io/appdelay3/</a></li>
 </ul></li>
 </ul>
-<p><img src="images/Shiny.jpg" /> Figure 1 : Illustration of the task : the number you control is circled in red. The buttons to control this number are circled in green. The graphics give you the the evolution of the circled number over the number of button presses. It is updated each time you press one of the button.</p>
+<p><img src="images/Shiny.jpg" /> Figure 1 : Illustration of the task :
+the number you control is circled in red. The buttons to control this
+number are circled in green. The graphics give you the the evolution of
+the circled number over the number of button presses. It is updated each
+time you press one of the button.</p>
 </div>
-<div id="q2-what-type-of-sensory-information-are-we-using-to-control-our-movement" class="section level4">
-<h4>Q2: What type of sensory information are we using to control our movement?</h4>
-<p><strong>Learning goal:</strong> type and role of sensory information for the control of movements</p>
-<p><strong>Main reference:</strong> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709263/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709263/</a></p>
-<p>Additional reference about proprioception: <a href="https://doi.org/10.1016/B978-008045046-9.01907-0" class="uri">https://doi.org/10.1016/B978-008045046-9.01907-0</a></p>
+<div
+id="q2-what-type-of-sensory-information-are-we-using-to-control-our-movement"
+class="section level4">
+<h4>Q2: What type of sensory information are we using to control our
+movement?</h4>
+<p><strong>Learning goal:</strong> type and role of sensory information
+for the control of movements</p>
+<p><strong>Main reference:</strong> <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709263/"
+class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3709263/</a></p>
+<p>Additional reference about proprioception: <a
+href="https://doi.org/10.1016/B978-008045046-9.01907-0"
+class="uri">https://doi.org/10.1016/B978-008045046-9.01907-0</a></p>
 <p><strong>Experiment:</strong></p>
 <ol style="list-style-type: decimal">
-<li><p>Put your two arms stretched away from your body (left arm to the left and right arm to the right). Then close your eyes and try to make your two index fingers touch while keeping your eyes closed. Observe someone performing the above experiment.</p></li>
-<li><p>Watch the following video <a href="https://www.youtube.com/watch?v=0LfJ3M3Kn80">https://www.youtube.com/watch?v=0LfJ3M3Kn80</a> Do you think that it would be able to do the exercise described in 1.</p></li>
-<li><p>Ask someone to grab a match from within a matchbox full of matches with their index and thumb fingers in the three following conditions (and in that order):</p>
+<li><p>Put your two arms stretched away from your body (left arm to the
+left and right arm to the right). Then close your eyes and try to make
+your two index fingers touch while keeping your eyes closed. Observe
+someone performing the above experiment.</p></li>
+<li><p>Watch the following video <a
+href="https://www.youtube.com/watch?v=0LfJ3M3Kn80">https://www.youtube.com/watch?v=0LfJ3M3Kn80</a>
+Do you think that it would be able to do the exercise described in
+1.</p></li>
+<li><p>Ask someone to grab a match from within a matchbox full of
+matches with their index and thumb fingers in the three following
+conditions (and in that order):</p>
 <ol style="list-style-type: lower-alpha">
-<li>With naked hand and fingers in the absence of vision (i.e. with eyes closed)</li>
-<li>With both fingers covered by a plaster in the absence of vision (i.e. with eyes closed). Alternatively, you could ask your participant to wear a thin glove such as a rubber glove</li>
+<li>With naked hand and fingers in the absence of vision (i.e. with eyes
+closed)</li>
+<li>With both fingers covered by a plaster in the absence of vision
+(i.e. with eyes closed). Alternatively, you could ask your participant
+to wear a thin glove such as a rubber glove</li>
 <li>Same as in b but with eyes open.</li>
 </ol></li>
 </ol>
 </div>
-<div id="q3-can-we-use-information-about-our-own-movements" class="section level4">
+<div id="q3-can-we-use-information-about-our-own-movements"
+class="section level4">
 <h4>Q3: Can we use information about our own movements?</h4>
-<p><strong>Learning goal:</strong> internal model and state estimation</p>
-<p><strong>Main reference:</strong> “state estimation” in Computational Mechanisms of Sensorimotor Control - Franklin and Wolpert</p>
-<p>Additional reference: <a href="https://doi.org/10.1007/978-94-007-1333-8_57" class="uri">https://doi.org/10.1007/978-94-007-1333-8_57</a></p>
+<p><strong>Learning goal:</strong> internal model and state
+estimation</p>
+<p><strong>Main reference:</strong> “state estimation” in Computational
+Mechanisms of Sensorimotor Control - Franklin and Wolpert</p>
+<p>Additional reference: <a
+href="https://doi.org/10.1007/978-94-007-1333-8_57"
+class="uri">https://doi.org/10.1007/978-94-007-1333-8_57</a></p>
 <p><strong>Experiment: </strong></p>
 <ul>
-<li><p>Ask a participant to stand with his dominant arm fully stretched horizontally in front of him with the palm of the hand upward (see picture). Place a heavy object (~ 2kg, e.g. a dictionary, the pink ball on the picture) on his palm and tell the participant that his/her goal is to maintain his/her arm as horizontal as he/she can. After 3s, pick up the object from the hand of the participant and observe the movement of the arm. Then, put the object back on the palm of the participant and ask him/her to pick the object him/herself from their own hand. Observe the movement of the arm.</p></li>
-<li><p>Build the following setup of two sticks with one articulation (like upper and lower arm). Join the two ends of the two sticks together with a nail (red dot) such that they can freely rotate around each other. Fix one end of one the two sticks (gray bars) with a nail on a wooden board (represented by the red dot). Alternatively, one can build this using Lego bricks (right panel). Experiment: make the free stick (#1) rotate fast around the articulation (red dot) by punching it fast in one direction or the other. Observe whether stick #2 stays in place or not?</p></li>
+<li><p>Ask a participant to stand with his dominant arm fully stretched
+horizontally in front of him with the palm of the hand upward (see
+picture). Place a heavy object (~ 2kg, e.g. a dictionary, the pink ball
+on the picture) on his palm and tell the participant that his/her goal
+is to maintain his/her arm as horizontal as he/she can. After 3s, pick
+up the object from the hand of the participant and observe the movement
+of the arm. Then, put the object back on the palm of the participant and
+ask him/her to pick the object him/herself from their own hand. Observe
+the movement of the arm.</p></li>
+<li><p>Build the following setup of two sticks with one articulation
+(like upper and lower arm). Join the two ends of the two sticks together
+with a nail (red dot) such that they can freely rotate around each
+other. Fix one end of one the two sticks (gray bars) with a nail on a
+wooden board (represented by the red dot). Alternatively, one can build
+this using Lego bricks (right panel). Experiment: make the free stick
+(#1) rotate fast around the articulation (red dot) by punching it fast
+in one direction or the other. Observe whether stick #2 stays in place
+or not?</p></li>
 </ul>
 <p><img src="images/APA.jpg" /></p>
-<p>Now, do it with your own lower arm: execute a pure rotation of your lower arm around the elbow. Does your upper arm move?</p>
+<p>Now, do it with your own lower arm: execute a pure rotation of your
+lower arm around the elbow. Does your upper arm move?</p>
 </div>
-<div id="q4-how-does-the-brain-merge-different-sources-of-information" class="section level4">
+<div id="q4-how-does-the-brain-merge-different-sources-of-information"
+class="section level4">
 <h4>Q4: how does the brain merge different sources of information?</h4>
-<p><strong>Learning goal:</strong> reliability-based integration of different signals</p>
-<p><strong>Main reference:</strong> <a href="https://doi.org/10.1016/j.tics.2006.05.003" class="uri">https://doi.org/10.1016/j.tics.2006.05.003</a></p>
+<p><strong>Learning goal:</strong> reliability-based integration of
+different signals</p>
+<p><strong>Main reference:</strong> <a
+href="https://doi.org/10.1016/j.tics.2006.05.003"
+class="uri">https://doi.org/10.1016/j.tics.2006.05.003</a></p>
 <p><strong>Experiment:</strong></p>
 <ul>
-<li><p>McGurk effect. Watch the following video and see whether what you hear can be influenced by what you see <a href="https://www.youtube.com/watch?v=2k8fHR9jKVM">https://www.youtube.com/watch?v=2k8fHR9jKVM</a></p></li>
-<li><p>Make two containers that look identical from the outside (e.g. the same material) but have two different sizes (see picture). Fill them with something such that actually have the exact same weight. Put them on a table in front of a participant. Ask the participant to lift them one after the other and to then report whether the two containers have the same weight or not. What are the two sources of information that the participant is using to come to that conclusion.</p></li>
+<li><p>McGurk effect. Watch the following video and see whether what you
+hear can be influenced by what you see <a
+href="https://www.youtube.com/watch?v=2k8fHR9jKVM">https://www.youtube.com/watch?v=2k8fHR9jKVM</a></p></li>
+<li><p>Make two containers that look identical from the outside
+(e.g. the same material) but have two different sizes (see picture).
+Fill them with something such that actually have the exact same weight.
+Put them on a table in front of a participant. Ask the participant to
+lift them one after the other and to then report whether the two
+containers have the same weight or not. What are the two sources of
+information that the participant is using to come to that
+conclusion.</p></li>
 </ul>
 <p><img src="images/sizeweight.jpg" /></p>
 </div>
-<div id="q5-why-are-movements-stereotyped-but-variable" class="section level4">
+<div id="q5-why-are-movements-stereotyped-but-variable"
+class="section level4">
 <h4>Q5: Why are movements stereotyped but variable?</h4>
-<p><strong>Learning goal:</strong> What are the sources of noise in the brain ? How does the brain cope with uncertainty/variability ? What types of costs are taken into account when planning a movement ?</p>
-<p><strong>Main Reference:</strong> Introduction + “Optimal (feedback) control theory” The coordination of movement: optimal feedback control and beyond. J Diedrichsen, R Shadmehr, and RB Ivry (2010) Trends in Cognitive Sciences 14:31-39.</p>
+<p><strong>Learning goal:</strong> What are the sources of noise in the
+brain ? How does the brain cope with uncertainty/variability ? What
+types of costs are taken into account when planning a movement ?</p>
+<p><strong>Main Reference:</strong> Introduction + “Optimal (feedback)
+control theory” The coordination of movement: optimal feedback control
+and beyond. J Diedrichsen, R Shadmehr, and RB Ivry (2010) Trends in
+Cognitive Sciences 14:31-39.</p>
 <p>Additional references:</p>
 <ul>
-<li><p>“Balancing Expected Rewards with Motor Costs” and “The Problem of How to Do It: Minimizing Costs to Find a Control Policy” in Computational approaches to motor control. Reza Shadmehr (2009) In: LR Squire (ed.) Encyclopedia of Neuroscience 3:9-17.</p></li>
-<li><p>Noise in the nervous system: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18319728" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/18319728</a></p></li>
+<li><p>“Balancing Expected Rewards with Motor Costs” and “The Problem of
+How to Do It: Minimizing Costs to Find a Control Policy” in
+Computational approaches to motor control. Reza Shadmehr (2009) In: LR
+Squire (ed.) Encyclopedia of Neuroscience 3:9-17.</p></li>
+<li><p>Noise in the nervous system: <a
+href="https://www.ncbi.nlm.nih.gov/pubmed/18319728"
+class="uri">https://www.ncbi.nlm.nih.gov/pubmed/18319728</a></p></li>
 </ul>
 <p><strong>Experiment:</strong></p>
-<p>Draw two squares of 0.5cm (side) on a piece of paper 15cm apart, one green, one white (with a black outline). Ask a participant to make 20 reaching movement with a pen from the green to the white target. The participant does not need to stop on the target but needs to shoot through the target. He can stop further on the piece of paper. Ask the participant to have a single continuous movement and to not correct its movement while moving. In other words, the movement needs to be as straight as possible.</p>
+<p>Draw two squares of 0.5cm (side) on a piece of paper 15cm apart, one
+green, one white (with a black outline). Ask a participant to make 20
+reaching movement with a pen from the green to the white target. The
+participant does not need to stop on the target but needs to shoot
+through the target. He can stop further on the piece of paper. Ask the
+participant to have a single continuous movement and to not correct its
+movement while moving. In other words, the movement needs to be as
+straight as possible.</p>
 <p><img src="images/reach.jpg" /></p>
 <p>There are multiple conditions:</p>
 <ol style="list-style-type: decimal">
-<li><p>Reach 10 times at a comfortable speed (always from green to white)</p></li>
-<li><p>On another paper, reach 10 times as fast as you can (always from green to white). The goals is nonetheless to pass through the white target. The participants should never stop during the movement even if s/he misses the target.</p></li>
-<li><p>On a third paper, draw a wider white target (8cm wide, see panel B of the figure). Ask the participants to reach as fast as possible.</p></li>
+<li><p>Reach 10 times at a comfortable speed (always from green to
+white)</p></li>
+<li><p>On another paper, reach 10 times as fast as you can (always from
+green to white). The goals is nonetheless to pass through the white
+target. The participants should never stop during the movement even if
+s/he misses the target.</p></li>
+<li><p>On a third paper, draw a wider white target (8cm wide, see panel
+B of the figure). Ask the participants to reach as fast as
+possible.</p></li>
 </ol>
-<p>Draw then a horizontal line that passes through the middle of the white targets (perpendicular to the movement direction). With a red pen, mark the intersection between the movement traces (left by the pen during movements) and this horizontal line. These red points represent the endpoint of the reaching movements. We are interested in the variability of these red points across the three conditions. Reflect on whether every movement has the same or different endpoint. What is the effect of speed on endpoint variability? What is the effect of target width on endpoint variability?</p>
+<p>Draw then a horizontal line that passes through the middle of the
+white targets (perpendicular to the movement direction). With a red pen,
+mark the intersection between the movement traces (left by the pen
+during movements) and this horizontal line. These red points represent
+the endpoint of the reaching movements. We are interested in the
+variability of these red points across the three conditions. Reflect on
+whether every movement has the same or different endpoint. What is the
+effect of speed on endpoint variability? What is the effect of target
+width on endpoint variability?</p>
 </div>
 
 

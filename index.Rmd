@@ -73,6 +73,34 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 
 <div class = "blue">
+<font size="2"> **March-April 2022** </font><br>
+Many grants and fellowship were submitted:
+
+-   application for a FWO PhD fellowship for Anouck Mathijs
+-   senior FWO research project with An De Groef
+-   C2 internal grant on the bike project with Friedl De Groote, Jannique Van Uffelen and Kathrin Gerling.
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **March 2022** </font><br>
+The first pre-print of our bike project with Maarten Afschrift, Anouck Mathijs and Friedl De Groote is out: [Turning the head while biking makes older people lose cycling direction and balance](https://doi.org/10.1101/2022.03.01.481993)
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **November 2021** </font><br>
+Just before Christmas, the first paper of Manasa Parthasharathy has been accepted for publication at the Journal of Neuropshysiology: [Increased upper-limb sensory attenuation with age](https://journals.physiology.org/doi/abs/10.1152/jn.00558.2020)
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **November 2021** </font><br>
+We waved goodbye to Manasa Parthasharathy who became Business Development Manager at icometrix 
+</div>
+<br>
+
+<div class = "blue">
 <font size="2"> **Summer 2021** </font><br>
 Our team is growing. We welcome Anda De Witte on the 1st of July and Anouck Matthijs on the 1st of September. They will work on the FWO-funded project: "Is there a motor reserve in the cerebellum". Exciting times!
 </div>
