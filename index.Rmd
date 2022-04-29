@@ -73,6 +73,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 
 <div class = "blue">
+<font size="2"> **1st of May 2022** </font><br>
+ We are sad to see Matheus Maia Pacheco leaving our group but we wish a lot of success for his new adventure as an assistant Professor at the University of Porto in Portugal.
+</div>
+<br>
+
+<div class = "blue">
 <font size="2"> **March-April 2022** </font><br>
 Many grants and fellowship were submitted:
 
