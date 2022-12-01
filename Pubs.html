@@ -13,13 +13,22 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -30,12 +39,16 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -48,32 +61,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -83,10 +72,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -103,40 +88,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 52px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h2 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h3 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h4 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h5 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h6 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -164,7 +125,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -176,7 +137,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -186,11 +147,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -202,7 +180,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -331,7 +308,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -345,7 +322,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -425,11 +402,11 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
 <li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
 <li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
 </ul>
@@ -587,10 +564,10 @@ class="section level4 blue">
 <h4>Turning the Head While Biking Makes Older People Lose Cycling
 Direction and Balance</h4>
 Afschrift, Maarten, Matthijs, Anouck, Ryck, Theresa De, Groote, Friedl
-De, Xivry, Jean-Jacques Orban De (2022). <a
+De, <strong>Orban de Xivry, Jean-Jacques</strong> Orban (2022). <a
 href="http://dx.doi.org/10.1101/2022.03.01.481993">Turning the Head
 While Biking Makes Older People Lose Cycling Direction and Balance</a>.
-<em>NA, </em>, 2022.03.01.481993.DOI: 10.1101/2022.03.01.481993 <a
+<em>bioRxiv, </em>, .DOI: 10.1101/2022.03.01.481993 <a
 href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2022_03_01_481993.pdf">pdf</a>
 <br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
 <strong>Preprint</strong>;
@@ -608,11 +585,37 @@ href="http://dx.doi.org/10.1152/jn.00558.2020">Increased Upper-Limb
 Sensory Attenuation with Age</a>. <em>Journal of Neurophysiology,
 127</em>, 474–492.DOI: 10.1152/jn.00558.2020 <a
 href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00558_2020.pdf">pdf</a>
+<br> <i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data
+and <i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code: <a
+href="https://osf.io/4teb5/" class="uri">https://osf.io/4teb5/</a>;
+</div>
+<div
+id="development-and-validation-of-a-novel-robot-based-assessment-of-upper-limb-sensory-processing-in-chronic-stroke"
+class="section level4 blue">
+<h4>Development and Validation of a Novel Robot-Based Assessment of
+Upper Limb Sensory Processing in Chronic Stroke</h4>
+Saenen, Leen, <strong>Orban de Xivry, Jean-Jacques</strong>, Verheyden,
+Geert (2022). <a
+href="http://dx.doi.org/10.3390/brainsci12081005">Development and
+Validation of a Novel Robot-Based Assessment of Upper Limb Sensory
+Processing in Chronic Stroke</a>. <em>Brain Sciences, 12</em>, 1005.DOI:
+10.3390/brainsci12081005 <a
+href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_3390-brainsci12081005.pdf">pdf</a>
+</div>
+<div
+id="the-differential-effect-of-age-on-upper-limb-sensory-processing-proprioception-and-motor-function"
+class="section level4 white">
+<h4>The Differential Effect of Age on Upper Limb Sensory Processing,
+Proprioception and Motor Function</h4>
+Saenen, Leen, Verheyden, Geert, <strong>Orban de Xivry,
+Jean-Jacques</strong> (2022). <a
+href="http://dx.doi.org/10.1101/2022.08.26.505430">The Differential
+Effect of Age on Upper Limb Sensory Processing, Proprioception and Motor
+Function</a>. <em>bioRxiv, </em>, 2022.08.26.505430.DOI:
+10.1101/2022.08.26.505430 <a
+href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2022_08_26_505430.pdf">pdf</a>
 <br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
 <strong>Preprint</strong>;
-<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data and
-<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code: <a
-href="https://osf.io/4teb5/" class="uri">https://osf.io/4teb5/</a>;
 </div>
 </div>
 <div id="section-1" class="section level2">
@@ -768,21 +771,8 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2020_0
 href="https://osf.io/4teb5/" class="uri">https://osf.io/4teb5/</a>
 </div>
 <div
-id="sensorimotor-expectations-bias-motor-resonance-during-observation-of-object-lifting-the-causal-role-of-psts"
-class="section level4 blue">
-<h4>Sensorimotor Expectations Bias Motor Resonance during Observation of
-Object Lifting: The Causal Role of pSTS</h4>
-Rens, Guy, van Polanen, Vonne, Botta, Alessandro, Gann, Mareike A.,
-<strong>Orban de Xivry, Jean-Jacques</strong>, Davare, Marco (2020). <a
-href="http://dx.doi.org/10.1523/JNEUROSCI.2672-19.2020">Sensorimotor
-Expectations Bias Motor Resonance during Observation of Object Lifting:
-The Causal Role of pSTS</a>. <em>Journal of Neuroscience, 40</em>,
-3995–4009.DOI: 10.1523/JNEUROSCI.2672-19.2020 <a
-href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1523-JNEUROSCI_2672-19_2020.pdf">pdf</a>
-</div>
-<div
 id="lift-observation-conveys-object-weight-distribution-but-partly-enhances-predictive-lift-planning-1"
-class="section level4 white">
+class="section level4 blue">
 <h4>Lift Observation Conveys Object Weight Distribution but Partly
 Enhances Predictive Lift Planning</h4>
 Rens, Guy, <strong>Orban de Xivry, Jean-Jacques</strong>, Davare, Marco,
@@ -797,7 +787,7 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2020_0
 </div>
 <div
 id="motor-resonance-is-modulated-by-an-objects-weight-distribution-1"
-class="section level4 blue">
+class="section level4 white">
 <h4>Motor Resonance Is Modulated by an Object’s Weight Distribution</h4>
 Rens, Guy, <strong>Orban de Xivry, Jean-Jacques</strong>, Davare, Marco,
 van Polanen, Vonne (2020). <a
@@ -809,26 +799,21 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-2020_1
 <strong>Preprint</strong>
 </div>
 <div
-id="why-is-the-explicit-component-of-motor-adaptation-limited-in-elderly-adults"
-class="section level4 white">
-<h4>Why Is the Explicit Component of Motor Adaptation Limited in Elderly
-Adults?</h4>
-Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
-(2020). <a href="http://dx.doi.org/10.1152/jn.00659.2019">Why Is the
-Explicit Component of Motor Adaptation Limited in Elderly Adults?</a>.
-<em>Journal of Neurophysiology, 124</em>, 152–167.DOI:
-10.1152/jn.00659.2019 <a
-href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00659_2019.pdf">pdf</a>
-<br> <i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data
-and <i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code: <a
-href="https://osf.io/ks2j8/" class="uri">https://osf.io/ks2j8/</a>;
-<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>
-preregistration: <a href="https://aspredicted.org/sv5d6.pdf"
-class="uri">https://aspredicted.org/sv5d6.pdf</a>
+id="sensorimotor-expectations-bias-motor-resonance-during-observation-of-object-lifting-the-causal-role-of-psts"
+class="section level4 blue">
+<h4>Sensorimotor Expectations Bias Motor Resonance during Observation of
+Object Lifting: The Causal Role of pSTS</h4>
+Rens, Guy, van Polanen, Vonne, Botta, Alessandro, Gann, Mareike A.,
+<strong>Orban de Xivry, Jean-Jacques</strong>, Davare, Marco (2020). <a
+href="http://dx.doi.org/10.1523/JNEUROSCI.2672-19.2020">Sensorimotor
+Expectations Bias Motor Resonance during Observation of Object Lifting:
+The Causal Role of pSTS</a>. <em>Journal of Neuroscience, 40</em>,
+3995–4009.DOI: 10.1523/JNEUROSCI.2672-19.2020 <a
+href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1523-JNEUROSCI_2672-19_2020.pdf">pdf</a>
 </div>
 <div
 id="does-somatosensory-acuity-influence-the-extent-of-internal-model-recalibration-in-young-and-older-adults"
-class="section level4 blue">
+class="section level4 white">
 <h4>Does Somatosensory Acuity Influence the Extent of Internal Model
 Recalibration in Young and Older Adults?</h4>
 Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
@@ -845,6 +830,24 @@ href="https://osf.io/qg3t2/" class="uri">https://osf.io/qg3t2/</a>;
 <i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>
 preregistration: <a href="https://osf.io/qg3t2/registrations"
 class="uri">https://osf.io/qg3t2/registrations</a>
+</div>
+<div
+id="why-is-the-explicit-component-of-motor-adaptation-limited-in-elderly-adults"
+class="section level4 blue">
+<h4>Why Is the Explicit Component of Motor Adaptation Limited in Elderly
+Adults?</h4>
+Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
+(2020). <a href="http://dx.doi.org/10.1152/jn.00659.2019">Why Is the
+Explicit Component of Motor Adaptation Limited in Elderly Adults?</a>.
+<em>Journal of Neurophysiology, 124</em>, 152–167.DOI:
+10.1152/jn.00659.2019 <a
+href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00659_2019.pdf">pdf</a>
+<br> <i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data
+and <i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code: <a
+href="https://osf.io/ks2j8/" class="uri">https://osf.io/ks2j8/</a>;
+<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>
+preregistration: <a href="https://aspredicted.org/sv5d6.pdf"
+class="uri">https://aspredicted.org/sv5d6.pdf</a>
 </div>
 </div>
 <div id="section-3" class="section level2">
@@ -895,31 +898,6 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_7554-eLife_
 class="uri">https://github.com/jjodx/InferentialMistakes</a>
 </div>
 <div
-id="motor-adaptation-but-not-internal-model-recalibration-declines-with-aging"
-class="section level4 blue">
-<h4>Motor Adaptation but Not Internal Model Recalibration Declines with
-Aging</h4>
-Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
-(2019). <a href="http://dx.doi.org/10.1101/292250">Motor Adaptation but
-Not Internal Model Recalibration Declines with Aging</a>. <em>Biorxiv,
-</em>, .DOI: 10.1101/292250 <br>
-<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
-<strong>Preprint</strong>
-</div>
-<div
-id="why-is-the-explicit-component-of-motor-adaptation-limited-in-elderly-adults-1"
-class="section level4 white">
-<h4>Why Is the Explicit Component of Motor Adaptation Limited in Elderly
-Adults?</h4>
-Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
-(2019). <a href="http://dx.doi.org/10.1101/753160">Why Is the Explicit
-Component of Motor Adaptation Limited in Elderly Adults?</a>.
-<em>bioRxiv, </em>, 753160.DOI: 10.1101/753160 <a
-href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-753160.pdf">pdf</a>
-<br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
-<strong>Preprint</strong>
-</div>
-<div
 id="internal-model-recalibration-does-not-deteriorate-with-age-while-motor-adaptation-does"
 class="section level4 blue">
 <h4>Internal Model Recalibration Does Not Deteriorate with Age While
@@ -937,6 +915,31 @@ href="https://osf.io/vncce/" class="uri">https://osf.io/vncce/</a>;
 <i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>
 preregistration: <a href="https://aspredicted.org/bb7yp.pdf"
 class="uri">https://aspredicted.org/bb7yp.pdf</a>
+</div>
+<div
+id="motor-adaptation-but-not-internal-model-recalibration-declines-with-aging"
+class="section level4 white">
+<h4>Motor Adaptation but Not Internal Model Recalibration Declines with
+Aging</h4>
+Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
+(2019). <a href="http://dx.doi.org/10.1101/292250">Motor Adaptation but
+Not Internal Model Recalibration Declines with Aging</a>. <em>Biorxiv,
+</em>, .DOI: 10.1101/292250 <br>
+<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
+<strong>Preprint</strong>
+</div>
+<div
+id="why-is-the-explicit-component-of-motor-adaptation-limited-in-elderly-adults-1"
+class="section level4 blue">
+<h4>Why Is the Explicit Component of Motor Adaptation Limited in Elderly
+Adults?</h4>
+Vandevoorde, Koenraad, <strong>Orban de Xivry, Jean-Jacques</strong>
+(2019). <a href="http://dx.doi.org/10.1101/753160">Why Is the Explicit
+Component of Motor Adaptation Limited in Elderly Adults?</a>.
+<em>bioRxiv, </em>, 753160.DOI: 10.1101/753160 <a
+href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1101-753160.pdf">pdf</a>
+<br> <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
+<strong>Preprint</strong>
 </div>
 </div>
 <div id="section-4" class="section level2">
@@ -1099,20 +1102,20 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_7554-eLife_
 <div id="a-switching-cost-for-motor-planning"
 class="section level4 blue">
 <h4>A Switching Cost for Motor Planning</h4>
-<strong>Orban de Xivry, Jean-Jacques</strong>, Lefevre, Philippe (2016).
-<a href="http://dx.doi.org/10.1101/047621">A Switching Cost for Motor
-Planning</a>. <em>bioRxiv, 5</em>, 1–30.DOI: 10.1101/047621 <br>
-<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
-<strong>Preprint</strong>;
-</div>
-<div id="a-switching-cost-for-motor-planning-1"
-class="section level4 white">
-<h4>A Switching Cost for Motor Planning</h4>
 <strong>Orban de Xivry, Jean-Jacques</strong>, Lefèvre, Philippe (2016).
 <a href="http://dx.doi.org/10.1152/jn.00319.2016">A Switching Cost for
 Motor Planning</a>. <em>Journal of Neurophysiology, 116</em>,
 2857–2868.DOI: 10.1152/jn.00319.2016 <a
 href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_00319_2016.pdf">pdf</a>
+</div>
+<div id="a-switching-cost-for-motor-planning-1"
+class="section level4 white">
+<h4>A Switching Cost for Motor Planning</h4>
+<strong>Orban de Xivry, Jean-Jacques</strong>, Lefevre, Philippe (2016).
+<a href="http://dx.doi.org/10.1101/047621">A Switching Cost for Motor
+Planning</a>. <em>bioRxiv, 5</em>, 1–30.DOI: 10.1101/047621 <br>
+<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i>
+<strong>Preprint</strong>;
 </div>
 </div>
 <div id="section-7" class="section level2">
@@ -1463,7 +1466,7 @@ href="https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/10_1152-jn_005
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -1481,7 +1484,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -1496,6 +1499,9 @@ $(document).ready(function () {
 <script>
 $(document).ready(function ()  {
 
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
         .removeClass('toc-ignore')
@@ -1507,7 +1513,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
