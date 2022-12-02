@@ -29,12 +29,6 @@ p.ex1{
 </a>
 <br>
 
-<a href="https://publons.com/author/420532">
-<i style="color: #4c9fec;" class="ai ai-publons ai-3x" ></i>
-</br>Publons
-</a>
-<br>
-
 <a href="https://orcid.org/0000-0002-4603-7939">
 <i style="color: #4c9fec;" class="ai ai-orcid ai-3x" ></i>
 </br>ORCID
