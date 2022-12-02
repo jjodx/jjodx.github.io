@@ -13,25 +13,38 @@
 
 <title>Laboratory of JJ Orban de Xivry</title>
 
-<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -44,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -79,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -99,40 +84,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 52px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h2 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h3 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h4 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h5 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h6 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -160,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -172,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -182,11 +143,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -198,7 +176,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -265,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -345,7 +322,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -396,6 +373,50 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 </style>
 <p>
+<!-- <div class = "blue"> -->
+<!-- <font size="2"> **December 2022** </font><br> -->
+<!-- Congratulations to Leen Saenen for defending her PhD entitled: *Upper limb sensory processing: development of a robotic paradigm*. -->
+<!-- </div> -->
+<!-- <br> -->
+<div class="blue">
+<font size="2"> <strong>Nov 2022</strong> </font><br> Take-over of
+Twitter by EM did not please many people including me… Therefore, I am
+tweeting less and tooting more. You can find me at <a
+href="https://fediscience.org/@jjodx"><span
+class="citation">@jjodx</span><span
+class="citation">@fediscience.org</span></a>
+</div>
+<p><br></p>
+<div class="blue">
+<font size="2"> <strong>July 2022</strong> </font><br> Congratulations
+to Leen Saenen for her first first-author paper on sensory
+processing/haptic perception in stroke patients: <a
+href="https://www.mdpi.com/2076-3425/12/8/1005">Development and
+Validation of a Novel Robot-Based Assessment of Upper Limb Sensory
+Processing in Chronic Stroke</a>. First joint paper with my colleague <a
+href="https://www.kuleuven.be/wieiswie/en/person/00029759">Geert
+Verheyden</a><br> Leen also has a new preprint on the effect of age on
+haptic perception : <a
+href="https://www.biorxiv.org/content/10.1101/2022.08.26.505430v1">The
+differential effect of age on upper limb sensory processing,
+proprioception and motor function</a>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>summer 2022</strong> </font><br> JJ goes to
+Canada for his sabbatical until summer 2023. He will work with Andrew
+Pruszynski, Joern Diedrichsen and Paul Gribble at Western University
+(London,ON, Canada)</p>
+</div>
+<p><br></p>
+<div class="blue">
+<p><font size="2"> <strong>May-June 2022</strong> </font><br> Bike
+project will not be funded by an internal grant of KU Leuven, at least
+not this year. But comments are encouraging and give us food for
+thoughts. It’s rejection season, no fellowship from FWO to Anouck either
+(not yet ;-) )</p>
+</div>
+<p><br></p>
 <div class="blue">
 <p><font size="2"> <strong>1st of May 2022</strong> </font><br> We are
 sad to see Matheus Maia Pacheco leaving our group but we wish a lot of
@@ -421,7 +442,12 @@ Friedl De Groote is out: <a
 href="https://doi.org/10.1101/2022.03.01.481993">Turning the head while
 biking makes older people lose cycling direction and balance</a></p>
 </div>
-<p><br></p>
+<p><br>
+<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab --></p>
+<details>
+<summary>
+Older News
+</summary>
 <div class="blue">
 <p><font size="2"> <strong>November 2021</strong> </font><br> Just
 before Christmas, the first paper of Manasa Parthasharathy has been
@@ -569,9 +595,6 @@ Computational Neuroscience dedicated to Lance Optican. See the
 publication page.</p>
 </div>
 <p><br></p>
-</div>
-<div id="older-news" class="section level2">
-<h2>older news</h2>
 <div class="blue">
 <p><font size="2"> <strong>July 1, 2020</strong> </font><br> Koen
 Vandevoorde’s paper was published in Journal of Neurophysiology (<a
@@ -650,6 +673,7 @@ href="https://elifesciences.org/articles/48175">here</a>. Interview
 about the paper: <a
 href="https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them">here</a></p>
 </div>
+</details>
 <style>
 .btn {
     border-width: 0 0px 0px 0px;
@@ -683,7 +707,7 @@ by jjodx</a>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -701,7 +725,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

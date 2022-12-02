@@ -71,6 +71,34 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 </style>
 <p>
+<!-- <div class = "blue"> -->
+<!-- <font size="2"> **December 2022** </font><br> -->
+<!-- Congratulations to Leen Saenen for defending her PhD entitled: *Upper limb sensory processing: development of a robotic paradigm*. -->
+<!-- </div> -->
+<!-- <br> -->
+
+<div class = "blue">
+<font size="2"> **Nov 2022** </font><br>
+Take-over of Twitter by EM did not please many people including me... Therefore, I am tweeting less and tooting more. You can find me at [@jjodx@fediscience.org](https://fediscience.org/@jjodx) </div>
+<br>
+
+<div class = "blue">
+<font size="2"> **July 2022** </font><br>
+Congratulations to Leen Saenen for her first first-author paper on sensory processing/haptic perception in stroke patients: [Development and Validation of a Novel Robot-Based Assessment of Upper Limb Sensory Processing in Chronic Stroke](https://www.mdpi.com/2076-3425/12/8/1005). First joint paper with my colleague [Geert Verheyden](https://www.kuleuven.be/wieiswie/en/person/00029759)<br>
+Leen also has a new preprint on the effect of age on haptic perception : [The differential effect of age on upper limb sensory processing, proprioception and motor function](https://www.biorxiv.org/content/10.1101/2022.08.26.505430v1)</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **summer 2022** </font><br>
+JJ goes to Canada for his sabbatical until summer 2023. He will work with Andrew Pruszynski, Joern Diedrichsen and Paul Gribble at Western University (London,ON, Canada)
+</div>
+<br>
+
+<div class = "blue">
+<font size="2"> **May-June 2022** </font><br>
+Bike project will not be funded by an internal grant of KU Leuven, at least not this year. But comments are encouraging and give us food for thoughts. It's rejection season, no fellowship from FWO to Anouck either (not yet ;-) )
+</div>
+<br>
 
 <div class = "blue">
 <font size="2"> **1st of May 2022** </font><br>
@@ -93,6 +121,10 @@ Many grants and fellowship were submitted:
 The first pre-print of our bike project with Maarten Afschrift, Anouck Mathijs and Friedl De Groote is out: [Turning the head while biking makes older people lose cycling direction and balance](https://doi.org/10.1101/2022.03.01.481993)
 </div>
 <br>
+<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab -->
+
+<details>
+  <summary>Older News</summary>
 
 <div class = "blue">
 <font size="2"> **November 2021** </font><br>
@@ -199,8 +231,6 @@ Two new papers published in the Special Issue of the Journal of Computational Ne
 </div>
 <br>
 
-## older news
-
 <div class = "blue">
  <font size="2"> **July 1, 2020** </font><br>
 Koen Vandevoorde's paper was published in Journal of Neurophysiology ([paper](https://doi.org/10.1152/jn.00659.2019)). Preprint is available [here](https://www.biorxiv.org/content/10.1101/753160v1)
@@ -260,6 +290,8 @@ With Prof. Friedl De Groote, we submitted a paper entitled "_Validation of a sma
  <font size="2"> __October, 2019__ </font><br>
 Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical mistakes in eLife [here](https://elifesciences.org/articles/48175). Interview about the paper: [here](https://www.natureindex.com/news-blog/ten-most-common-mistakes-with-statistics-and-how-to-avoid-them)
 </div>
+
+</details>
 
 <style>
 .btn {
