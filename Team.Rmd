@@ -12,15 +12,16 @@ output:
 * [Anouck Matthijs](https://www.kuleuven.be/wieiswie/nl/person/00147975) investigates the role of the cerebellum in age-related deficits in motor control (co-promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
 * [Anda de Witte](https://www.kuleuven.be/wieiswie/nl/person/00146033) investigates the role of the cerebellum in age-related deficits in motor control (co-promotor is [Jolien Gooiers](https://www.kuleuven.be/wieiswie/nl/person/00065645)
 * [Stien Van De Plas](https://www.kuleuven.be/wieiswie/nl/person/00118791) will investigate how somatosensory function influence motor control in different clinical and non-clinical populations. She will also use EEG to do so. (co-promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
-* [Matheus Maia Pacheco](https://www.kuleuven.be/wieiswie/nl/person/00144244) works on the effect of reward on motor adaptation. He will also used EEG to understand the neural substrate of motor adaptation. Collaboration with [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085)
 * [Pauline Hermans](https://www.kuleuven.be/wieiswie/nl/person/00120172) investigates the effect of aging, Parkinson's Disease and reward on motor adaptation (co-promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))
 * [Leen Saenen](https://www.kuleuven.be/wieiswie/nl/person/00123401) develops new techniques to quantify sensorimotor impairments in stroke patients (main promotor is [Geert Verheyden](https://www.kuleuven.be/wieiswie/nl/person/00029759))
 * [Britt Vandendoorent](https://www.kuleuven.be/wieiswie/nl/person/00086733) looks into the effect of tDCS on sensorimotor control in Parkinson's Disease (main promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))
 * [Veerle De Rond](https://www.kuleuven.be/wieiswie/nl/person/00117680) uses fNIRS to study weight shifting in young and elderly participants (main promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))
 * [Silke Kerstens](https://www.kuleuven.be/wieiswie/nl/person/00122770) focuses on the understanding of the mechanisms of tDCS (main promotor is [Myles Mc Laughlin](https://www.kuleuven.be/wieiswie/nl/person/00043883))
-* [Mareike Gann](https://www.kuleuven.be/wieiswie/nl/person/00114278) investigates motor memory consolidation with TMS and fMRI (main promotor is [Genevieve Albouy](https://www.kuleuven.be/wieiswie/nl/person/00096297))
+
 
 ### Alumni
+* [Matheus Maia Pacheco](https://www.kuleuven.be/wieiswie/nl/person/00144244) works on the effect of reward on motor adaptation. He will also used EEG to understand the neural substrate of motor adaptation. Collaboration with [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085)
+* [Mareike Gann](https://www.kuleuven.be/wieiswie/nl/person/00114278) investigates motor memory consolidation with TMS and fMRI (main promotor is [Genevieve Albouy](https://www.kuleuven.be/wieiswie/nl/person/00096297))
 * [Manasa Parthasharathy](https://www.kuleuven.be/wieiswie/nl/person/00118155) works on the use of EEG to quantify age-related deficits in sensorimotor control (main promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
 * [Guy Rens](http://orcid.org/0000-0002-1000-529X) worked on action observation in the context of object prehension.
 * [Koen Vandevoorde](https://scholar.google.be/citations?user=hezciDMAAAAJ&hl=en) was the first PhD student of the Lab. He worked on the impact of aging on motor adaptation.

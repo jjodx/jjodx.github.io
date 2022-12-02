@@ -79,6 +79,11 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 <div class = "blue">
 <font size="2"> **Nov 2022** </font><br>
+Congratulations to Silke Kerstens for a new paper: [A novel tDCS control condition using optimized anesthetic gel to block peripheral nerve input](https://www.frontiersin.org/articles/10.3389/fneur.2022.1049409/full). First of a series with [Myles McLaughlin](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00043883) </div>
+<br>
+
+<div class = "blue">
+<font size="2"> **Nov 2022** </font><br>
 Take-over of Twitter by EM did not please many people including me... Therefore, I am tweeting less and tooting more. You can find me at [@jjodx@fediscience.org](https://fediscience.org/@jjodx) </div>
 <br>
 
