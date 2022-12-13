@@ -7,6 +7,11 @@ output:
 ---
 <br>
 
+#### Laboratory: sensorimotor function and its age- and disease-related deficits
+
+In the group of Prof. Orban de Xivry, we aim at understanding the mechanisms of motor control and learning and which of these mechanisms is affected by aging or by disease (Parkinson’s disease, stroke or cancer).  This is achieved mostly by studying the movement kinematics in simplified and well-controlled paradigms. Yet, while such paradigms have been valuable for our understanding of age- and disease-related changes in motor function, it limits our ability to explore the complexities of neural processing. Therefore, we are developing a research program that brings the real-world complexities into action such as during biking. Behavioral approaches are complemented by neuroimaging or brain stimulation studies when these bring added value to our understanding. For instance, we are currently investigating the role of the cerebellum in age-related deficits in motor control by means of structural and functional neuroimaging. We are a team of multidisciplinary scientists with diverse backgrounds: rehabilitation sciences, movement sciences, neuroscience, psychology or a more computational background (engineering).
+<br>
+
 #### Prof. Jean-Jacques Orban de Xivry
 
 [Department of Movement Sciences](https://gbiomed.kuleuven.be/english/research/50000737)<br>
@@ -18,7 +23,7 @@ KU Leuven, Belgium
 
 __Surname__: JJ
 <br>
-__Twitter__: @jjodx
+__Mastodon__: [@jjodx@neuromatch.social](https://neuromatch.social/@jjodx)  (__Twitter__: @jjodx)
 <br>
 __Email__: jj.orban AT kuleuven DOT be
 <br>
