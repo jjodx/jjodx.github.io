@@ -56,8 +56,18 @@ p.ex1{
 </div>
 
 <div class = "col-md-7">
+<style>
+div.intro { background-color:#e6e6e6; border-radius: 25px; padding: 20px;}
+</style>
+<div class = "intro">
+#### our mission:
+
+We aim at understanding how the brain controls our movements and how it learns to perform new ones by means of detailed kinematic analyses of movement trajectories. We focus on age- and disease-related effects on these sensorimotor processes.
+</div>
+<br>
 
 ## latest news
+
 <p class="ex1">
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
