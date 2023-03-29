@@ -76,6 +76,13 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
 <div class = "blue">
+<font size="2"> **March 2023** </font><br>
+New paper led by Sanne Broeder: [*Transcranial direct current stimulation enhances motor learning in Parkinson’s disease: a randomized controlled trial*](https://link.springer.com/article/10.1007/s00415-023-11669-3).
+</div>
+<br>
+
+<p>
+<div class = "blue">
 <font size="2"> **December 2022** </font><br>
 Congratulations to Leen Saenen for defending her PhD entitled: *Upper limb sensory processing: development of a robotic paradigm*.
 </div>
