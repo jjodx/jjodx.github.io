@@ -71,9 +71,15 @@ We aim at understanding how the brain controls our movements and how it learns t
 <p class="ex1">
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
-
-
 </style>
+
+<p>
+<div class = "blue">
+<font size="2"> **May 2023** </font><br>
+Congratulations to Veerle de Rond for her PhD thesis entitled [Shifting the gear on shifting weight: behavioral, neural and neuromuscular correlates of ageing](https://lirias.kuleuven.be/4079409?limo=0). Her main promotor is Alice Nieuwboer.
+</div>
+<br>
+
 <p>
 <div class = "blue">
 <font size="2"> **April 2023** </font><br>
