@@ -76,6 +76,27 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 <div class = "blue">
 <font size="2"> **May 2023** </font><br>
+New meta-science paper issued from an online collaboration and led by Olivier Corneille (UCLouvain, Belgium): [*Point of View: Beware ‘persuasive communication devices’ when writing and reading scientific articles*](https://elifesciences.org/articles/88654). Twitter thread [here](https://twitter.com/opatcorneille/status/1661766688998666240?s=20)
+</div>
+<br>
+
+<p>
+<div class = "blue">
+<font size="2"> **May 2023** </font><br>
+New paper led by Sanne Broeder: [*A smartphone-based tapping task as a marker of medication response in Parkinson’s Disease: a proof-of-concept study*](www.google.be).
+</div>
+<br>
+
+<p>
+<div class = "blue">
+<font size="2"> **May 2023** </font><br>
+New paper led by Veerle de Rond: [*Test-retest reliability of functional near-infrared spectroscopy during a finger-tapping and postural task in healthy older adults*](https://www.spiedigitallibrary.org/journals/neurophotonics/volume-10/issue-02/025010/Test-retest-reliability-of-functional-near-infrared-spectroscopy-during-a/10.1117/1.NPh.10.2.025010.full).
+</div>
+<br>
+
+<p>
+<div class = "blue">
+<font size="2"> **May 2023** </font><br>
 Congratulations to Veerle de Rond for her PhD thesis entitled [Shifting the gear on shifting weight: behavioral, neural and neuromuscular correlates of ageing](https://lirias.kuleuven.be/4079409?limo=0). Her main promotor is Alice Nieuwboer.
 </div>
 <br>
