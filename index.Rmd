@@ -83,7 +83,7 @@ New meta-science paper issued from an online collaboration and led by Olivier Co
 <p>
 <div class = "blue">
 <font size="2"> **May 2023** </font><br>
-New paper led by Sanne Broeder: [*A smartphone-based tapping task as a marker of medication response in Parkinson’s Disease: a proof-of-concept study*](www.google.be).
+New paper led by Sanne Broeder: [*A smartphone-based tapping task as a marker of medication response in Parkinson’s Disease: a proof-of-concept study*](https://link.springer.com/article/10.1007/s00702-023-02659-w).
 </div>
 <br>
 
