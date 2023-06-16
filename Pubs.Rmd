@@ -23,9 +23,6 @@ Note: add a link to the data in the notes for each paper separately
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
 <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i>
 </a>
-<a href="https://publons.com/author/420532">
-<i style="color: #4c9fec;" class="ai ai-publons ai-3x" ></i>
-</a>
 <a href="https://orcid.org/0000-0002-4603-7939">
 <i style="color: #4c9fec;" class="ai ai-orcid ai-3x" ></i>
 </a>
