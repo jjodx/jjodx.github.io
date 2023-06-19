@@ -72,7 +72,12 @@ We aim at understanding how the brain controls our movements and how it learns t
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
-
+<p>
+<div class = "blue">
+<font size="2"> **May 2023** </font><br>
+Our C2-project entitled _MAeSTRO: neuro-Musculosketetal ASsessement and Training of Older adults for safe (e-)cycling_ has been awarded. Two new PhD-students will be recruited. This is a collaboration with my colleagues Friedl De Groote and Jannique Van Uffelen.
+</div>
+<br>
 <p>
 <div class = "blue">
 <font size="2"> **May 2023** </font><br>
