@@ -55,7 +55,7 @@ Belgium<br>
 <p> __1997-2002__: Study of engineer in applied mathematics. Master thesis: "Modeling of anticipatory responses build-up in repetitive oculomotor tasks" with P. Lefèvre and G. Blohm</p>
 
 #### Academic services
-
+- reviewing Editor at eLife (2023-current)
 - Active reviewer for many different journals in the field of movement neuroscience.
 - Elected board member of the [Neural Control of Movement society](www.ncm-society.org) Term: 2014-2017; Renewed:2018-2020<br>
 - Editorial board member of The Journal of Neuropshysiology<br>
@@ -66,13 +66,14 @@ Belgium<br>
 
 - Founding member of the Young ZAP club of the biomedical sector at KU Leuven (2015-2020)
 - Member of the think-tank on Open Science at KU Leuven (2019)
-- Member of the review commission on teaching portfolio, sector of biomedical sciences (2019-)
-- Member of resonantieraad Metaforum (2019-)
+- Member of the review commission on teaching portfolio, sector of biomedical sciences (2019-current)
+- Member of resonantieraad Metaforum (2019-current)
 - Member of the sustainability council of KU Leuven (2020-2022)
 - Member of the think-tank of societal impact of academic research of KU Leuven (2020-2022)
-- Member of the departmental board of Movement Sciences (2020-) 
+- Member of the departmental board of Movement Sciences (2020-current) 
 
 #### Grants and Awards
+<p> __2023-2026__: C2 project (internal grant from the KU Leuven): MAeSTRo: neuro-Musculoskeletal ASsessement and TRaining for safe (e-)cycling </p>
 <p> __2021-2024__: [FWO](www.fwo.be) senior research project: Is there a motor reserve in the cerebellum? </p>
 <p> __2017-2021__: Internal Grant from KU Leuven with Alice Nieuwboer: Mechanisms of non-invasive brain stimulation to enhance consolidation of motor learning in Parkinson’s disease</p>
 <p> __2019__: Hercules Grant (large equipment) from the [FWO](www.fwo.be): Integrated Platform for Closed-Loop Motor Training and Adaptive Neuromodulation (CLAN, co-PI, 878000€)</p>
