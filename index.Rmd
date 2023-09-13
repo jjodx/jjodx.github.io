@@ -74,6 +74,16 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
 <div class = "blue">
+<font size="2"> **Sept 2023** </font><br>
+Congratulations to Leen Saenen whose paper entitled [The differential effect of age on upper limb sensory processing, proprioception and motor function](https://journals.physiology.org/doi/abs/10.1152/jn.00364.2022) has been accepted at Journal of Neurophysiology  </div>
+<br>
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2023** </font><br>
+We welcome Frea Deroost and Jef Leplae to the team. They will work on the MAESTRO project where they will investigate the effect of aging on bike abilities. Co-promotor is Friedl De Groote. </div>
+<br>
+<p>
+<div class = "blue">
 <font size="2"> **Summer 2023** </font><br>
 2023 will be an amazing year in terms of paper as several projects are being completed and papers accepted. Veerle De Rond has a third paper accepted on muscle activity of lower back muscles during weight-shifting: [ *Lower back muscle activity during weight-shifting is affected by ageing and dual-tasking*](https://www.sciencedirect.com/science/article/pii/S0531556523001924). Britt Vandoorent has a first PhD paper accepted: [*Effect of transcranial direct current stimulation on learning in older adults with and without Parkinson’s disease: A systematic review with meta-analysis*](https://www.sciencedirect.com/science/article/pii/S0278262623001306), Finally, the preprint with the group of Konstantina Kilteni has been accepted at JNeurophysiology: [*Aging exerts a limited influence on the perception of self-generated and externally generated touch*](https://journals.physiology.org/doi/abs/10.1152/jn.00145.2023?journalCode=jn). Congrats to all those involved.
 </div>

@@ -13,8 +13,9 @@ output:
 * [Anda de Witte](https://www.kuleuven.be/wieiswie/nl/person/00146033) investigates the role of the cerebellum in age-related deficits in motor control (co-promotor is [Jolien Gooiers](https://www.kuleuven.be/wieiswie/nl/person/00065645)
 * [Stien Van De Plas](https://www.kuleuven.be/wieiswie/nl/person/00118791) will investigate how somatosensory function influence motor control in different clinical and non-clinical populations. She will also use EEG to do so. (co-promotor is [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085))
 * [Britt Vandendoorent](https://www.kuleuven.be/wieiswie/nl/person/00086733) looks into the effect of tDCS on sensorimotor control in Parkinson's Disease (main promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))
-* [Silke Kerstens](https://www.kuleuven.be/wieiswie/nl/person/00122770) focuses on the understanding of the mechanisms of tDCS (main promotor is [Myles Mc Laughlin](https://www.kuleuven.be/wieiswie/nl/person/00043883))
-
+* [Silke Kerstens](https://www.kuleuven.be/wieiswie/nl/person/00122770) focuses on the understanding of the mechanisms of tDCS (co-promotor is [Myles Mc Laughlin](https://www.kuleuven.be/wieiswie/nl/person/00043883))
+* [Frea Deroost](https://www.kuleuven.be/wieiswie/nl/person/00147109) works on the effect of aging on bike ability. Co-promotor is [Friedl De Groote](https://www.kuleuven.be/wieiswie/nl/person/00046458)
+* [Jef Leplae](https://www.kuleuven.be/wieiswie/nl/person/00147109) works on the effect of aging on bike ability. Co-promotor is [Friedl De Groote](https://www.kuleuven.be/wieiswie/nl/person/00046458)
 
 ### Alumni
 * [Matheus Maia Pacheco](https://www.kuleuven.be/wieiswie/nl/person/00144244) works on the effect of reward on motor adaptation. He will also used EEG to understand the neural substrate of motor adaptation. Collaboration with [Dante Mantini](https://www.kuleuven.be/wieiswie/nl/person/00064085)
