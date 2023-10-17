@@ -23,7 +23,7 @@ KU Leuven, Belgium
 
 __Surname__: JJ
 <br>
-__Mastodon__: [@jjodx@neuromatch.social](https://neuromatch.social/@jjodx)  (__Twitter__: @jjodx)
+__Mastodon__: [@jjodx@neuromatch.social](https://neuromatch.social/@jjodx)  (__BlueSky__: [@jjodx.bsky.social](https://bsky.app/profile/jjodx.bsky.social))
 <br>
 __Email__: jj.orban AT kuleuven DOT be
 <br>

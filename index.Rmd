@@ -23,9 +23,9 @@ p.ex1{
 </a>
 <br>
 
-<a href="http://www.twitter.com/jjodx">
+<a href="https://bsky.app/profile/jjodx.bsky.social">
 <i style="color:  #4c9fec;" class="fa fa-twitter fa-3x" ></i>
-</br>Twitter
+</br>BlueSky
 </a>
 <br>
 
@@ -72,6 +72,19 @@ We aim at understanding how the brain controls our movements and how it learns t
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+
+<p>
+<div class = "blue">
+<font size="2"> **Oct 2023** </font><br>
+New prerint with [Rob Hardwick](http://bas-lab.org/group/): [A control policy can be adapted to task demands during both motor execution and motor planning]() </div>
+<br>
+
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2023** </font><br>
+Congratulations to Pauline Hermans and Koen Vandevoorde for the preprint entitled [Not fleeting but lasting: Limited influence of aging on implicit adaptative motor learning and its short-term retention](https://www.biorxiv.org/content/10.1101/2023.08.30.555501v1). This preprint has been submitted to the [PeerCommunity in Health and Movement Sciences](https://healthmovsci.peercommunityin.org/)  </div>
+<br>
+
 <p>
 <div class = "blue">
 <font size="2"> **Sept 2023** </font><br>
@@ -157,6 +170,11 @@ Congratulations to Leen Saenen for defending her PhD entitled: *Upper limb senso
 Congratulations to Silke Kerstens for a new paper: [A novel tDCS control condition using optimized anesthetic gel to block peripheral nerve input](https://www.frontiersin.org/articles/10.3389/fneur.2022.1049409/full). First of a series with [Myles McLaughlin](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00043883) </div>
 <br>
 
+<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab -->
+
+<details>
+  <summary>Older News</summary>
+
 <div class = "blue">
 <font size="2"> **Nov 2022** </font><br>
 Take-over of Twitter by EM did not please many people including me... Therefore, I am tweeting less and tooting more. You can find me at [@jjodx@fediscience.org](https://fediscience.org/@jjodx) </div>
@@ -201,10 +219,6 @@ Many grants and fellowship were submitted:
 The first pre-print of our bike project with Maarten Afschrift, Anouck Mathijs and Friedl De Groote is out: [Turning the head while biking makes older people lose cycling direction and balance](https://doi.org/10.1101/2022.03.01.481993)
 </div>
 <br>
-<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab -->
-
-<details>
-  <summary>Older News</summary>
 
 <div class = "blue">
 <font size="2"> **November 2021** </font><br>
@@ -391,12 +405,6 @@ Tamar Makin and JJ Orban de Xivry publish their paper on ten common statistical 
 
 
 <div class = "col-md-3">
-<a href="http://twitter.com/jjodx" class="twitter-follow-button" data-show-count="false">Follow @jjodx</a>
-<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
-
-
-<a class="twitter-timeline" data-lang="en" data-width="220" data-height="1000" data-dnt="true" data-theme="light" href="https://twitter.com/jjodx?ref_src=twsrc%5Etfw">Tweets by jjodx</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 </div>
 
