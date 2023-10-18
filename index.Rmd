@@ -76,7 +76,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 <div class = "blue">
 <font size="2"> **Oct 2023** </font><br>
-New prerint with [Rob Hardwick](http://bas-lab.org/group/): [A control policy can be adapted to task demands during both motor execution and motor planning]() </div>
+New prerint with [Rob Hardwick](http://bas-lab.org/group/): [A control policy can be adapted to task demands during both motor execution and motor planning](https://biorxiv.org/cgi/content/short/2023.10.16.562495v1) </div>
 <br>
 
 <p>
