@@ -13,7 +13,7 @@
 
 <title>Laboratory of JJ Orban de Xivry</title>
 
-<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,9 +189,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -372,7 +379,25 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
 <div class="blue">
-<font size="2"> <strong>Oct 2023</strong> </font><br> New prerint with
+<font size="2"> <strong>Nov 2023</strong> </font><br> Two new papers
+just accepted. First one is led by <a
+href="https://orcid.org/0000-0002-9604-7027">Lisa Decraene</a> and in
+collaboration with <a href="http://orcid.org/0000-0002-8025-4910">Hilde
+Feys</a> on bimanual coordination in 50 typically-developing children
+and 50 children with cerebral palsy: <strong>In-depth quantification of
+bimanual coordination using the Kinarm exoskeleton robot in children
+with unilateral cerebral palsy</strong>. The second is the last paper
+from the PhD thesis of <a
+href="http://orcid.org/0000-0002-2046-2566">Veerle de Rond</a> (Promotor
+is <a href="http://orcid.org/0000-0003-1193-6229">Alice Nieuwboer</a>)
+and has been accepted in Scientific report: <strong>Neural correlates of
+weight-shift training in older adults: a randomized controlled
+study</strong>.
+</div>
+<p><br></p>
+<p>
+<div class="blue">
+<font size="2"> <strong>Oct 2023</strong> </font><br> New preprint with
 <a href="http://bas-lab.org/group/">Rob Hardwick</a>: <a
 href="https://biorxiv.org/cgi/content/short/2023.10.16.562495v1">A
 control policy can be adapted to task demands during both motor
