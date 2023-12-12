@@ -57,7 +57,7 @@ div.red {box-sizing: content-box;
 </style>
 <div class = 'red'>
 
-### Open Science icons:<br>
+#### Open Science icons:<br>
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
 library(fontawesome)## calling FontAwesome package
 ```
@@ -67,12 +67,11 @@ library(fontawesome)## calling FontAwesome package
 <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> or <i style='color: #211f1f;' class='ai ai-psyarxiv ai-2x' ></i>: Preprint version<br>
 <br>
 
-### Collaboration icons:<br>
+#### Collaboration icons:<br>
 
 `r fa("location-dot", fill = " #db271a", height="1.5em", width="1.25em", vertical_align="-0.5em")` : Work from the laboratory<br>
 `r fa("building-columns", fill = "#52BDEC", height="1.5em", width="1.5em", vertical_align="-0.5em")` : Collaboration within KU Leuven <br>
 `r fa("globe", fill = "#228B22", height="1.5em", width="1.5em", vertical_align="-0.5em")` : International collaboration<br>
-<br>
 </div>
 
 ```{r setup, include=FALSE}
@@ -82,9 +81,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=FALSE)
 ```{r, results='asis', echo=T, message=T, warning=FALSE}
 library(bib2df)
 bib_df<-bib2df(file="MyPubBetterBibTex.bib")
-
 library(stringi)
-
 bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
 bib_df$JOURNAL<-stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
 bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE,"â€\\“", "-")## replacing latex character by UTF character
@@ -148,8 +145,8 @@ for(i in 1:dims[1]){
       get_data <- stri_replace_all_regex(get_data,"laboratory", paste(fa('location-dot', fill = '#db271a', height='2em', width='1.5em'),'work from the labotatory'))## work from the lab icon
       get_data <- stri_replace_all_regex(get_data,"Laboratory", paste(fa('location-dot', fill = '#db271a', height='2em', width='1.5em'),'work from the labotatory'))## work from the lab icon
       get_data <- stri_replace_all_regex(get_data,"KULeuven", paste(fa('building-columns', fill = '#52BDEC', height='2em', width='2em'),'work with colleagues from KU Leuven'))## Collaborative work icon
-      get_data <- stri_replace_all_regex(get_data,"International", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with international colleagues'))## Collaborative work icon
-      get_data <- stri_replace_all_regex(get_data,"international", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with international colleagues'))## Collaborative work icon
+      get_data <- stri_replace_all_regex(get_data,"International", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with Belgian/international colleagues'))## Collaborative work icon
+      get_data <- stri_replace_all_regex(get_data,"international", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with Belgian/international colleagues'))## Collaborative work icon
       get_data <- stri_replace_all_regex(get_data,"data", paste(fa('square-poll-vertical', fill = '#0f6cd6', height='2em', width='2em'),'data'))## open data icon
       get_data <- stri_replace_all_regex(get_data,"preregistration", paste(fa("square-check", fill = "#db271a", height="2em", width="2em", prefer_type="solid"),'preregistration'))## prereg icon
       get_data <- stri_replace_all_regex(get_data,"preprint", "<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> Preprint")## bioRxiv icon
