@@ -56,11 +56,23 @@ div.red {box-sizing: content-box;
   }
 </style>
 <div class = 'red'>
+
 ### Open Science icons:<br>
-<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> : Open Data<br>
-<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> : Open Code<br>
-<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i>: preregistered (sometimes partially)<br>
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)## calling FontAwesome package
+```
+`r fa('square-poll-vertical', fill = '#0f6cd6', height='1.5em', width='1.5em', vertical_align="-0.5em")`: Open Data<br>
+`r fa("github", fill = "#211f1f", height="1.5em", width="1.5em", vertical_align="-0.5em")` : Open Code<br>
+`r fa("square-check", fill = "#db271a", height="1.5em", width="1.5em", vertical_align="-0.5em", prefer_type="solid")` : preregistered (sometimes partially)<br>
 <i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> or <i style='color: #211f1f;' class='ai ai-psyarxiv ai-2x' ></i>: Preprint version<br>
+<br>
+
+### Collaboration icons:<br>
+
+`r fa("location-dot", fill = " #db271a", height="1.5em", width="1.25em", vertical_align="-0.5em")` : Work from the laboratory<br>
+`r fa("building-columns", fill = "#52BDEC", height="1.5em", width="1.5em", vertical_align="-0.5em")` : Collaboration within KU Leuven <br>
+`r fa("globe", fill = "#228B22", height="1.5em", width="1.5em", vertical_align="-0.5em")` : International collaboration<br>
+<br>
 </div>
 
 ```{r setup, include=FALSE}
@@ -133,13 +145,18 @@ for(i in 1:dims[1]){
   }
     get_data <- bib_df[i,]$NOTE
     if(is.na(get_data)==FALSE){
-      get_data <- stri_replace_all_regex(get_data,"data", "<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data")## open data icon
-      get_data <- stri_replace_all_regex(get_data,"preregistration", "<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i> preregistration")## prereg icon
+      # get_data <- stri_replace_all_regex(get_data,"data", "<i style='color: #0f6cd6;' class='ai ai-open-data ai-2x' ></i> data")## open data icon
+      get_data <- stri_replace_all_regex(get_data,"data", paste(fa('square-poll-vertical', fill = '#0f6cd6', height='2em', width='2em'),'data'))## open data icon
+      # get_data <- stri_replace_all_regex(get_data,"preregistration", "<i style='color: #db271a;' class='ai ai-preregistered ai-2x' ></i> preregistration")## prereg icon
+      get_data <- stri_replace_all_regex(get_data,"preregistration", paste(fa("square-check", fill = "#db271a", height="2em", width="2em", prefer_type="solid"),'preregistration'))## prereg icon
       get_data <- stri_replace_all_regex(get_data,"preprint", "<i style='color: #211f1f;' class='ai ai-biorxiv ai-2x' ></i> __Preprint__")## bioRxiv icon
       get_data <- stri_replace_all_regex(get_data,"psyarxiv", "<i style='color: #211f1f;' class='ai ai-psyarxiv ai-2x' ></i> __Preprint__")## psyarXiv icon
-      get_data <- stri_replace_all_regex(get_data,"code", "<i style='color: #211f1f;' class='fa fa-github fa-2x' ></i> code")## open code icon
-      
-      
+      get_data <- stri_replace_all_regex(get_data,"code", paste(fa('github', fill = '#211f1f', height='2em', width='2em'),'code'))## open code icon
+      get_data <- stri_replace_all_regex(get_data,"laboratory", paste(fa('location-dot', fill = '#db271a', height='2em', width='1.5em'),'work from the labotatory'))## work from the lab icon
+      get_data <- stri_replace_all_regex(get_data,"Laboratory", paste(fa('location-dot', fill = '#db271a', height='2em', width='1.5em'),'work from the labotatory'))## work from the lab icon
+      get_data <- stri_replace_all_regex(get_data,"KULeuven", paste(fa('building-columns', fill = '#52BDEC', height='2em', width='2em'),'work with colleagues from KU Leuven'))## Collaborative work icon
+      get_data <- stri_replace_all_regex(get_data,"International", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with international colleagues'))## Collaborative work icon
+      get_data <- stri_replace_all_regex(get_data,"international", paste(fa('globe', fill = '#228B22', height='2em', width='2em'),'work with international colleagues'))## Collaborative work icon
       cat(c(" <br> ", get_data), sep="")
 
   }
