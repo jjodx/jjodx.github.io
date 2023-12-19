@@ -75,6 +75,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 <p>
 <div class = "blue">
+<font size="2"> **Dec 2023** </font><br>
+The Funds for Flemish Research (FWO) has awarded a new project grant to the lab. This project in collaboration with [An De Groef](https://www.kuleuven.be/wieiswie/nl/person/00086923) is entitled **Multifaceted approach to investigate position sense in health and disease**. We will be recruiting two PhD students to work on this project. Contact me if you are interested in working on that topic. </div>
+<br>
+
+<p>
+<div class = "blue">
 <font size="2"> **Nov 2023** </font><br>
 Two new papers just accepted. First one is led by [Lisa Decraene](https://orcid.org/0000-0002-9604-7027) and in collaboration with [Hilde Feys](http://orcid.org/0000-0002-8025-4910) on bimanual coordination in 50 typically-developing children and 50 children with cerebral palsy: **In-depth quantification of bimanual coordination using the Kinarm exoskeleton robot in children with unilateral cerebral palsy**. The second is the last paper from the PhD thesis of [Veerle de Rond](http://orcid.org/0000-0002-2046-2566) (Promotor is [Alice Nieuwboer](http://orcid.org/0000-0003-1193-6229)) and has been accepted in Scientific report: **Neural correlates of weight-shift training in older adults: a randomized controlled study**.  </div>
 <br>

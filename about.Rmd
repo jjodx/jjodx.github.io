@@ -73,7 +73,7 @@ Belgium<br>
 - Member of the departmental board of Movement Sciences (2020-current) 
 
 #### Grants and Awards
-<!--<p> __2024-2027__: [FWO](www.fwo.be) senior research project: Multifaceted approach to investigate position sense in health and disease (co-PI: An De Groef) </p>-->
+<p> __2024-2027__: [FWO](www.fwo.be) senior research project: Multifaceted approach to investigate position sense in health and disease (co-PI: [An De Groef](https://www.kuleuven.be/wieiswie/nl/person/00086923))
 <p> __2023-2026__: C2 project (internal grant from the KU Leuven): **MAeSTRo**: neuro-**M**usculoskeletal **AS**sessement and **TR**aining for safe (e-)cycling (co-PI: Friedl De Groote)</p>
 <p> __2023-2026__: collaborator on a C2 project (internal grant from the KU Leuven) awarded to Geert Verheyden: **Robust**: integrated **ROB**otic **U**pper limb sensorimotor rehabilitation after **ST**roke to improve behavioural, objective and real-life outcome</p>
 <p> __2022-2024__: Collaborator on a New Frontiers in Research Fund - Exploration grant entitled: "A unifying principle of cerebellar function" led by [Mireille Broucke](http://www.control.utoronto.ca/~broucke) and [Denise Henriques](https://deniseh.lab.yorku.ca/) </p>
