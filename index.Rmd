@@ -72,14 +72,15 @@ We aim at understanding how the brain controls our movements and how it learns t
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+<p>
+<div class = "blue">
 
 <font size="2"> **Feb 2024** </font><br>
 The preprint of Pauline and Koen [Not fleeting but lasting: Limited influence of aging on implicit adaptative motor learning and its short-term retention](https://www.biorxiv.org/content/10.1101/2023.08.30.555501v1) has been positively recommended by the [PeerCommunity in Health and Movement Sciences](https://healthmovsci.peercommunityin.org/). Recommendation reads like : [*"A main strength of the current paper is the rigor applied to testing this question. The authors provide robust, converging evidence from multiple analyses and statistical methods, and control for confounds both statistically and experimentally."*](https://healthmovsci.peercommunityin.org/articles/rec?id=40).
-  </div>
+</div>
 
 <p>
 <div class = "blue">
-<<<<<<< Updated upstream
 <font size="2"> **Dec 2023** </font><br>
 The Funds for Flemish Research (FWO) has awarded a new project grant to the lab. This project in collaboration with [An De Groef](https://www.kuleuven.be/wieiswie/nl/person/00086923) is entitled **Multifaceted approach to investigate position sense in health and disease**. We will be recruiting two PhD students to work on this project. Contact me if you are interested in working on that topic. </div>
 <br>
