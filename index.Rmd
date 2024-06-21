@@ -1,5 +1,5 @@
 ---
-title: "Laboratory of JJ Orban de Xivry"
+title: "Neuroscience Of Movement in Aging and Disease (NoMAD) laboratory"
 output:
   html_document:
     theme: spacelab
