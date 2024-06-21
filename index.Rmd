@@ -72,6 +72,39 @@ We aim at understanding how the brain controls our movements and how it learns t
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+<p>
+
+<div class = "blue">
+<font size="2"> **May 2024** </font><br>
+Anouck Matthijs and Anda De Witte have completed the data collection for our FWO-funded research project on "Is there a motor reserve in the cerebellum". The datasets includes a variety of cognitive, motor and proprioception tasks and some structural neuroimaging on **50 young adult, 80 older adults and 30 80+ adults**. What a feat!!!
+</div>
+
+<p>
+<div class = "blue">
+<font size="2"> **April 2024** </font><br>
+We had two visitors this month. [Josh Cashaback](https://joshcashaback.weebly.com/) came right after NCM and gave a talk on **"Movements reflect decision deliberation"**.
+<br>
+<br>
+[Caroline Nettekoven](https://www.caroline-nettekoven.com/) followed a few days later and presented her work on an atlas for the cerebellum **"Navigating the cerebellum: A hierarchical functional atlas for individual precision mapping"**
+</div>
+
+<p>
+<div class = "blue">
+<font size="2"> **April 2024** </font><br>
+Some members of the lab (Anouck, Anda, Jef, Frea and JJ have travelled to Dubrovnik in Croatia for the [Neural control of movement society meeting](https://ncm-society.org/). Anda presented a poster entitled **"Reaching and Speech Adaptation in Healthy Young, Old and Older Old Adults"**. Anouck's poster was about **"Exploring physical resilience during healthy aging: insights from an inter-joint coordination task"**. Jean-Jacques was also involved in three other posters based on work done during his sabbatical at Western University. One presented by Ali Ghavampour entitled **"What Makes Some Chords hard to Play? Exploring the Role of Muscle Synergies, Biomechanical and Cogni􀀗ve Factors"** (with Andrew Pruzynski and Jörn Diedrichsen), one by Mike Karkuszewski **"Characterizing marmoset forelimb coordination in string-pulling"** and the third one was presented by Mathilde Bertrand **"String-pulling behavior in the aging marmoset"**
+</div>
+
+<p>
+<div class = "blue">
+<font size="2"> **March 2024** </font><br>
+The review paper written with Jörn Diedrichsen on the diversity of function of the cerebellum has been accepted for publication in Current Opinion in Behavioral Sciences. The paper is entitled [Diversity of the nature of input and output signals in the cerebellum suggests a diversity of function](https://www.sciencedirect.com/science/article/pii/S2352154624000378).
+</div>
+
+<p>
+<div class = "blue">
+<font size="2"> **Feb 2024** </font><br>
+The preprint of Pauline and Koen [Not fleeting but lasting: Limited influence of aging on implicit adaptative motor learning and its short-term retention](https://www.biorxiv.org/content/10.1101/2023.08.30.555501v1) has been positively recommended by the [PeerCommunity in Health and Movement Sciences](https://healthmovsci.peercommunityin.org/). Recommendation reads like : [*"A main strength of the current paper is the rigor applied to testing this question. The authors provide robust, converging evidence from multiple analyses and statistical methods, and control for confounds both statistically and experimentally."*](https://healthmovsci.peercommunityin.org/articles/rec?id=40).
+</div>
 
 <p>
 <div class = "blue">
@@ -83,7 +116,6 @@ The Funds for Flemish Research (FWO) has awarded a new project grant to the lab.
 <div class = "blue">
 <font size="2"> **Nov 2023** </font><br>
 Two new papers just accepted. First one is led by [Lisa Decraene](https://orcid.org/0000-0002-9604-7027) and in collaboration with [Hilde Feys](http://orcid.org/0000-0002-8025-4910) on bimanual coordination in 50 typically-developing children and 50 children with cerebral palsy: **In-depth quantification of bimanual coordination using the Kinarm exoskeleton robot in children with unilateral cerebral palsy**. The second is the last paper from the PhD thesis of [Veerle de Rond](http://orcid.org/0000-0002-2046-2566) (Promotor is [Alice Nieuwboer](http://orcid.org/0000-0003-1193-6229)) and has been accepted in Scientific report: **Neural correlates of weight-shift training in older adults: a randomized controlled study**.  </div>
-<br>
 
 <p>
 <div class = "blue">
