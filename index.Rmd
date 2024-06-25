@@ -75,6 +75,15 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 
 <div class = "blue">
+<font size="2"> **June 2024** </font><br>
+We have a new lab logo for the NoMAD Lab
+![Our new lab logo](images/LabLogo.png)
+The logo represents everything we are interested in: young and old people, moving, biking, upper limb movements, the brain, the cerebellum.
+</div>
+
+<p>
+
+<div class = "blue">
 <font size="2"> **May 2024** </font><br>
 Anouck Matthijs and Anda De Witte have completed the data collection for our FWO-funded research project on "Is there a motor reserve in the cerebellum". The datasets includes a variety of cognitive, motor and proprioception tasks and some structural neuroimaging on **50 young adult, 80 older adults and 30 80+ adults**. What a feat!!!
 </div>
