@@ -1,7 +1,7 @@
 name: "jj-website"
 output_dir: "."
 navbar:
-  title: "Le Neurone Moteur"
+  title: "NoMAD Laboratory"
   left:
     - text: "Home"
       icon: fa-home  # handy way to use FontAwesome icons in nav!

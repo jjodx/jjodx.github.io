@@ -1,21 +1,30 @@
 ---
-title: "Neuroscience Of Movement in Aging and Disease (NoMAD) laboratory"
+title: <p align="center"> Neuroscience of Movement <br> in Aging and Disease (NoMAD) laboratory </p>
 output:
   html_document:
     theme: spacelab
     highlight: textmate
 ---
+<style>
+div.intro { background-color:#e6e6e6; border-radius: 25px; padding: 20px;}
+</style>
+<div class = "intro">
+The NoMAD laboratory aims at understanding how the brain controls our movements and how it learns to perform new ones by means of detailed kinematic analyses of movement trajectories. NoMAD focuses on age- and disease-related effects on these sensorimotor processes.
+</div>
+<br>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 <style>
 p.ex1{
-    padding-left: 20%;
+    padding-left: 15%;
 }
 #more {display: none;}
 </style>
 
 <div class = "col-md-2">
 
+![NoMAD Lab](images/LabLogo.png)
 
 <a href="http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en">
 <i style="color:  #4c9fec;" class="ai ai-google-scholar ai-3x" ></i>
@@ -56,16 +65,6 @@ p.ex1{
 </div>
 
 <div class = "col-md-7">
-<style>
-div.intro { background-color:#e6e6e6; border-radius: 25px; padding: 20px;}
-</style>
-<div class = "intro">
-#### our mission:
-
-We aim at understanding how the brain controls our movements and how it learns to perform new ones by means of detailed kinematic analyses of movement trajectories. We focus on age- and disease-related effects on these sensorimotor processes.
-</div>
-<br>
-
 ## latest news
 
 <p class="ex1">
@@ -78,7 +77,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <font size="2"> **June 2024** </font><br>
 We have a new lab logo for the NoMAD Lab
 ![Our new lab logo](images/LabLogo.png)
-The logo represents everything we are interested in: young and old people, moving, biking, upper limb movements, the brain, the cerebellum.
+The logo represents everything we are interested in: young and old people, moving, biking, upper limb movements, the brain, and the cerebellum.
 </div>
 
 <p>
