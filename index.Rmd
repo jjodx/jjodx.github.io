@@ -74,6 +74,13 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 <p>
 
 <div class = "blue">
+<font size="2"> **Sept 2024** </font><br>
+We are welcoming new students and waving goodbye to others. 
+First, Stien Vandenplas is leaving our group to continue working as a psychologist outside of academia. Good Luck Stien. 
+In the framework of the FWO-funded proprioception project, we are welcoming Ilaria Carrara and Danny Koumans. Their co-promotor is An De Groef. We also welcome Tim Maurissens who will work on an add-on to the bike project (testing patients with Parkinson's disease). His main promotor is Moran Gilat. Last but not least, two new students joined our project focusing on sensory processing in stroke patients. Siqi Yang will investigate the changes in brain function with sensory processing using fNIRS (Main promotor is Geert Verheyden). Ines Martins will look at the effect of sensory learning on brain activity using fMRI (main promotor is Jolien Gooijers).
+</div>
+
+<div class = "blue">
 <font size="2"> **June 2024** </font><br>
 We have a new lab logo for the NoMAD Lab
 ![Our new lab logo](images/LabLogo.png)
