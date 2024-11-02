@@ -72,7 +72,11 @@ p.ex1{
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
-
+<div class = "blue">
+<font size="2"> **Oct 2024** </font><br>
+During my sabbatical stay at the Western University of Ontario (2022-2023), [Andrew Pruszynski](https://www.pruszynskilab.com/) and I discussed about the utility of the string pulling to study sensorimotor behavior in marmosets. The first preprint from a future series of papers is now out [String-pulling by the common marmoset](https://www.biorxiv.org/content/10.1101/2024.10.25.620352v1.abstract). Exciting times
+</div>
+<p>
 <div class = "blue">
 <font size="2"> **Oct 2024** </font><br>
 Anda De Witte and Anouck Matthijs succesfully presented their projects at the annual meeting of Society for Neuroscience in Chicago. Anda talked about ["Age-related decline in cerebellar structure does not lead to a decline in cerebellar motor function"](https://www.abstractsonline.com/pp8/#!/20433/presentation/27731) and Anouck about ["The cerebellum as a potential key region for motor reserve in healthy aging"](https://www.abstractsonline.com/pp8/#!/20433/presentation/27730)
