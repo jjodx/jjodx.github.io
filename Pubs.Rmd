@@ -86,6 +86,10 @@ bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE, "[\\{\\}]", "")
 bib_df$JOURNAL<-stri_replace_all_regex(bib_df$JOURNAL, "[\\{\\}]", "")
 bib_df$TITLE<-stri_replace_all_regex(bib_df$TITLE,"â€\\“", "-")## replacing latex character by UTF character
 
+## setting a journal name for the preprints
+bib_df$PAGES[is.na(bib_df$JOURNAL)]<- ""
+bib_df$JOURNAL[is.na(bib_df$JOURNAL)]<-bib_df$ARCHIVEPREFIX[is.na(bib_df$JOURNAL)]
+
 # sort bib_df by year
 bib_df<-bib_df[order(bib_df$YEAR, decreasing=T),]
 
@@ -135,8 +139,10 @@ for(i in 1:dims[1]){
         bib_df[i,]$JOURNAL, ", ",
         bib_df[i,]$VOLUME, "*, ",
         bib_df[i,]$PAGES, ".",
-        "DOI: ",
-        bib_df[i,]$DOI), sep="")
+        "DOI: [",
+        bib_df[i,]$DOI), "](http://dx.doi.org/",
+        bib_df[i,]$DOI,
+        "). File: ", sep="")
   if(is.na(a)==FALSE){
     cat(c(" ", " [pdf](",file_path,")"), sep="")
   }
