@@ -73,6 +73,21 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 <p>
 <div class = "blue">
+<font size="2"> **Jan 2025** </font><br>
+New preprint from my sabbatical time at Western University: [A paradigm to study the learning of muscle activity patterns outside of the natural repertoire](https://www.biorxiv.org/content/10.1101/2025.02.13.638098v1.abstract)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Jan 2025** </font><br>
+New paper accepted with data collected in 2016... First paper of Pauline Hermans [Not fleeting but lasting: limited influence of aging on implicit adaptative motor learning and its short-term retention](https://journals.physiology.org/doi/abs/10.1152/jn.00412.2024). This is a failure to replicate the decrease in spontaneous recovery with aging from Trewatha ([paper](https://pubmed.ncbi.nlm.nih.gov/25274819/))
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Dec 2024** </font><br>
+New paper accepted in collaboration with Rob Hardwick: [A control policy can be adapted to task demands during both motor execution and motor planning](https://journals.physiology.org/doi/abs/10.1152/jn.00410.2023)
+</div>
+<p>
+<div class = "blue">
 <font size="2"> **Oct 2024** </font><br>
 During my sabbatical stay at the Western University of Ontario (2022-2023), [Andrew Pruszynski](https://www.pruszynskilab.com/) and I discussed about the utility of the string pulling to study sensorimotor behavior in marmosets. The first preprint from a future series of papers is now out [String-pulling by the common marmoset](https://www.biorxiv.org/content/10.1101/2024.10.25.620352v1.abstract). Exciting times
 </div>
@@ -84,9 +99,7 @@ Anda De Witte and Anouck Matthijs succesfully presented their projects at the an
 <p>
 <div class = "blue">
 <font size="2"> **Sept 2024** </font><br>
-We are welcoming new students and waving goodbye to others. 
-First, Stien Vandenplas is leaving our group to continue working as a psychologist outside of academia. Good Luck Stien. 
-In the framework of the FWO-funded proprioception project, we are welcoming Ilaria Carrara and Danny Koumans. Their co-promotor is An De Groef. We also welcome Tim Maurissens who will work on an add-on to the bike project (testing patients with Parkinson's disease). His main promotor is Moran Gilat. Last but not least, two new students joined our project focusing on sensory processing in stroke patients. Siqi Yang will investigate the changes in brain function with sensory processing using fNIRS (Main promotor is Geert Verheyden). Ines Martins will look at the effect of sensory learning on brain activity using fMRI (main promotor is Jolien Gooijers).
+We are welcoming new students. In the framework of the FWO-funded proprioception project, we are welcoming Ilaria Carrara and Danny Koumans. Their co-promotor is An De Groef. We also welcome Tim Maurissens who will work on an add-on to the bike project (testing patients with Parkinson's disease). His main promotor is Moran Gilat. Last but not least, two new students joined our project focusing on sensory processing in stroke patients. Siqi Yang will investigate the changes in brain function with sensory processing using fNIRS (Main promotor is Geert Verheyden). Ines Martins will look at the effect of sensory learning on brain activity using fMRI (main promotor is Jolien Gooijers).
 </div>
 <p>
 <div class = "blue">
