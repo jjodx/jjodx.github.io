@@ -75,7 +75,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 <div class = "blue">
 <font size="2"> **Sept-Oct 2025** </font><br>
-Congratulations to Frea Deroost for getting her participation to the [International Cycling Safety conference](https://icsc2025.net/) supported by the FWO!
+Congratulations to Frea Deroost for getting her participation to the [International Cycling Safety conference](https://icsc2025.net/) supported by the FWO.
 ![ICSC](images/icsc.png)</div>
 <p>
 
