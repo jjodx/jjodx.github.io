@@ -71,6 +71,61 @@ p.ex1{
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+
+
+<div class = "blue">
+<font size="2"> **Sept-Oct 2025** </font><br>
+Congratulations to Frea Deroost for getting her participation to the [International Cycling Safety conference](https://icsc2025.net/) supported by the FWO!
+![ICSC](images/icsc.png)</div>
+<p>
+
+
+<div class = "blue">
+<font size="2"> **Sept-Oct 2025** </font><br>
+For two months, we have the visit of [François May](https://pagespro.univ-gustave-eiffel.fr//francois-may?lang=fr&no_cache=1), from université Gustave Eiffel (Lyon, France), who will work on the bike project with us. 
+![François May](images/photo_fm.jpg)</div>
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2025** </font><br>
+We are sad to see Jef Leplae leaving the lab after two years. Lots of success for him in his future projects (you might see him soon on Belgian television...). While waiting for this, you can see him in action (recruiting add for his study on cycling skills in children: [here](https://www.youtube.com/watch?v=GxPIdV9787w)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2025** </font><br>
+New preprint from a collaboration with Mireille Broucke, Marius t'Hart and Denise Henriques (University of Toronto): [Modeling Human Visuomotor Adaptation with a Disturbance Observer Framework](https://www.biorxiv.org/content/10.1101/2025.09.01.673530v1.abstract)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Aug 2025** </font><br>
+New paper accepted from the PHD of Silke Kerstens: [3D-printable stimulation electrodes to improve precision, reproducibility, and reliability of transcranial electric current stimulation](https://www.sciencedirect.com/science/article/pii/S1388245725008338)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **June 2025** </font><br>
+New preprint from  the cerebellar reserve project about the fact that cerebellar function does not decline with age even though cerebellar structure does: [Preserved cerebellar functions despite structural degeneration in older adults](https://www.biorxiv.org/content/10.1101/2025.06.18.660418v2.abstract)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **June 2025** </font><br>
+New paper accepted at the Journal of Neurophysiology: [A paradigm to study the learning of muscle activity patterns outside of the natural repertoire](https://journals.physiology.org/doi/full/10.1152/jn.00088.2025)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **May 2025** </font><br>
+New preprint about the effect of age on proprioception: [Age-related changes in proprioception are of limited size, outcome-dependent and task-dependent](https://www.biorxiv.org/content/10.1101/2025.05.22.655043v2)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **April 2025** </font><br>
+Jean-Jacques participated to the Neural Control of Movement conference in Panama city.
+![Panama Pix](images/panama.jpg) </div>
+<p>
+<p>
+<div class = "blue">
+<font size="2"> **March 2025** </font><br>
+Both Frea Deroost and Ilaria Carrara submitted an application for an FWO PhD fellowship. Result in October 2025. New FWO research project submitted about motor complexity and aging. Results in December 2025.
+</div>
+<p>
 <p>
 <div class = "blue">
 <font size="2"> **Jan 2025** </font><br>
@@ -110,7 +165,10 @@ The logo represents everything we are interested in: young and old people, movin
 </div>
 
 <p>
+<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab -->
 
+<details>
+  <summary>Older News</summary>
 <div class = "blue">
 <font size="2"> **May 2024** </font><br>
 Anouck Matthijs and Anda De Witte have completed the data collection for our FWO-funded research project on "Is there a motor reserve in the cerebellum". The datasets includes a variety of cognitive, motor and proprioception tasks and some structural neuroimaging on **50 young adult, 80 older adults and 30 80+ adults**. What a feat!!!
@@ -251,10 +309,6 @@ Congratulations to Leen Saenen for defending her PhD entitled: *Upper limb senso
 Congratulations to Silke Kerstens for a new paper: [A novel tDCS control condition using optimized anesthetic gel to block peripheral nerve input](https://www.frontiersin.org/articles/10.3389/fneur.2022.1049409/full). First of a series with [Myles McLaughlin](https://gbiomed.kuleuven.be/english/research/50000666/50000672/people/members/00043883) </div>
 <br>
 
-<!--  source collapsible elements: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab -->
-
-<details>
-  <summary>Older News</summary>
 
 <div class = "blue">
 <font size="2"> **Nov 2022** </font><br>
