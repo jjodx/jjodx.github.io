@@ -18,9 +18,10 @@ output:
 * [Tim Maurissens](https://www.kuleuven.be/wieiswie/nl/person/00174941) the influence of Parkinson's disease on biking abilities. His main promotor is [Moran Gilat](https://www.kuleuven.be/wieiswie/nl/person/00120552). This is an add-on to the bike project (Maestro)
 * [Siqi Yang](https://www.kuleuven.be/wieiswie/nl/person/00175096) investigates the changes in brain function with sensory processing using fNIRS. Her main promotor is [Geert Verheyden](https://www.kuleuven.be/wieiswie/nl/person/00029759). This is an add-on to the Robust project.
 * [Ines Martins](https://www.kuleuven.be/wieiswie/en/person/00175535) will look at the effect of sensory learning on brain activity using fMRI. Her main promotor is [Jolien Gooijers](https://www.kuleuven.be/wieiswie/nl/person/00065645).This is an add-on to the Robust project.
-* [Stien Van De Plas](https://www.kuleuven.be/wieiswie/nl/person/00118791)  investigates the effect of aging on proprioception.
+
 
 ### Alumni
+* [Stien Van De Plas](https://www.kuleuven.be/wieiswie/nl/person/00118791)  investigated the effect of aging on proprioception.
 * [Jef Leplae](https://www.kuleuven.be/wieiswie/nl/person/00147109) worked on the effect of aging on bike ability. Co-promotor is [Friedl De Groote](https://www.kuleuven.be/wieiswie/nl/person/00046458)
 * [Silke Kerstens](https://www.kuleuven.be/wieiswie/nl/person/00122770) focuses on the understanding of the mechanisms of tDCS (co-promotor is [Myles Mc Laughlin](https://www.kuleuven.be/wieiswie/nl/person/00043883))
 * [Britt Vandendoorent](https://www.kuleuven.be/wieiswie/nl/person/00086733) looked into the effect of tDCS on sensorimotor control in Parkinson's Disease (main promotor is [Alice Nieuwboer](https://www.kuleuven.be/wieiswie/nl/person/00014581))

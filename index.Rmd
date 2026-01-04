@@ -72,6 +72,30 @@ p.ex1{
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
+<div class = "blue">
+<font size="2"> **Dec 2025** </font><br>
+JJ was awarded a new Senior Research project enttiled "MoCo: Motor Complexity and aging"by the FWO. This four-year project can be summarized as follows:
+"Elderly people usually perform worse than young adults in situations where a cognitive task is performed simultaneously with a motor task (e.g. talking while walking). This is often thought to reflect reduced cognitive capacity in the elderly. However, reduced performance could equally well be due to the fact that the elderly expend more resources in performing the motor task itself. If so, then understanding the source of increased difficulty in a motor task and adapting the task to obviate the problem would be a practical way of reducing the real life problems of dual tasking.For the first time this application directly addresses the question of whether dual tasking is limited by cognitive or motor resources using a variety of tasks that can be combined in different ways."
+</div>
+<p>
+
+<div class = "blue">
+<font size="2"> **Dec 2025** </font><br>
+The first first-author paper of Stien Van De Plas entitled "Age-related changes in proprioception are of limited size, outcome-dependent and task-dependent" has been accepted at [Geroscience]()
+</div>
+<p>
+
+<div class = "blue">
+<font size="2"> **Dec 2025** </font><br>
+The first first-author paper of Anouck Mathijs entitled "Adults up to 80 years old maintain effective movement planning when facing complex body dynamics" has been accepted at [Geroscience](https://link.springer.com/article/10.1007/s11357-025-02051-4)
+</div>
+<p>
+
+<div class = "blue">
+<font size="2"> **Nov 2025** </font><br>
+Congratulations to Frea Deroost for getting the poster award for her poster at the [International Cycling Safety conference](https://icsc2025.net/).
+![Frea](images/ICSC2025.jpg)</div>
+<p>
 
 <div class = "blue">
 <font size="2"> **Sept-Oct 2025** </font><br>
@@ -85,6 +109,12 @@ Congratulations to Frea Deroost for getting her participation to the [Internatio
 For two months, we have the visit of [François May](https://pagespro.univ-gustave-eiffel.fr//francois-may?lang=fr&no_cache=1), from université Gustave Eiffel (Lyon, France), who will work on the bike project with us. 
 ![François May](images/photo_fm.jpg)</div>
 <p>
+
+<div class = "blue">
+<font size="2"> **Sept 2025** </font><br>
+Congratulations to Ilaria Carrara for getting a FWO fellowship for her PhD on the effect of aging on proprioception.
+</div>
+
 <div class = "blue">
 <font size="2"> **Sept 2025** </font><br>
 We are sad to see Jef Leplae leaving the lab after two years. Lots of success for him in his future projects (you might see him soon on Belgian television...). While waiting for this, you can see him in action (recruiting add for his study on cycling skills in children: [here](https://www.youtube.com/watch?v=GxPIdV9787w)
