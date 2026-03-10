@@ -71,7 +71,7 @@ extract_dois_from_ids <- function(external_ids) {
   dois <- character()
   for (id in external_ids$`external-id`) {
     if (tolower(id$`external-id-type`) == "doi")
-      dois <- c(dois, tolower(trimws(id$`external-id-value`)))
+      dois <- c(dois, sub("\\.$", "", trimws(id$`external-id-value`)))  # preserve original case; strip any trailing period
   }
   dois
 }
@@ -102,7 +102,7 @@ fetch_orcid_dois <- function(orcid_id) {
         dois <- c(dois, extract_dois_from_ids(s$`external-ids`))
     }
   }
-  unique(dois)  # remove duplicates (same paper referenced multiple times)
+  dois[!duplicated(tolower(dois))]  # deduplicate case-insensitively, preserve original case
 }
 
 # ── 3. CrossRef API ───────────────────────────────────────────────────────────
@@ -141,7 +141,7 @@ fetch_crossref_metadata <- function(doi) {
   url  <- paste0("https://api.crossref.org/works/", doi)
   resp <- GET(url, query = list(mailto = EMAIL))
   if (status_code(resp) != 200) {
-    message(paste("  CrossRef: no metadata for DOI:", doi))
+    message(sprintf("  CrossRef: HTTP %d for DOI: %s", status_code(resp), doi))
     return(NULL)
   }
   msg <- fromJSON(content(resp, "text", encoding = "UTF-8"), simplifyVector = FALSE)$message
@@ -160,7 +160,7 @@ fetch_crossref_metadata <- function(doi) {
   }
 
   list(
-    doi     = doi,
+    doi     = tolower(doi),  # normalise to lowercase for storage and YAML matching
     title   = if (length(msg$title) > 0)  msg$title[[1]]                             else NA_character_,
     authors = if (!is.null(msg$author))    sapply(msg$author, format_crossref_author) else character(),
     journal = journal,
@@ -179,7 +179,10 @@ fetch_crossref_metadata <- function(doi) {
 fetch_openalex_metadata <- function(doi) {
   url  <- paste0("https://api.openalex.org/works/https://doi.org/", doi)
   resp <- GET(url, query = list(mailto = EMAIL))
-  if (status_code(resp) != 200) return(NULL)
+  if (status_code(resp) != 200) {
+    message(sprintf("  OpenAlex: HTTP %d for DOI: %s", status_code(resp), doi))
+    return(NULL)
+  }
   msg  <- fromJSON(content(resp, "text", encoding = "UTF-8"), simplifyVector = FALSE)
 
   pages <- if (!is.null(msg$biblio$first_page)) {
@@ -200,7 +203,7 @@ fetch_openalex_metadata <- function(doi) {
   )
 
   list(
-    doi     = doi,
+    doi     = tolower(doi),  # normalise to lowercase for storage and YAML matching
     title   = if (!is.null(msg$title))                                 msg$title                                      else NA_character_,
     authors = if (!is.null(msg$authorships))                           sapply(msg$authorships, function(a) a$author$display_name) else character(),
     journal = if (!is.null(msg$primary_location$source$display_name))  msg$primary_location$source$display_name       else NA_character_,
@@ -434,6 +437,67 @@ report_missing_pdfs <- function(pubs, pubfile_dir) {
   }
 }
 
+# ── 7. News items for index.Rmd ───────────────────────────────────────────────
+# When new publications are detected, a short news item is prepended to the
+# "latest news" section of index.Rmd so the home page stays up to date.
+# The news item mentions the first author's full name, the journal, and links
+# the paper title to its DOI.
+
+# Converts a CrossRef "Family, Given" author string to "Given Family" order.
+format_author_name <- function(author_str) {
+  parts <- strsplit(author_str, ",\\s*")[[1]]
+  if (length(parts) == 2) paste(trimws(parts[2]), trimws(parts[1]))
+  else trimws(author_str)
+}
+
+# Builds one news <div> for a publication.
+# The date is the current month and year (when update_pubs.R is run).
+make_news_item <- function(pub) {
+  date_str     <- format(Sys.Date(), "%b %Y")
+  first_author <- if (length(pub$authors) > 0) format_author_name(pub$authors[[1]]) else ""
+  journal      <- if (!is.null(pub$journal) && !is.na(pub$journal)) pub$journal else "a journal"
+  author_line  <- if (nzchar(first_author)) paste0("by ", first_author, " ") else ""
+  paste0(
+    '<div class = "blue">\n',
+    '<font size="2"> **', date_str, '** </font><br>\n',
+    'New paper ', author_line, 'published in *', journal, '*: ',
+    '[', pub$title, '](https://doi.org/', pub$doi, ')\n',
+    '</div>\n',
+    '<p>\n'
+  )
+}
+
+# Inserts news items at the top of the "latest news" section in index.Rmd.
+# Finds the first <div class = "blue"> that follows "## latest news" and
+# inserts the new items immediately before it.
+add_news_to_index <- function(pubs, index_file) {
+  if (length(pubs) == 0) return(invisible())
+  lines <- readLines(index_file, encoding = "UTF-8", warn = FALSE)
+
+  news_line <- grep("## latest news", lines, fixed = TRUE)
+  if (length(news_line) == 0) {
+    message("  Could not find '## latest news' in index.Rmd — skipping news update.")
+    return(invisible())
+  }
+
+  div_lines <- grep('<div class = "blue">', lines, fixed = TRUE)
+  candidates <- div_lines[div_lines > news_line[1]]
+  if (length(candidates) == 0) {
+    message("  Could not find insertion point in index.Rmd — skipping news update.")
+    return(invisible())
+  }
+  insert_at <- candidates[1]
+
+  new_text  <- paste(sapply(pubs, make_news_item), collapse = "")
+  new_lines <- strsplit(new_text, "\n", fixed = TRUE)[[1]]
+
+  updated <- c(lines[seq_len(insert_at - 1)], new_lines, lines[insert_at:length(lines)])
+  con <- file(index_file, encoding = "UTF-8")
+  writeLines(updated, con)
+  close(con)
+  message(sprintf("  Added %d news item(s) to index.Rmd.", length(pubs)))
+}
+
 # ── Main script ───────────────────────────────────────────────────────────────
 
 # Step 1: fetch the list of DOIs from ORCID
@@ -443,12 +507,25 @@ message(sprintf("  Found %d publications.", length(dois)))
 
 # Step 2: fetch full metadata for each DOI.
 # CrossRef is tried first; OpenAlex is used as fallback for any DOI that
-# CrossRef does not have. A small delay (0.05s) between requests is added
-# to avoid overloading the servers (standard etiquette for API usage).
+# CrossRef does not have. If both fail (e.g. DOI not indexed by either API),
+# the previously cached entry is kept so no data is lost across runs.
+# A small delay (0.05s) between requests is added as standard API etiquette.
 message("Fetching metadata from CrossRef (with OpenAlex fallback)...")
+old_cache <- if (file.exists(CACHE_FILE)) readRDS(CACHE_FILE) else list()
 pubs_list <- setNames(
-  lapply(dois, function(doi) { Sys.sleep(0.05); fetch_metadata(doi) }),
-  dois
+  lapply(dois, function(doi) {
+    Sys.sleep(0.05)
+    result <- fetch_metadata(doi)
+    if (is.null(result)) {
+      cached <- old_cache[[tolower(doi)]]
+      if (!is.null(cached)) {
+        message(sprintf("  Using cached metadata for %s", doi))
+        return(cached)
+      }
+    }
+    result
+  }),
+  tolower(dois)  # lowercase names for consistent lookups; stored doi fields are also lowercase
 )
 # Remove publications whose CrossRef type marks them as conference abstracts
 # or other non-journal work. This catches cases where ORCID incorrectly
@@ -480,7 +557,9 @@ message(sprintf("  Metadata cached to %s", CACHE_FILE))
 # Step 4: compare fetched publications against open_science.yml to find new ones
 existing      <- load_open_science(YAML_FILE)
 existing_dois <- tolower(sapply(existing, function(e) e$doi))
-new_dois      <- setdiff(tolower(dois), existing_dois)
+# Use only DOIs that passed the CrossRef type filter (pubs_by_doi) so that
+# excluded works (proceedings, datasets, etc.) are never counted as new.
+new_dois      <- setdiff(tolower(names(pubs_by_doi)), existing_dois)
 
 if (length(new_dois) > 0) {
   message(sprintf("\nFound %d new publication(s). Opening form...", length(new_dois)))
@@ -494,6 +573,8 @@ if (length(new_dois) > 0) {
     save_open_science(c(new_entries, existing), pubs_by_doi, YAML_FILE)
     message(sprintf("open_science.yml updated with %d new entry/entries.", length(new_entries)))
   }
+  # Add a news item for every new publication (regardless of open science form outcome)
+  add_news_to_index(new_pub_infos, file.path(SITE_DIR, "index.Rmd"))
 } else {
   message("No new publications found.")
 }
