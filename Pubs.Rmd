@@ -33,7 +33,7 @@ output:
 
 See also my [Google Scholar Profile](http://scholar.google.com/citations?user=Xfy7g78AAAAJ&hl=en)
 
-[Link to my publication list on the KULeuven website:](https://lirias.kuleuven.be/cv?u=U0099946&allItems=true&layout=APA-style&link=true)
+[Link to my publication list on the KULeuven website](https://lirias.kuleuven.be/cv?u=U0099946&allItems=true&layout=APA-style&link=true)
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-4603-7939" href="https://orcid.org/0000-0002-4603-7939" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-4603-7939</a></div>
 
