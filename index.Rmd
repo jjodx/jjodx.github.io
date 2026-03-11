@@ -73,6 +73,11 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
 <div class = "blue">
+<font size="2"> **Mar 2026** </font><br>
+New paper from a collaboration with Denise Henriques (York University, Canada), Marius 't Hart (York University, Canada) and Mireille Broucke (University of Toronto) published in *PLOS Computational Biology*: [Modeling human visuomotor adaptation with a disturbance observer framework](https://doi.org/10.1371/journal.pcbi.1013937)
+</div>
+<p>
+<div class = "blue">
 <font size="2"> **Dec 2025** </font><br>
 JJ was awarded a new Senior Research project enttiled "MoCo: Motor Complexity and aging"by the FWO. This four-year project can be summarized as follows:
 "Elderly people usually perform worse than young adults in situations where a cognitive task is performed simultaneously with a motor task (e.g. talking while walking). This is often thought to reflect reduced cognitive capacity in the elderly. However, reduced performance could equally well be due to the fact that the elderly expend more resources in performing the motor task itself. If so, then understanding the source of increased difficulty in a motor task and adapting the task to obviate the problem would be a practical way of reducing the real life problems of dual tasking.For the first time this application directly addresses the question of whether dual tasking is limited by cognitive or motor resources using a variety of tasks that can be combined in different ways."

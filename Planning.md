@@ -1,0 +1,3 @@
+**Goal:**
+- To simplify the update of the website when a new publication is added. Right not, I have to update the bibtex file manually from Zotero and then add the PDF file with the right name in the right folder. I want to automate this process.
+- To write an automatic note when a new publication is added. This note need to mention the first and last names of the first author and where the publication was published in index.rmd

@@ -1,0 +1,25 @@
+# config.yml — Configuration for update_pubs.R and init_open_science.R
+# Edit these values to match your setup.
+
+# Your ORCID identifier (found at orcid.org)
+orcid_id: "0000-0002-4603-7939"
+
+# Your email address — sent to CrossRef API as a courtesy so they can
+# contact you if there is a problem. Does not affect the results.
+contact_email: "jj.orban@kuleuven.be"
+
+# Full path to the website folder on your LOCAL computer (Dropbox).
+# This is NOT the GitHub URL — it is the folder on your hard drive.
+site_dir: "C:/Users/jjorb/Dropbox/website"
+
+# Full path to the PubFile folder on your LOCAL computer.
+# This is where you manually place the PDF files for each publication.
+pubfile_dir: "C:/Users/jjorb/Dropbox/website/PubFile"
+
+# Name of the lab head as it appears in CrossRef author lists.
+# This name will be displayed in bold in the publications list.
+lab_head_name: "Orban de Xivry"
+
+# Base URL where PDF files are hosted on GitHub (not a local path).
+# PDFs must be committed to this repository to be accessible online.
+pdf_base_url: "https://github.com/jjodx/jjodx.github.io/raw/master/PubFile/"

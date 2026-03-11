@@ -1,0 +1,1101 @@
+# open_science.yml — Open science metadata for publications
+# ──────────────────────────────────────────────────────────────────────
+# HOW TO FILL IN THIS FILE:
+#   Each entry corresponds to one publication, identified by its DOI.
+#   New entries are added automatically at the top of this file when
+#   update_pubs.R detects a new publication on ORCID.
+#
+# FIELDS:
+#   doi:             DOI of the publication — do not edit this line
+#   open_data:       URL to public dataset (e.g. https://osf.io/xxxxx)
+#                    Leave blank if data is not publicly available.
+#   open_code:       URL to public code (e.g. https://github.com/...)
+#                    Leave blank if code is not publicly available.
+#   preregistration: URL to preregistration (e.g. https://osf.io/xxxxx)
+#                    Leave blank if the study was not preregistered.
+#   preprint:        true  → a bioRxiv preprint exists for this paper
+#                    false → no bioRxiv preprint
+#   psyarxiv:        true  → a psyarXiv preprint exists for this paper
+#                    false → no psyarXiv preprint
+#   collaboration:   A list with one or more of the following values:
+#     - laboratory    → displayed as: 'work from the laboratory'
+#     - KULeuven      → displayed as: 'work with colleagues from KU Leuven'
+#     - international → displayed as: 'work with Belgian/international colleagues'
+#   Multiple values are allowed, e.g.: [laboratory, international]
+
+# Modeling human visuomotor adaptation with a disturbance observer framework (2026)
+- doi: 10.1371/journal.pcbi.1013937
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - international
+
+
+# Does anodal tDCS over M1 really enhance motor sequence learning? A non-replication of earlier findings in a double-blind, pre-registered large-sample study in humans (2025)
+- doi: 10.1101/2025.10.06.25337371
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Pushing the Pedals: Is Outdoor Cycling a Feasible Activity for People with Parkinson’s Disease? (2026)
+- doi: 10.20944/preprints202602.1860.v1
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people (2026)
+- doi: 10.64898/2026.02.18.706569
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Aging is associated with uniform structural decline across cerebellar regions while preserving topological organization and showing no relation with sensorimotor function (2026)
+- doi: 10.64898/2026.02.13.705695
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Preserved cerebellar functions despite structural degeneration in older adults (2026)
+- doi: 10.7554/elife.109440.1
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Preserved cerebellar functions despite structural degeneration in older adults (2026)
+- doi: 10.7554/elife.109440
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Adults up to 80 years old maintain effective movement planning when facing complex body dynamics (2025)
+- doi: 10.1101/2025.10.03.680305
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# A control policy can be adapted to task demands during both motor execution and motor planning (2023)
+- doi: 10.1101/2023.10.16.562495
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Sensorimotor expectations bias motor resonance during observation of object lifting: The causal role of pSTS (2019)
+- doi: 10.1101/839712
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Why is the explicit component of motor adaptation limited in elderly adults? (2019)
+- doi: 10.1101/753160
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Weighted integration of short term memory and sensory signals in the oculomotor system (2017)
+- doi: 10.1101/151381
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Overlap of movement planning and movement execution reduces reaction time by up to 100ms (2016)
+- doi: 10.1101/039842
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Biological motion input to the oculomotor system (2009)
+- doi: 10.1007/978-3-540-89208-3_511
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Age-related changes in proprioception are of limited size, outcome-dependent and task-dependent (2026)
+- doi: 10.1007/s11357-025-02053-2
+  open_data: https://doi.org/10.48804/AKB2WC
+  open_code: https://doi.org/10.48804/AKB2WC
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Adults up to 80 years old maintain effective movement planning when facing complex body dynamics (2025)
+- doi: 10.1007/s11357-025-02051-4
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# A paradigm to study the learning of muscle activity patterns outside of the natural repertoire (2025)
+- doi: 10.1152/jn.00088.2025
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Movement kinematics in motor sequence learning task depends on conscious intent (2015)
+- doi: 10.3389/conf.fnins.2015.89.00018
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Kalman Filtering Naturally Accounts for Visually Guided and Predictive Smooth Pursuit Dynamics (2013)
+- doi: 10.1523/jneurosci.2321-13.2013
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Abnormal eye fixations on personally familiar faces following acquired prosopagnosia reveal a lack of individual holistic face perception (2010)
+- doi: 10.1167/8.6.885
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Review of the major findings about Duane retraction syndrome (DRS) leading to an updated form of classification (2010)
+- doi: 10.1016/j.visres.2010.08.019
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# String-pulling by the common marmoset (2025)
+- doi: 10.1152/jn.00561.2024
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# A paradigm to study the learning of muscle activity patterns outside of the natural repertoire (2025)
+- doi: 10.1101/2025.02.13.638098
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: international
+
+
+# Not fleeting but lasting: limited influence of aging on implicit adaptative motor learning and its short-term retention (2025)
+- doi: 10.1152/jn.00412.2024
+  open_data: https://doi.org/10.48804/KMGKLH
+  open_code: https://doi.org/10.48804/KMGKLH
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# 3D-printable stimulation electrodes to improve precision, reproducibility, and reliability of transcranial electric current stimulation (2025)
+- doi: 10.1016/j.clinph.2025.2110981
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# A control policy can be adapted to task demands during both motor execution and motor planning (2025)
+- doi: 10.1152/jn.00410.2023
+  open_data: https://osf.io/8yahe
+  open_code: https://osf.io/8yahe
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Modeling Human Visuomotor Adaptation with a Disturbance Observer Framework (2025)
+- doi: 10.1101/2025.09.01.673530
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: international
+
+
+# Age-related changes in proprioception are of limited size, outcome-dependent and task-dependent (2025)
+- doi: 10.1101/2025.05.22.655043
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Preserved cerebellar functions despite structural degeneration in older adults (2025)
+- doi: 10.1101/2025.06.18.660418
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# String-pulling by the common marmoset (2024)
+- doi: 10.1101/2024.10.25.620352
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: international
+
+
+- doi: 10.1186/s13063-024-07967-4
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Diversity of the nature of input and output signals in the cerebellum suggests a diversity of function (2024)
+- doi: 10.1016/j.cobeha.2024.101386
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# A smartphone-based tapping task as a marker of medication response in Parkinson’s disease: a proof of concept study (2023)
+- doi: 10.1007/s00702-023-02659-w
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Transcranial direct current stimulation enhances motor learning in Parkinson’s disease: a randomized controlled trial (2023)
+- doi: 10.1007/s00415-023-11669-3
+  open_data: ''
+  open_code: ''
+  preregistration: https://osf.io/gk5q8/
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Beware ‘persuasive communication devices’ when writing and reading scientific articles (2023)
+- doi: 10.7554/elife.88654
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+- doi: 10.1186/s12984-023-01278-6
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+- doi: 10.1016/j.exger.2023.112271
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+- doi: 10.1038/s41598-023-46645-4
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Not fleeting but lasting: Limited influence of aging on implicit adaptative motor learning and its short-term retention. (2023)
+- doi: 10.1101/2023.08.30.555501
+  open_data: https://doi.org/10.48804/KMGKLH
+  open_code: https://doi.org/10.48804/KMGKLH
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.21203/rs.3.rs-3387338/v1
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+- doi: 10.1117/1.nph.10.2.025010
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# The differential effect of age on upper limb sensory processing, proprioception, and motor function (2023)
+- doi: 10.1152/jn.00364.2022
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Aging exerts a limited influence on the perception of self-generated and externally generated touch (2023)
+- doi: 10.1101/2023.04.05.535662
+  open_data: ''
+  open_code: ''
+  preregistration: https://osf.io/pre46/
+  preprint: yes
+  psyarxiv: no
+  collaboration: international
+
+
+# Aging exerts a limited influence on the perception of self-generated and externally generated touch (2023)
+- doi: 10.1152/jn.00145.2023
+  open_data: ''
+  open_code: ''
+  preregistration: https://osf.io/8u7by
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+- doi: 10.1016/j.bandc.2023.106073
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Age-related balance difficulties during shoulder checks increase cycling risk in older adults (2022)
+- doi: 10.1101/2022.03.01.481993
+  open_data: https://doi.org/10.48804/7IGELJ
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.3389/fneur.2022.1049409
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Increased upper-limb sensory attenuation with age (2022)
+- doi: 10.1152/jn.00558.2020
+  open_data: https://osf.io/4teb5/
+  open_code: https://osf.io/4teb5/
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Development and Validation of a Novel Robot-Based Assessment of Upper Limb Sensory Processing in Chronic Stroke (2022)
+- doi: 10.3390/brainsci12081005
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# The differential effect of age on upper limb sensory processing, proprioception and motor function (2022)
+- doi: 10.1101/2022.08.26.505430
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Validation of a smartphone embedded inertial measurement unit for measuring postural stability in older adults (2021)
+- doi: 10.1016/j.gaitpost.2020.11.017
+  open_data: https://osf.io/vpd79/
+  open_code: https://osf.io/vpd79/
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.1007/s10827-020-00765-2
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+- doi: 10.3389/fnagi.2021.657308
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+- doi: 10.1007/s10827-020-00764-3
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# A Synthesis of the Many Errors and Learning Processes of Visuomotor Adaptation (2021)
+- doi: 10.1101/2021.03.14.435278
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: international
+
+
+# Lift observation conveys object weight distribution but partly enhances predictive lift planning (2021)
+- doi: 10.1152/jn.00374.2020
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.1016/j.neuropsychologia.2021.107836
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Does proprioceptive acuity influence the extent of implicit sensorimotor adaptation in young and older adults? (2021)
+- doi: 10.1152/jn.00636.2020
+  open_data: https://osf.io/qg3t2/
+  open_code: https://osf.io/qg3t2/
+  preregistration: https://osf.io/qg3t2/registrations
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.1101/2020.05.29.123620
+  open_data: https://osf.io/vpd79/
+  open_code: https://osf.io/vpd79/
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Increased upper-limb sensory attenuation with age (2020)
+- doi: 10.1101/2020.09.17.301739
+  open_data: https://osf.io/4teb5/
+  open_code: https://osf.io/4teb5/
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Lift observation conveys object weight distribution but partly enhances predictive lift planning (2020)
+- doi: 10.1101/2020.06.21.163352
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Motor resonance is modulated by an object’s weight distribution (2020)
+- doi: 10.1101/2020.10.11.335000
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Sensorimotor Expectations Bias Motor Resonance during Observation of Object Lifting: The Causal Role of pSTS (2020)
+- doi: 10.1523/jneurosci.2672-19.2020
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Does somatosensory acuity influence the extent of internal model recalibration in young and older adults? (2020)
+- doi: 10.1101/2020.10.16.342295
+  open_data: https://osf.io/qg3t2/
+  open_code: https://osf.io/qg3t2/
+  preregistration: https://osf.io/qg3t2/registrations
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Why is the explicit component of motor adaptation limited in elderly adults? (2020)
+- doi: 10.1152/jn.00659.2019
+  open_data: https://osf.io/ks2j8/
+  open_code: https://osf.io/ks2j8/
+  preregistration: https://aspredicted.org/sv5d6.pdf
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Integration of past and current visual information during eye movements in amblyopia (2019)
+- doi: 10.1016/bs.pbr.2019.04.034
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+- doi: 10.1177/1545968319847963
+  open_data: https://osf.io/8qm9e/
+  open_code: https://osf.io/8qm9e/
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Ten common statistical mistakes to watch out for when writing or reviewing a manuscript (2019)
+- doi: 10.7554/elife.48175
+  open_data: ''
+  open_code: https://github.com/jjodx/InferentialMistakes
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Internal model recalibration does not deteriorate with age while motor adaptation does (2019)
+- doi: 10.1016/j.neurobiolaging.2019.03.020
+  open_data: https://osf.io/vncce/
+  open_code: https://osf.io/vncce/
+  preregistration: https://aspredicted.org/bb7yp.pdf
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Internal model recalibration does not deteriorate with age while motor adaptation does (2018)
+- doi: 10.1101/292250
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+- doi: 10.1167/18.5.16
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Robot-assisted line bisection test in virtual reality (2018)
+- doi: 10.31234/osf.io/8yk4t
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: yes
+  collaboration: international
+
+
+- doi: 10.1038/s41562-018-0311-x
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Two hands, one brain, and aging (2017)
+- doi: 10.1016/j.neubiorev.2017.01.052
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+# Overlap of movement planning and movement execution reduces reaction time (2017)
+- doi: 10.1152/jn.00728.2016
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Two Processes in Early Bimanual Motor Skill Learning (2017)
+- doi: 10.3389/fnhum.2017.00618
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Unconscious associative learning with conscious cues (2016)
+- doi: 10.1093/nc/niw016
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Behavioral characterization of prediction and internal models in adolescents with autistic spectrum disorders (2016)
+- doi: 10.1016/j.neuropsychologia.2016.08.021
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Development of internal models and predictive abilities for visual tracking during childhood (2016)
+- doi: 10.1152/jn.00534.2015
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Rhythmic arm movements are less affected than discrete ones after a stroke (2016)
+- doi: 10.1007/s00221-015-4543-y
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Tagging motor memories with transcranial direct current stimulation allows later artificially-controlled retrieval (2016)
+- doi: 10.7554/elife.15378
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# A switching cost for motor planning (2016)
+- doi: 10.1152/jn.00319.2016
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# A switching cost for motor planning (2016)
+- doi: 10.1101/047621
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Spontaneous improvement in oculomotor function of children with cerebral palsy (2015)
+- doi: 10.1016/j.ridd.2014.10.025
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Formation of model-free motor memories during motor adaptation depends on perturbation schedule (2015)
+- doi: 10.1152/jn.00673.2014
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Investigating Associative Learning Effects in Patients with Prodromal Alzheimer’s Disease Using the Temporal Context Model (2015)
+- doi: 10.1017/s1355617715000855
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: international
+
+
+# Electrifying the motor engram: effects of tDCS on motor learning and control (2014)
+- doi: 10.1007/s00221-014-4087-6
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# The saccadic system does not compensate for the immaturity of the smooth pursuit system during visual tracking in children (2013)
+- doi: 10.1152/jn.00981.2012
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+- doi: 10.1152/jn.00785.2012
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Trial-to-Trial Reoptimization of Motor Behavior Due to Changes in Task Demands Is Limited (2013)
+- doi: 10.1371/journal.pone.0066013
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Dramatic impairment of prediction due to frontal lobe degeneration (2012)
+- doi: 10.1152/jn.00582.2012
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Dissociating the Roles of the Cerebellum and Motor Cortex during Adaptive Learning: The Motor Cortex Retains What the Cerebellum Learns (2011)
+- doi: 10.1093/cercor/bhq246
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Contributions of the Motor Cortex to Adaptive Control of Reaching Depend on the Perturbation Schedule (2011)
+- doi: 10.1093/cercor/bhq192
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Stimulation of the Human Motor Cortex Alters Generalization Patterns of Motor Learning (2011)
+- doi: 10.1523/jneurosci.0273-11.2011
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Oculomotor prediction of accelerative target motion during occlusion: long-term and short-term effects (2010)
+- doi: 10.1007/s00221-010-2313-4
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Biological motion influences the visuomotor transformation for smooth pursuit eye movements (2010)
+- doi: 10.1016/j.visres.2010.08.009
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+  - international
+
+
+# Biological motion drives perception and action (2010)
+- doi: 10.1167/10.2.6
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Temporal Discounting of Reward and the Cost of Time in Motor Control (2010)
+- doi: 10.1523/jneurosci.1343-10.2010
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Saccade–Pursuit Interactions (2009)
+- doi: 10.1016/b978-008045046-9.01094-9
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Orientation-tuned suppression in binocular rivalry reveals general and specific components of rivalry suppression (2009)
+- doi: 10.1167/9.11.7
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# A dynamic representation of target motion drives predictive smooth pursuit during target blanking (2008)
+- doi: 10.1167/8.15.6
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Neural Correlates of Internal Models: Figure 1. (2008)
+- doi: 10.1523/jneurosci.2426-08.2008
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Reduced fixation on the upper area of personally familiar faces following acquired prosopagnosia (2008)
+- doi: 10.1348/174866407x260199
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Binocular coordination of saccades in Duane Retraction Syndrome (2008)
+- doi: 10.1016/j.visres.2008.06.007
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Target Acceleration Can Be Extracted and Represented Within the Predictive Drive to Ocular Pursuit (2007)
+- doi: 10.1152/jn.00132.2007
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Saccades and pursuit: two outcomes of a single sensorimotor process (2007)
+- doi: 10.1113/jphysiol.2007.139881
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Evidence for Synergy Between Saccades and Smooth Pursuit During Transient Target Disappearance (2006)
+- doi: 10.1152/jn.00596.2005
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
