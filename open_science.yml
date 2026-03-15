@@ -23,6 +23,17 @@
 #     - international → displayed as: 'work with Belgian/international colleagues'
 #   Multiple values are allowed, e.g.: [laboratory, international]
 
+# Mistakes matter, age doesn't: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
+- doi: 10.64898/2026.03.11.711139
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration:
+  - laboratory
+
+
 # Modeling human visuomotor adaptation with a disturbance observer framework (2026)
 - doi: 10.1371/journal.pcbi.1013937
   open_data: ''
@@ -30,8 +41,7 @@
   preregistration: ''
   preprint: no
   psyarxiv: no
-  collaboration:
-  - international
+  collaboration: international
 
 
 # Does anodal tDCS over M1 really enhance motor sequence learning? A non-replication of earlier findings in a double-blind, pre-registered large-sample study in humans (2025)
@@ -900,6 +910,7 @@
   - international
 
 
+# Changes in corticospinal excitability during reach adaptation in force fields (2013)
 - doi: 10.1152/jn.00785.2012
   open_data: ''
   open_code: ''
