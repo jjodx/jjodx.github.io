@@ -23,8 +23,19 @@
 #     - international → displayed as: 'work with Belgian/international colleagues'
 #   Multiple values are allowed, e.g.: [laboratory, international]
 
-# Mistakes matter, age doesn't: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
-- doi: 10.64898/2026.03.11.711139
+# Preserved cerebellar functions despite structural degeneration in older adults (2026)
+- doi: 10.7554/elife.109440.2
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration:
+  - laboratory
+
+
+# Cerebellar function remains resilient under increased task demands in healthy adults up to 80 years but it is task-specific and independent of cerebellar structure (2026)
+- doi: 10.64898/2026.04.02.716060
   open_data: ''
   open_code: ''
   preregistration: ''
@@ -32,6 +43,16 @@
   psyarxiv: no
   collaboration:
   - laboratory
+
+
+# Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
+- doi: 10.64898/2026.03.11.711139
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration: laboratory
 
 
 # Modeling human visuomotor adaptation with a disturbance observer framework (2026)
@@ -468,6 +489,7 @@
   collaboration: international
 
 
+# Effect of transcranial direct current stimulation on learning in older adults with and without Parkinson’s disease: A systematic review with meta-analysis (2023)
 - doi: 10.1016/j.bandc.2023.106073
   open_data: ''
   open_code: ''

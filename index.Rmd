@@ -73,6 +73,16 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
 <div class = "blue">
+<font size="2"> **Apr 2026** </font><br>
+Revised preprint by Anda de Witte published in *eLife*: [Preserved cerebellar functions despite structural degeneration in older adults](https://doi.org/10.7554/elife.109440.2). Have a loot at the reviews.
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Apr 2026** </font><br>
+The second paper of Anouck Matthijs is available as a preprint at *bioRxiv*: [Cerebellar function remains resilient under increased task demands in healthy adults up to 80 years but it is task-specific and independent of cerebellar structure](https://doi.org/10.64898/2026.04.02.716060)
+</div>
+<p>
+<div class = "blue">
 <font size="2"> **Mar 2026** </font><br>
 New Preprint with former post-doc Matheus Pacheco (University Sao Paulo, Brazil): [Mistakes matter, age doesn't: task outcome modulates implicit motor adaptation similarly in young and older adults](https://www.biorxiv.org/content/10.64898/2026.03.11.711139v1)
 </div>
