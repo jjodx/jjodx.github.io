@@ -73,8 +73,14 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
 <div class = "blue">
+<font size="2"> **May 2026** </font><br>
+If you are interested in aging and motor control and have a PhD, come work with me in Leuven. I am recruiting a post-doc to investigate how the brain controls movement and learns new motor skills across the lifespan. This 18–24 month position combines behavioral and EEG techniques to understand age-related changes in sensorimotor processes. Apply [here](https://www.kuleuven.be/personeel/jobsite/jobs/60670213?lang=en). 
+</div>
+<p>
+
+<div class = "blue">
 <font size="2"> **Apr 2026** </font><br>
-Revised preprint by Anda de Witte published in *eLife*: [Preserved cerebellar functions despite structural degeneration in older adults](https://doi.org/10.7554/elife.109440.2). Have a loot at the reviews.
+Revised preprint by Anda de Witte published in *eLife*: [Preserved cerebellar functions despite structural degeneration in older adults](https://doi.org/10.7554/elife.109440.2). Have a look at the reviews.
 </div>
 <p>
 <div class = "blue">
