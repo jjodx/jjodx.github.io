@@ -10,6 +10,10 @@
 #   3. For each publication, fetches full details (title, authors, journal,
 #      year, volume, pages) from CrossRef using the DOI
 #   4. Saves this data locally in pubs_cache.rds (used by Pubs.Rmd to render)
+#   4b. Groups versions of the same paper (preprint + published version) so
+#      each paper counts only once. If two titles are very similar but not
+#      identical, asks you in the console whether they are the same paper
+#      (answers are saved in same_papers.yml — see pub_dedup.R)
 #   5. Compares the fetched publications against open_science.yml:
 #        - If open_science.yml does not exist yet: run init_open_science.R first
 #        - If it exists: for each NEW publication not yet in the yml, a small
@@ -32,6 +36,7 @@ library(jsonlite)   # for parsing the JSON responses from the APIs
 library(yaml)       # for reading config.yml and open_science.yml
 library(shiny)      # for the popup window when a new publication is detected
 library(miniUI)     # for the compact layout of the popup window
+source("pub_dedup.R")  # grouping of preprint/published versions of a paper
 
 # ── 1. Load configuration ─────────────────────────────────────────────────────
 # All user-specific settings are stored in config.yml so this script
@@ -46,8 +51,9 @@ PDF_BASE    <- cfg$pdf_base_url
 PUBFILE_DIR <- cfg$pubfile_dir
 
 # Paths derived from SITE_DIR
-YAML_FILE  <- file.path(SITE_DIR, "open_science.yml")
-CACHE_FILE <- file.path(SITE_DIR, "pubs_cache.rds")
+YAML_FILE      <- file.path(SITE_DIR, "open_science.yml")
+CACHE_FILE     <- file.path(SITE_DIR, "pubs_cache.rds")
+DECISIONS_FILE <- file.path(SITE_DIR, "same_papers.yml")
 
 # Safety check: open_science.yml must exist before this script can run.
 # If it does not exist, the user should run init_open_science.R first.
@@ -123,6 +129,22 @@ get_year_from_crossref <- function(msg) {
   NA_integer_
 }
 
+# Helper: extracts the DOIs that CrossRef lists as other versions of this work
+# (e.g. a journal article "has-preprint" on bioRxiv, or an eLife version
+# "is-version-of" an earlier reviewed preprint). Returned in lowercase.
+RELATION_TYPES <- c("has-preprint", "is-preprint-of", "is-version-of",
+                    "has-version", "is-same-as")
+get_related_dois_from_crossref <- function(msg) {
+  dois <- character()
+  for (rel_type in intersect(names(msg$relation), RELATION_TYPES)) {
+    for (rel in msg$relation[[rel_type]]) {
+      if (identical(tolower(rel$`id-type`), "doi"))
+        dois <- c(dois, tolower(rel$id))
+    }
+  }
+  unique(dois)
+}
+
 # Helper: formats a single CrossRef author object into "Family, Given" format.
 # CrossRef sometimes has incomplete author records (e.g. organisations),
 # so we handle missing given names gracefully.
@@ -167,7 +189,8 @@ fetch_crossref_metadata <- function(doi) {
     year    = get_year_from_crossref(msg),
     volume  = if (!is.null(msg$volume))    msg$volume                                 else NA_character_,
     pages   = if (!is.null(msg$page))      msg$page                                   else NA_character_,
-    type    = if (!is.null(msg$type))      msg$type                                   else NA_character_
+    type    = if (!is.null(msg$type))      msg$type                                   else NA_character_,
+    related_dois = get_related_dois_from_crossref(msg)
   )
 }
 
@@ -210,7 +233,8 @@ fetch_openalex_metadata <- function(doi) {
     year    = if (!is.null(msg$publication_year))                      as.integer(msg$publication_year)               else NA_integer_,
     volume  = if (!is.null(msg$biblio$volume))                         msg$biblio$volume                              else NA_character_,
     pages   = pages,
-    type    = crossref_type
+    type    = crossref_type,
+    related_dois = character()  # OpenAlex does not provide version links
   )
 }
 
@@ -498,6 +522,45 @@ add_news_to_index <- function(pubs, index_file) {
   message(sprintf("  Added %d news item(s) to index.Rmd.", length(pubs)))
 }
 
+# ── 8. Similar titles: ask whether two DOIs are the same paper ────────────────
+# Titles sometimes change between the preprint and the published version
+# (e.g. "... reduces reaction time by up to 100ms" became "... reduces reaction
+# time"). Such pairs cannot be matched automatically, so the script shows both
+# versions in the console and asks you. Answers are stored in same_papers.yml.
+
+# Prints one publication in a readable block.
+print_pub_for_question <- function(label, pub) {
+  message(sprintf("  %s %s", label, pub$title))
+  message(sprintf("     %s (%s) — %s", pub$journal, pub$year, pub$type))
+  message(sprintf("     https://doi.org/%s", pub$doi))
+}
+
+# Asks about one pair. Returns "same", "different" or "later".
+ask_same_paper <- function(pub_a, pub_b) {
+  message("\n─── ARE THESE THE SAME PAPER? ─────────────────────────────────")
+  print_pub_for_question("A:", pub_a)
+  print_pub_for_question("B:", pub_b)
+  choice <- menu(c("Yes, same paper (show only the published version)",
+                   "No, different papers",
+                   "Ask me again next time"))
+  switch(as.character(choice), "1" = "same", "2" = "different", "later")
+}
+
+# Goes through all similar-title pairs, asks about each one, and saves the
+# answers. Skipped when the script is not run interactively (no console).
+resolve_similar_titles <- function(pubs, decisions, decisions_file) {
+  pairs <- find_similar_pairs(pubs, decisions)
+  if (length(pairs) == 0 || !interactive()) return(decisions)
+  for (pair in pairs) {
+    answer <- ask_same_paper(pair[[1]], pair[[2]])
+    dois   <- c(pair[[1]]$doi, pair[[2]]$doi)
+    if (answer == "same")      decisions$same      <- c(decisions$same,      list(dois))
+    if (answer == "different") decisions$different <- c(decisions$different, list(dois))
+  }
+  save_decisions(decisions, decisions_file)
+  decisions
+}
+
 # ── Main script ───────────────────────────────────────────────────────────────
 
 # Step 1: fetch the list of DOIs from ORCID
@@ -554,19 +617,30 @@ pubs_by_doi <- Filter(Negate(is.null), pubs_list)
 saveRDS(pubs_list, CACHE_FILE)
 message(sprintf("  Metadata cached to %s", CACHE_FILE))
 
+# Step 3b: group versions of the same paper (preprint, eLife versions,
+# published article). First ask about very similar titles, then keep only
+# the best version of each paper. The cache above still contains all versions.
+decisions   <- load_decisions(DECISIONS_FILE)
+decisions   <- resolve_similar_titles(pubs_by_doi, decisions, DECISIONS_FILE)
+shown_pubs  <- deduplicate_publications(pubs_by_doi, decisions)
+shown_by_doi <- setNames(shown_pubs, sapply(shown_pubs, `[[`, "doi"))
+message(sprintf("  %d DOIs correspond to %d distinct papers.",
+                length(pubs_by_doi), length(shown_pubs)))
+
 # Step 4: compare fetched publications against open_science.yml to find new ones
 existing      <- load_open_science(YAML_FILE)
 existing_dois <- tolower(sapply(existing, function(e) e$doi))
-# Use only DOIs that passed the CrossRef type filter (pubs_by_doi) so that
-# excluded works (proceedings, datasets, etc.) are never counted as new.
-new_dois      <- setdiff(tolower(names(pubs_by_doi)), existing_dois)
+# Use only the version shown for each paper, so that you are not asked about
+# hidden versions (e.g. the preprint once the published version exists).
+# Excluded works (proceedings, datasets, etc.) are never counted as new either.
+new_dois      <- setdiff(names(shown_by_doi), existing_dois)
 
 if (length(new_dois) > 0) {
   message(sprintf("\nFound %d new publication(s). Opening form...", length(new_dois)))
-  # Filter to publications that have CrossRef metadata; pass them all to a
-  # single gadget that loops through them internally (avoids timing issues
-  # that occur when launching multiple gadgets sequentially in a for loop)
-  new_pub_infos <- Filter(Negate(is.null), pubs_by_doi[new_dois])
+  # Pass them all to a single gadget that loops through them internally
+  # (avoids timing issues that occur when launching multiple gadgets
+  # sequentially in a for loop)
+  new_pub_infos <- unname(shown_by_doi[new_dois])
   new_entries   <- pub_gadget_all(new_pub_infos)
   if (length(new_entries) > 0) {
     # New entries are prepended so they appear at the top of the yml file
@@ -580,7 +654,8 @@ if (length(new_dois) > 0) {
 }
 
 # Step 5: report any publications missing a PDF in PubFile/
-report_missing_pdfs(pubs_list, PUBFILE_DIR)
+# (only for the version shown on the website — hidden versions need no PDF)
+report_missing_pdfs(shown_pubs, PUBFILE_DIR)
 
 # # Step 6: re-render the full website
 # message("\nRendering site...")

@@ -1,0 +1,13 @@
+# same_papers.yml — your answers about publications with similar titles
+# ──────────────────────────────────────────────────────────────────────
+# Written by update_pubs.R when it asks whether two DOIs are the same paper.
+#   same:      pairs of DOIs that are versions of the same paper
+#              (only the published version is shown on the website)
+#   different: pairs of DOIs that are different papers (never asked again)
+# You can edit this file by hand, e.g. to undo a wrong answer.
+
+same:
+- - 10.1152/jn.00728.2016
+  - 10.1101/039842
+different: []
+

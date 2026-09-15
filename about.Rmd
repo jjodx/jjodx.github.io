@@ -37,7 +37,7 @@ Belgium<br>
 
 <p> I am an engineer in applied mathematics who did his PhD (2002-2007) on computational neuroscience at the Université catholique de Louvain (Belgium). During my PhD, I focused on eye movements with applications to clinical populations. I went on to pursue my post-doctoral work (2008-2010) with Reza Shadmehr at Johns Hopkins University (Baltimore, MD, USA) where I used transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS) to investigate the role of the motor cortex in motor adaptation. My post-doctoral stay at Hopkins was partially supported by a Fellowship from the Belgian American Educational Foundation. Then, I secured independent funding from the Brussels region (2011-2014: 610 000€) in order to pursue my research as an independent investigator at UCLouvain on how theories of motor control can be successfully applied to understand brain functions in health and disease.</p>
 
-<p> Since December 2014, I am a Professor (2014-2019: assistant; now associated) at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation, EEG and structural MRI).</p> 
+<p> Since December 2014, I am a Professor at the department of Movement Sciences at KU Leuven where my project focuses on the effect of aging and neurological disease on motor control and learning via a multimodal approach (behavior, brain stimulation, EEG and structural MRI).</p> 
 
 <p> In addition, I am one of the founding member of the BRain Activity, Imaging & NeuroStimulation for HUman Behaviour research platform (BRAINS-HUB, KU Leuven, Belgium) for which we received a small equipment grant from KU Leuven and, as co-PI, a large Hercules grant. </p>
 
@@ -45,10 +45,9 @@ Belgium<br>
 
 
 #### Academic career
-
-<p> __2019 - current__: Associate Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
-
-<p> __2014 - 2019__: Assistant Professor in the Movement Control and Neuroplasticity Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
+<p> __2024 - current__: Professor in the Neuroscience of Movement and Performance Research Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
+<p> __2019 - 2024__: Associate Professor in the Neuroscience of Movement and Performance Research Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
+<p> __2014 - 2019__: Assistant Professor in the Neuroscience of Movement and Performance Research Group, Faculty of Movement and Rehabilitation Sciences, KU Leuven, Belgium.</p>
 <p> __2011-2014__: Post-Doc at Université catholique de Louvain with Philippe Lefèvre sponsored by the Brussels region (Grant Brains Back to Brussels).</p>
 <p> __2007-2010__: Post-Doc in the [Laboratory of Computational Motor Control (Johns Hopkins University, USA)](www.shadmehrlab.org) under the supervision of Prof. Reza Shadmehr.</p>
 <p> __2002-2007__: PhD student at CESAME and Laboratory of Neurophysiology (UCL, Belgium). Thesis: Tracking the invisible requires prediction and internal models. Promotor: P. Lefèvre.</p>
@@ -70,9 +69,11 @@ Belgium<br>
 - Member of resonantieraad Metaforum (2019-current)
 - Member of the sustainability council of KU Leuven (2020-2022)
 - Member of the think-tank of societal impact of academic research of KU Leuven (2020-2022)
-- Member of the departmental board of Movement Sciences (2020-current) 
+- Member of the departmental board of Movement Sciences (2020-current)
+- Member of the Open Science Task Force (2025-2026)
 
 #### Grants and Awards
+<p> __2026-2029__: [FWO](www.fwo.be) senior research project: **MoCo**: motor complexity and aging (co-PI: [Jeremie Gaveau](https://u1093.ube.fr/author/gaveau-jeremie/))
 <p> __2024-2027__: [FWO](www.fwo.be) senior research project: Multifaceted approach to investigate position sense in health and disease (co-PI: [An De Groef](https://www.kuleuven.be/wieiswie/nl/person/00086923))
 <p> __2023-2026__: C2 project (internal grant from the KU Leuven): **MAeSTRo**: neuro-**M**usculoskeletal **AS**sessement and **TR**aining for safe (e-)cycling (co-PI: Friedl De Groote)</p>
 <p> __2023-2026__: collaborator on a C2 project (internal grant from the KU Leuven) awarded to Geert Verheyden: **Robust**: integrated **ROB**otic **U**pper limb sensorimotor rehabilitation after **ST**roke to improve behavioural, objective and real-life outcome</p>

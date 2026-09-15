@@ -23,15 +23,55 @@
 #     - international → displayed as: 'work with Belgian/international colleagues'
 #   Multiple values are allowed, e.g.: [laboratory, international]
 
-# Preserved cerebellar functions despite structural degeneration in older adults (2026)
-- doi: 10.7554/elife.109440.2
+# No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people (2026)
+- doi: 10.1007/s11357-026-02457-8
   open_data: ''
   open_code: ''
   preregistration: ''
   preprint: no
   psyarxiv: no
   collaboration:
+  - KULeuven
+
+
+# Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
+- doi: 10.1007/s11357-026-02423-4
+  open_data: https://osf.io/rjfwq/
+  open_code: https://osf.io/rjfwq/
+  preregistration: osf.io/3syz5/ and osf.io/hjm76
+  preprint: no
+  psyarxiv: no
+  collaboration:
   - laboratory
+
+
+# Preserved cerebellar functions despite structural degeneration in older adults (2026)
+- doi: 10.7554/elife.109440.3
+  open_data: https://doi.org/10.48804/LAKCIA
+  open_code: https://doi.org/10.48804/LAKCIA
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
+
+
+# Feasibility of ROBUST: An Integrated Sensorimotor Upper Limb Therapy for People in the Chronic Phase After Stroke (2026)
+- doi: 10.3390/brainsci16080844
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
+- doi: 10.7554/elife.109440.2
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: laboratory
 
 
 # Cerebellar function remains resilient under increased task demands in healthy adults up to 80 years but it is task-specific and independent of cerebellar structure (2026)
@@ -41,8 +81,7 @@
   preregistration: ''
   preprint: yes
   psyarxiv: no
-  collaboration:
-  - laboratory
+  collaboration: laboratory
 
 
 # Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
@@ -105,7 +144,6 @@
   collaboration: laboratory
 
 
-# Preserved cerebellar functions despite structural degeneration in older adults (2026)
 - doi: 10.7554/elife.109440.1
   open_data: ''
   open_code: ''
@@ -115,7 +153,6 @@
   collaboration: laboratory
 
 
-# Preserved cerebellar functions despite structural degeneration in older adults (2026)
 - doi: 10.7554/elife.109440
   open_data: ''
   open_code: ''
@@ -355,6 +392,7 @@
   collaboration: international
 
 
+# Does somatosensory discrimination therapy alter sensorimotor upper limb function differently compared to motor therapy in children and adolescents with unilateral cerebral palsy: study protocol for a randomized controlled trial (2024)
 - doi: 10.1186/s13063-024-07967-4
   open_data: ''
   open_code: ''

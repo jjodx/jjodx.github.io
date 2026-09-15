@@ -73,6 +73,33 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
 <div class = "blue">
+<font size="2"> **Sept 2026** </font><br>
+New paper by Silke Kerstens published in *Biological Psychiatry Global Open Science*: [Does Anodal Transcranial Direct Current Stimulation Over the Primary Motor Cortex Really Enhance Motor Sequence Learning?](https://doi.org/10.1016/j.bpsgos.2026.100766)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2026** </font><br>
+New paper by Silke Kerstens published in *GeroScience*: [No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people](https://doi.org/10.1007/s11357-026-02457-8)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Sept 2026** </font><br>
+New paper by Matheus Maia Pacheco published in *GeroScience*: [Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults](https://doi.org/10.1007/s11357-026-02423-4)
+</div>
+<p>
+<div class = "blue">
+<font size="2"> **Autumn 2026** </font><br>
+Anouck Matthijs will defend her PhD thesis "**The cerebellum as a key neural substrate for motor reserve during healthy aging**" on the 25th of September. Anda De Witte will defend her thesis "**The effects of aging on cerebellar structure and function**" on the 26th of November.
+</div>
+<p>
+
+<div class = "blue">
+<font size="2"> **Summer 2026** </font><br>
+The lab has participated to several conferences during the summer months. Anouck Matthijs, Ilaria Carrara, Frea Deroost and JJ Orban participated to **The European Group for Research on Aging and Physical Activity** (EGRAPA) 2026 Conference (1-3 Jun 2026 Caen, France). Illaria presented a poster entitled "Proprioception and Aging: Does Action or Perception Tell the Full Story?", Frea gave a talk on "Identifying the age-related changes in cycling skills during real-world related maneuvers on conventional and electric bicycles" and JJ Orban participated to the symposium on "Deterioration, Compensation and Motor Control in Ageing: From Motor Planning to Balance and Learning" with Jessica Bernard, Marta Russo and Jeremie Gaveau. He gave a talk entitled "Preserved Cerebellar Motor Function Across Late Adulthood: Implications for Active Aging in Complex Environments". JJ Orban also participated to the **XIII CONGRESSO BRASILEIRO DECOMPORTAMENTO MOTOR** (22-24 July in Sao Paulo, Brazil). He gave a keynote lecture enttiled "Cerebellar age-related structural decline does not translate into functional deficits: Evidence for a motor reserve". Ilaria Carrara, Danny Koumans, Anouck Matthijs also participated to the **third European Motor Control Conference** in Brussels (26-28 August). Anouck Matthijs gave a talk on "Cerebellar function remains resilient under increased task demands in healthy adults up to 80 years but it is task-specific and independent of cerebellar structure".
+</div>
+<p>
+
+<div class = "blue">
 <font size="2"> **May 2026** </font><br>
 If you are interested in aging and motor control and have a PhD, come work with me in Leuven. I am recruiting a post-doc to investigate how the brain controls movement and learns new motor skills across the lifespan. This 18–24 month position combines behavioral and EEG techniques to understand age-related changes in sensorimotor processes. Apply [here](https://www.kuleuven.be/personeel/jobsite/jobs/60670213?lang=en). 
 </div>
