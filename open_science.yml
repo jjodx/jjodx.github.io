@@ -23,8 +23,8 @@
 #     - international → displayed as: 'work with Belgian/international colleagues'
 #   Multiple values are allowed, e.g.: [laboratory, international]
 
-# No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people (2026)
-- doi: 10.1007/s11357-026-02457-8
+# Does Anodal Transcranial Direct Current Stimulation Over the Primary Motor Cortex Really Enhance Motor Sequence Learning? (2026)
+- doi: 10.1016/j.bpsgos.2026.100766
   open_data: ''
   open_code: ''
   preregistration: ''
@@ -34,6 +34,16 @@
   - KULeuven
 
 
+# No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people (2026)
+- doi: 10.1007/s11357-026-02457-8
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: no
+  psyarxiv: no
+  collaboration: KULeuven
+
+
 # Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults (2026)
 - doi: 10.1007/s11357-026-02423-4
   open_data: https://osf.io/rjfwq/
@@ -41,8 +51,7 @@
   preregistration: osf.io/3syz5/ and osf.io/hjm76
   preprint: no
   psyarxiv: no
-  collaboration:
-  - laboratory
+  collaboration: laboratory
 
 
 # Preserved cerebellar functions despite structural degeneration in older adults (2026)

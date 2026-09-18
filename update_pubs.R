@@ -42,7 +42,12 @@ source("pub_dedup.R")  # grouping of preprint/published versions of a paper
 # All user-specific settings are stored in config.yml so this script
 # does not need to be edited when moving to a different machine.
 
-cfg         <- yaml.load_file("config.yml")
+if (dir.exists("C:/Users/u0099946/")){ 
+  cfg         <- yaml.load_file("configLeuven.yml")
+} else {
+  cfg         <- yaml.load_file("config.yml")
+}
+
 ORCID_ID    <- cfg$orcid_id
 EMAIL       <- cfg$contact_email
 SITE_DIR    <- cfg$site_dir
