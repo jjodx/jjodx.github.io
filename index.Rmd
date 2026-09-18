@@ -73,6 +73,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
 
 <div class = "blue">
+<font size="2"> **Autumn 2026** </font><br>
+Anouck Matthijs will defend her PhD thesis "**The cerebellum as a key neural substrate for motor reserve during healthy aging**" on the 25th of September. Anda De Witte will defend her thesis "**The effects of aging on cerebellar structure and function**" on the 26th of November.
+![Anouck](images/ThesisAnouck.png)
+</div>
+<p>
+<div class = "blue">
 <font size="2"> **Sept 2026** </font><br>
 New paper by Silke Kerstens published in *Biological Psychiatry Global Open Science*: [Does Anodal Transcranial Direct Current Stimulation Over the Primary Motor Cortex Really Enhance Motor Sequence Learning?](https://doi.org/10.1016/j.bpsgos.2026.100766)
 </div>
@@ -85,11 +91,6 @@ New paper by Silke Kerstens published in *GeroScience*: [No effect of anodal hig
 <div class = "blue">
 <font size="2"> **Sept 2026** </font><br>
 New paper by Matheus Maia Pacheco published in *GeroScience*: [Mistakes matter, age doesn’t: task outcome modulates implicit motor adaptation similarly in young and older adults](https://doi.org/10.1007/s11357-026-02423-4)
-</div>
-<p>
-<div class = "blue">
-<font size="2"> **Autumn 2026** </font><br>
-Anouck Matthijs will defend her PhD thesis "**The cerebellum as a key neural substrate for motor reserve during healthy aging**" on the 25th of September. Anda De Witte will defend her thesis "**The effects of aging on cerebellar structure and function**" on the 26th of November.
 </div>
 <p>
 
