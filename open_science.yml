@@ -23,6 +23,17 @@
 #     - international → displayed as: 'work with Belgian/international colleagues'
 #   Multiple values are allowed, e.g.: [laboratory, international]
 
+# Encoding of bimanual movement directions across the human sensorimotor system (2026)
+- doi: 10.64898/2026.09.18.752753
+  open_data: ''
+  open_code: ''
+  preregistration: ''
+  preprint: yes
+  psyarxiv: no
+  collaboration:
+  - international
+
+
 # Does Anodal Transcranial Direct Current Stimulation Over the Primary Motor Cortex Really Enhance Motor Sequence Learning? (2026)
 - doi: 10.1016/j.bpsgos.2026.100766
   open_data: ''
@@ -30,8 +41,7 @@
   preregistration: ''
   preprint: no
   psyarxiv: no
-  collaboration:
-  - KULeuven
+  collaboration: KULeuven
 
 
 # No effect of anodal high-definition transcranial direct current stimulation during motor sequence learning in older people (2026)
@@ -143,7 +153,7 @@
   collaboration: laboratory
 
 
-# Aging is associated with uniform structural decline across cerebellar regions while preserving topological organization and showing no relation with sensorimotor function (2026)
+# Age-related difference in gray matter volumes is heterogeneous across cerebellar regions but neither related to the topological organization nor the associated sensorimotor function (2026)
 - doi: 10.64898/2026.02.13.705695
   open_data: ''
   open_code: ''
@@ -497,6 +507,7 @@
   collaboration: KULeuven
 
 
+# Test-retest reliability of functional near-infrared spectroscopy during a finger-tapping and postural task in healthy older adults (2023)
 - doi: 10.1117/1.nph.10.2.025010
   open_data: ''
   open_code: ''

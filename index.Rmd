@@ -71,6 +71,11 @@ p.ex1{
 <style>
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 </style>
+<div class = "blue">
+<font size="2"> **Sept 2026** </font><br>
+New paper from my sabbatical at Western University in Canada: [Encoding of bimanual movement directions across the human sensorimotor system](https://www.biorxiv.org/content/10.64898/2026.09.18.752753v1). In this preprint, we found very little activity linked to ipsilateral movements during bimanual movements while the contralateral movement was dominant. We also demonstrate the existence of a bimanual-specific activity.
+</div>
+<p>
 
 <div class = "blue">
 <font size="2"> **Autumn 2026** </font><br>
